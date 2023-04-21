@@ -1,0 +1,426 @@
+[
+  {
+    "id": "44e9bffd-948f-4a06-8e63-3839e103c55f",
+    "endpoint": "/api/review/add",
+    "url": "http://localhost:3000/api/review/add",
+    "body": {
+      "product": "63ed3108b81ccc28a4d9eaf2",
+      "isRecommended": true,
+      "rating": "5",
+      "review": "xcvxcvxcv",
+      "title": "xcvxcv"
+    },
+    "method": "POST",
+    "headers": {
+      "host": "localhost:3000",
+      "connection": "keep-alive",
+      "content-length": "109",
+      "sec-ch-ua": "\"Google Chrome\";v=\"111\", \"Not(A:Brand\";v=\"8\", \"Chromium\";v=\"111\"",
+      "accept": "application/json, text/plain, */*",
+      "content-type": "application/json",
+      "sec-ch-ua-mobile": "?0",
+      "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzZGEzMjI3MDM3ZDE2NmZkNTFjZWYyNCIsImlhdCI6MTY4MDE3NTE2NSwiZXhwIjoxNjgwNzc5OTY1fQ.odXwwZprse2gBPEQtvzkwUln7Nxkbfyh9zojtKIxMa8",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+      "sec-ch-ua-platform": "\"macOS\"",
+      "origin": "http://localhost:3000",
+      "sec-fetch-site": "same-origin",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-dest": "empty",
+      "accept-encoding": "gzip, deflate, br",
+      "accept-language": "en-US,en;q=0.9,hr;q=0.8,bs;q=0.7",
+      "cookie": "Webstorm-a7738556=37894940-6565-40a7-9ec5-b3a59a3f74e6; connect.sid=s%3AYt5uQ-ZhdJwLJja_sd814I2iAKkGpwzM.B%2F%2Btxr1eUYCZhBOzqQOsBsbTR8j%2FZn%2BbD1VFiJBRzAc"
+    },
+    "responseData": "{\"success\":true,\"message\":\"Your review has been added successfully and will appear when approved!\",\"review\":{\"product\":\"63ed3108b81ccc28a4d9eaf2\",\"user\":\"63da3227037d166fd51cef24\",\"rating\":5,\"isRecommended\":true,\"status\":\"Waiting Approval\",\"_id\":\"642572dda1247139f78f6d2b\",\"review\":\"xcvxcvxcv\",\"title\":\"xcvxcv\",\"created\":\"2023-03-30T11:30:37.152Z\",\"__v\":0}}",
+    "traceId": 8367,
+    "trace": [],
+    "intermediateData": [
+      {
+        "type": "mongodb",
+        "id": "f1b11821-52df-4ea9-b4e7-1357c2eafc34",
+        "preQueryRes": [
+          {
+            "_id": "ObjectId(\"63da3227037d166fd51cef24\")",
+            "merchant": null,
+            "provider": "Email",
+            "role": "ROLE ADMIN",
+            "email": "admin@pythagora.io",
+            "password": "$2a$10$oONswexLk.uMD.x753Ed3e1D1h2zhFdyoRY/ssnIZDw0oppDqUEvK",
+            "firstName": "admin",
+            "lastName": "adminff",
+            "created": "2023-02-01T09:34:31.627Z",
+            "__v": 0,
+            "phoneNumber": "34433455443324",
+            "resetPasswordExpires": "2023-03-30T11:58:38.333Z",
+            "resetPasswordToken": "bf3b42b9ab15984ff9014db6513413b913c075af061c16d8a8efb5193793a5c6a49ab3802b94930cc921207c6cafcee0"
+          }
+        ],
+        "query": {
+          "_id": "ObjectId(\"63da3227037d166fd51cef24\")"
+        },
+        "otherArgs": {},
+        "options": {
+          "projection": {}
+        },
+        "op": "find",
+        "db": "ecomm",
+        "collection": "users",
+        "mongoRes": {
+          "_id": "ObjectId(\"63da3227037d166fd51cef24\")",
+          "merchant": null,
+          "provider": "Email",
+          "role": "ROLE ADMIN",
+          "email": "admin@pythagora.io",
+          "password": "$2a$10$oONswexLk.uMD.x753Ed3e1D1h2zhFdyoRY/ssnIZDw0oppDqUEvK",
+          "firstName": "admin",
+          "lastName": "adminff",
+          "created": "2023-02-01T09:34:31.627Z",
+          "__v": 0,
+          "phoneNumber": "34433455443324",
+          "resetPasswordExpires": "2023-03-30T11:58:38.333Z",
+          "resetPasswordToken": "bf3b42b9ab15984ff9014db6513413b913c075af061c16d8a8efb5193793a5c6a49ab3802b94930cc921207c6cafcee0"
+        },
+        "postQueryRes": [
+          {
+            "_id": "ObjectId(\"63da3227037d166fd51cef24\")",
+            "merchant": null,
+            "provider": "Email",
+            "role": "ROLE ADMIN",
+            "email": "admin@pythagora.io",
+            "password": "$2a$10$oONswexLk.uMD.x753Ed3e1D1h2zhFdyoRY/ssnIZDw0oppDqUEvK",
+            "firstName": "admin",
+            "lastName": "adminff",
+            "created": "2023-02-01T09:34:31.627Z",
+            "__v": 0,
+            "phoneNumber": "34433455443324",
+            "resetPasswordExpires": "2023-03-30T11:58:38.333Z",
+            "resetPasswordToken": "bf3b42b9ab15984ff9014db6513413b913c075af061c16d8a8efb5193793a5c6a49ab3802b94930cc921207c6cafcee0"
+          }
+        ]
+      },
+      {
+        "type": "mongodb",
+        "id": "bde7100b-9820-4b07-8fef-286c18c33299",
+        "preQueryRes": [
+          {
+            "_id": "ObjectId(\"63da3227037d166fd51cef24\")",
+            "merchant": null,
+            "provider": "Email",
+            "role": "ROLE ADMIN",
+            "email": "admin@pythagora.io",
+            "password": "$2a$10$oONswexLk.uMD.x753Ed3e1D1h2zhFdyoRY/ssnIZDw0oppDqUEvK",
+            "firstName": "admin",
+            "lastName": "adminff",
+            "created": "2023-02-01T09:34:31.627Z",
+            "__v": 0,
+            "phoneNumber": "34433455443324",
+            "resetPasswordExpires": "2023-03-30T11:58:38.333Z",
+            "resetPasswordToken": "bf3b42b9ab15984ff9014db6513413b913c075af061c16d8a8efb5193793a5c6a49ab3802b94930cc921207c6cafcee0"
+          }
+        ],
+        "query": {
+          "_id": "ObjectId(\"63da3227037d166fd51cef24\")"
+        },
+        "otherArgs": {},
+        "options": {
+          "projection": {}
+        },
+        "op": "findOne",
+        "db": "ecomm",
+        "collection": "users",
+        "mongoRes": {
+          "_id": "ObjectId(\"63da3227037d166fd51cef24\")",
+          "merchant": null,
+          "provider": "Email",
+          "role": "ROLE ADMIN",
+          "email": "admin@pythagora.io",
+          "password": "$2a$10$oONswexLk.uMD.x753Ed3e1D1h2zhFdyoRY/ssnIZDw0oppDqUEvK",
+          "firstName": "admin",
+          "lastName": "adminff",
+          "created": "2023-02-01T09:34:31.627Z",
+          "__v": 0,
+          "phoneNumber": "34433455443324",
+          "resetPasswordExpires": "2023-03-30T11:58:38.333Z",
+          "resetPasswordToken": "bf3b42b9ab15984ff9014db6513413b913c075af061c16d8a8efb5193793a5c6a49ab3802b94930cc921207c6cafcee0"
+        },
+        "postQueryRes": [
+          {
+            "_id": "ObjectId(\"63da3227037d166fd51cef24\")",
+            "merchant": null,
+            "provider": "Email",
+            "role": "ROLE ADMIN",
+            "email": "admin@pythagora.io",
+            "password": "$2a$10$oONswexLk.uMD.x753Ed3e1D1h2zhFdyoRY/ssnIZDw0oppDqUEvK",
+            "firstName": "admin",
+            "lastName": "adminff",
+            "created": "2023-02-01T09:34:31.627Z",
+            "__v": 0,
+            "phoneNumber": "34433455443324",
+            "resetPasswordExpires": "2023-03-30T11:58:38.333Z",
+            "resetPasswordToken": "bf3b42b9ab15984ff9014db6513413b913c075af061c16d8a8efb5193793a5c6a49ab3802b94930cc921207c6cafcee0"
+          }
+        ]
+      },
+      {
+        "type": "mongodb",
+        "id": "81c19827-2dea-400b-89d6-5b54935803b4",
+        "preQueryRes": [],
+        "query": {
+          "product": "ObjectId(\"63ed3108b81ccc28a4d9eaf2\")",
+          "user": "ObjectId(\"63da3227037d166fd51cef24\")",
+          "rating": 5,
+          "isRecommended": true,
+          "status": "Waiting Approval",
+          "_id": "ObjectId(\"642572dda1247139f78f6d2b\")",
+          "review": "xcvxcvxcv",
+          "title": "xcvxcv",
+          "created": "2023-03-30T11:30:37.152Z",
+          "__v": 0
+        },
+        "otherArgs": {},
+        "options": {},
+        "op": "insertOne",
+        "db": "ecomm",
+        "collection": "reviews",
+        "mongoRes": {
+          "n": 1,
+          "ok": 1
+        },
+        "postQueryRes": [
+          {
+            "_id": "ObjectId(\"642572dda1247139f78f6d2b\")",
+            "product": "ObjectId(\"63ed3108b81ccc28a4d9eaf2\")",
+            "user": "ObjectId(\"63da3227037d166fd51cef24\")",
+            "rating": 5,
+            "isRecommended": true,
+            "status": "Waiting Approval",
+            "review": "xcvxcvxcv",
+            "title": "xcvxcv",
+            "created": "2023-03-30T11:30:37.152Z",
+            "__v": 0
+          }
+        ]
+      }
+    ],
+    "query": {},
+    "params": {},
+    "asyncStore": 47,
+    "mongoQueriesCapture": 3,
+    "statusCode": 200,
+    "traceLegacy": [
+      8367
+    ],
+    "createdAt": "2023-03-30T11:30:37.165Z"
+  },
+  {
+    "id": "4fced0d4-9052-4b0c-989e-de439c4ba544",
+    "endpoint": "/api/review/add",
+    "url": "http://localhost:3000/api/review/add",
+    "body": {
+      "product": "63ed3108b81ccc28a4d9eaf2",
+      "isRecommended": true,
+      "rating": "4",
+      "review": "xcvxcvxcv",
+      "title": "xcvxcv"
+    },
+    "method": "POST",
+    "headers": {
+      "host": "localhost:3000",
+      "connection": "keep-alive",
+      "content-length": "109",
+      "sec-ch-ua": "\"Google Chrome\";v=\"111\", \"Not(A:Brand\";v=\"8\", \"Chromium\";v=\"111\"",
+      "accept": "application/json, text/plain, */*",
+      "content-type": "application/json",
+      "sec-ch-ua-mobile": "?0",
+      "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzZGEzMjI3MDM3ZDE2NmZkNTFjZWYyNCIsImlhdCI6MTY4MDE3NTE2NSwiZXhwIjoxNjgwNzc5OTY1fQ.odXwwZprse2gBPEQtvzkwUln7Nxkbfyh9zojtKIxMa8",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+      "sec-ch-ua-platform": "\"macOS\"",
+      "origin": "http://localhost:3000",
+      "sec-fetch-site": "same-origin",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-dest": "empty",
+      "accept-encoding": "gzip, deflate, br",
+      "accept-language": "en-US,en;q=0.9,hr;q=0.8,bs;q=0.7",
+      "cookie": "Webstorm-a7738556=37894940-6565-40a7-9ec5-b3a59a3f74e6; connect.sid=s%3AYt5uQ-ZhdJwLJja_sd814I2iAKkGpwzM.B%2F%2Btxr1eUYCZhBOzqQOsBsbTR8j%2FZn%2BbD1VFiJBRzAc"
+    },
+    "responseData": "{\"success\":true,\"message\":\"Your review has been added successfully and will appear when approved!\",\"review\":{\"product\":\"63ed3108b81ccc28a4d9eaf2\",\"user\":\"63da3227037d166fd51cef24\",\"rating\":4,\"isRecommended\":true,\"status\":\"Waiting Approval\",\"_id\":\"6425747781fc733ddc0e607c\",\"review\":\"xcvxcvxcv\",\"title\":\"xcvxcv\",\"created\":\"2023-03-30T11:37:27.942Z\",\"__v\":0}}",
+    "traceId": 2574,
+    "trace": [],
+    "intermediateData": [
+      {
+        "type": "mongodb",
+        "id": "5243be06-21d4-48df-899a-3caa317bbc53",
+        "preQueryRes": [
+          {
+            "_id": "ObjectId(\"63da3227037d166fd51cef24\")",
+            "merchant": null,
+            "provider": "Email",
+            "role": "ROLE ADMIN",
+            "email": "admin@pythagora.io",
+            "password": "$2a$10$oONswexLk.uMD.x753Ed3e1D1h2zhFdyoRY/ssnIZDw0oppDqUEvK",
+            "firstName": "admin",
+            "lastName": "adminff",
+            "created": "2023-02-01T09:34:31.627Z",
+            "__v": 0,
+            "phoneNumber": "34433455443324",
+            "resetPasswordExpires": "2023-03-30T11:58:38.333Z",
+            "resetPasswordToken": "bf3b42b9ab15984ff9014db6513413b913c075af061c16d8a8efb5193793a5c6a49ab3802b94930cc921207c6cafcee0"
+          }
+        ],
+        "query": {
+          "_id": "ObjectId(\"63da3227037d166fd51cef24\")"
+        },
+        "otherArgs": {},
+        "options": {
+          "projection": {}
+        },
+        "op": "find",
+        "db": "ecomm",
+        "collection": "users",
+        "mongoRes": {
+          "_id": "ObjectId(\"63da3227037d166fd51cef24\")",
+          "merchant": null,
+          "provider": "Email",
+          "role": "ROLE ADMIN",
+          "email": "admin@pythagora.io",
+          "password": "$2a$10$oONswexLk.uMD.x753Ed3e1D1h2zhFdyoRY/ssnIZDw0oppDqUEvK",
+          "firstName": "admin",
+          "lastName": "adminff",
+          "created": "2023-02-01T09:34:31.627Z",
+          "__v": 0,
+          "phoneNumber": "34433455443324",
+          "resetPasswordExpires": "2023-03-30T11:58:38.333Z",
+          "resetPasswordToken": "bf3b42b9ab15984ff9014db6513413b913c075af061c16d8a8efb5193793a5c6a49ab3802b94930cc921207c6cafcee0"
+        },
+        "postQueryRes": [
+          {
+            "_id": "ObjectId(\"63da3227037d166fd51cef24\")",
+            "merchant": null,
+            "provider": "Email",
+            "role": "ROLE ADMIN",
+            "email": "admin@pythagora.io",
+            "password": "$2a$10$oONswexLk.uMD.x753Ed3e1D1h2zhFdyoRY/ssnIZDw0oppDqUEvK",
+            "firstName": "admin",
+            "lastName": "adminff",
+            "created": "2023-02-01T09:34:31.627Z",
+            "__v": 0,
+            "phoneNumber": "34433455443324",
+            "resetPasswordExpires": "2023-03-30T11:58:38.333Z",
+            "resetPasswordToken": "bf3b42b9ab15984ff9014db6513413b913c075af061c16d8a8efb5193793a5c6a49ab3802b94930cc921207c6cafcee0"
+          }
+        ]
+      },
+      {
+        "type": "mongodb",
+        "id": "806c9246-68b7-4523-98d5-ffafdf3368b4",
+        "preQueryRes": [
+          {
+            "_id": "ObjectId(\"63da3227037d166fd51cef24\")",
+            "merchant": null,
+            "provider": "Email",
+            "role": "ROLE ADMIN",
+            "email": "admin@pythagora.io",
+            "password": "$2a$10$oONswexLk.uMD.x753Ed3e1D1h2zhFdyoRY/ssnIZDw0oppDqUEvK",
+            "firstName": "admin",
+            "lastName": "adminff",
+            "created": "2023-02-01T09:34:31.627Z",
+            "__v": 0,
+            "phoneNumber": "34433455443324",
+            "resetPasswordExpires": "2023-03-30T11:58:38.333Z",
+            "resetPasswordToken": "bf3b42b9ab15984ff9014db6513413b913c075af061c16d8a8efb5193793a5c6a49ab3802b94930cc921207c6cafcee0"
+          }
+        ],
+        "query": {
+          "_id": "ObjectId(\"63da3227037d166fd51cef24\")"
+        },
+        "otherArgs": {},
+        "options": {
+          "projection": {}
+        },
+        "op": "findOne",
+        "db": "ecomm",
+        "collection": "users",
+        "mongoRes": {
+          "_id": "ObjectId(\"63da3227037d166fd51cef24\")",
+          "merchant": null,
+          "provider": "Email",
+          "role": "ROLE ADMIN",
+          "email": "admin@pythagora.io",
+          "password": "$2a$10$oONswexLk.uMD.x753Ed3e1D1h2zhFdyoRY/ssnIZDw0oppDqUEvK",
+          "firstName": "admin",
+          "lastName": "adminff",
+          "created": "2023-02-01T09:34:31.627Z",
+          "__v": 0,
+          "phoneNumber": "34433455443324",
+          "resetPasswordExpires": "2023-03-30T11:58:38.333Z",
+          "resetPasswordToken": "bf3b42b9ab15984ff9014db6513413b913c075af061c16d8a8efb5193793a5c6a49ab3802b94930cc921207c6cafcee0"
+        },
+        "postQueryRes": [
+          {
+            "_id": "ObjectId(\"63da3227037d166fd51cef24\")",
+            "merchant": null,
+            "provider": "Email",
+            "role": "ROLE ADMIN",
+            "email": "admin@pythagora.io",
+            "password": "$2a$10$oONswexLk.uMD.x753Ed3e1D1h2zhFdyoRY/ssnIZDw0oppDqUEvK",
+            "firstName": "admin",
+            "lastName": "adminff",
+            "created": "2023-02-01T09:34:31.627Z",
+            "__v": 0,
+            "phoneNumber": "34433455443324",
+            "resetPasswordExpires": "2023-03-30T11:58:38.333Z",
+            "resetPasswordToken": "bf3b42b9ab15984ff9014db6513413b913c075af061c16d8a8efb5193793a5c6a49ab3802b94930cc921207c6cafcee0"
+          }
+        ]
+      },
+      {
+        "type": "mongodb",
+        "id": "e1cc8d08-3a10-432e-b828-bf48bb90af18",
+        "preQueryRes": [],
+        "query": {
+          "product": "ObjectId(\"63ed3108b81ccc28a4d9eaf2\")",
+          "user": "ObjectId(\"63da3227037d166fd51cef24\")",
+          "rating": 4,
+          "isRecommended": true,
+          "status": "Waiting Approval",
+          "_id": "ObjectId(\"6425747781fc733ddc0e607c\")",
+          "review": "xcvxcvxcv",
+          "title": "xcvxcv",
+          "created": "2023-03-30T11:37:27.942Z",
+          "__v": 0
+        },
+        "otherArgs": {},
+        "options": {},
+        "op": "insertOne",
+        "db": "ecomm",
+        "collection": "reviews",
+        "mongoRes": {
+          "n": 1,
+          "ok": 1
+        },
+        "postQueryRes": [
+          {
+            "_id": "ObjectId(\"6425747781fc733ddc0e607c\")",
+            "product": "ObjectId(\"63ed3108b81ccc28a4d9eaf2\")",
+            "user": "ObjectId(\"63da3227037d166fd51cef24\")",
+            "rating": 4,
+            "isRecommended": true,
+            "status": "Waiting Approval",
+            "review": "xcvxcvxcv",
+            "title": "xcvxcv",
+            "created": "2023-03-30T11:37:27.942Z",
+            "__v": 0
+          }
+        ]
+      }
+    ],
+    "query": {},
+    "params": {},
+    "asyncStore": 16,
+    "mongoQueriesCapture": 3,
+    "statusCode": 200,
+    "traceLegacy": [
+      2574
+    ],
+    "createdAt": "2023-03-30T11:37:27.948Z"
+  }
+]

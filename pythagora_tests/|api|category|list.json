@@ -1,0 +1,2314 @@
+[
+  {
+    "id": "26d00132-de32-4b25-b463-33c32a7f66e9",
+    "endpoint": "/api/category/list",
+    "url": "http://localhost:3000/api/category/list",
+    "body": {},
+    "method": "GET",
+    "headers": {
+      "host": "localhost:3000",
+      "connection": "keep-alive",
+      "sec-ch-ua": "\"Google Chrome\";v=\"111\", \"Not(A:Brand\";v=\"8\", \"Chromium\";v=\"111\"",
+      "accept": "application/json, text/plain, */*",
+      "sec-ch-ua-mobile": "?0",
+      "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzZTEzNTJhODJlYWViNzdhMzBkOTRlMCIsImlhdCI6MTY4MDE3NDc4NiwiZXhwIjoxNjgwNzc5NTg2fQ.RtMDAdSFj9pqQdQuFaFmkQzoTgllyJnvMJgg4Wdgghg",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+      "sec-ch-ua-platform": "\"macOS\"",
+      "sec-fetch-site": "same-origin",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-dest": "empty",
+      "accept-encoding": "gzip, deflate, br",
+      "accept-language": "en-US,en;q=0.9,hr;q=0.8,bs;q=0.7",
+      "cookie": "Webstorm-a7738556=37894940-6565-40a7-9ec5-b3a59a3f74e6; connect.sid=s%3AYt5uQ-ZhdJwLJja_sd814I2iAKkGpwzM.B%2F%2Btxr1eUYCZhBOzqQOsBsbTR8j%2FZn%2BbD1VFiJBRzAc",
+      "if-none-match": "W/\"1741-EsiGoR/6VM7ZlcPJHNzx9NVsFW8\""
+    },
+    "responseData": "{\"categories\":[{\"isActive\":true,\"products\":[\"63de58050ac0a3759c375fc1\"],\"_id\":\"63c09f00c2af1e73d134023b\",\"name\":\"brija cat\",\"description\":\"asdasdasdasdasd\",\"created\":\"2023-02-01T11:17:51.659Z\",\"slug\":\"brija-cat\",\"__v\":0},{\"isActive\":true,\"products\":[\"63da334d0c81be6ffe323ca1\"],\"_id\":\"63e16c7ad3b14d19dafb2da3\",\"name\":\"random category\",\"description\":\"some desc\",\"created\":\"2023-02-06T21:09:14.692Z\",\"slug\":\"random-category\",\"__v\":0},{\"isActive\":true,\"products\":[\"63ed3108b81ccc28a4d9eaf2\"],\"_id\":\"63e23d83f70bb12208578be9\",\"name\":\"asdasd44\",\"description\":\"asdasdasd\",\"created\":\"2023-02-07T12:01:07.442Z\",\"slug\":\"asdasd\",\"__v\":0},{\"isActive\":true,\"products\":[\"63de58050ac0a3759c375fc1\"],\"_id\":\"63e2414f4f67fc25b0400c19\",\"name\":\"asdasd\",\"description\":\"asdasd\",\"created\":\"2023-02-07T12:17:19.046Z\",\"slug\":\"asdasd-gco92TWtHu\",\"__v\":0},{\"isActive\":true,\"products\":[\"63ed276765b04225d4bd3e4b\"],\"_id\":\"63e2563f172c57324bfb0045\",\"name\":\"vvv\",\"description\":\"vvv\",\"created\":\"2023-02-07T13:46:39.511Z\",\"slug\":\"vvv\",\"__v\":0},{\"isActive\":true,\"products\":[\"63da334d0c81be6ffe323ca1\"],\"_id\":\"63e25817c032d9342e0d6213\",\"name\":\"yyy\",\"description\":\"cxccx\",\"created\":\"2023-02-07T13:54:31.609Z\",\"slug\":\"yyy-4btgzZ8iIO\",\"__v\":0},{\"isActive\":true,\"products\":[\"63da334d0c81be6ffe323ca1\"],\"_id\":\"63e2594f28388b3637927145\",\"name\":\"cxcxxcx\",\"description\":\"xcxc\",\"created\":\"2023-02-07T13:59:43.917Z\",\"slug\":\"cxcxxcx\",\"__v\":0},{\"isActive\":true,\"products\":[\"63de58050ac0a3759c375fc1\"],\"_id\":\"63e25c2ca9a29838778227cf\",\"name\":\"vvv\",\"description\":\"vvv\",\"created\":\"2023-02-07T14:11:56.349Z\",\"slug\":\"vvv-784mEIWcsy\",\"__v\":0},{\"isActive\":true,\"products\":[\"63de58050ac0a3759c375fc1\"],\"_id\":\"63e25d93fd48ea39fc26ecd0\",\"name\":\"fff\",\"description\":\"fff\",\"created\":\"2023-02-07T14:17:55.776Z\",\"slug\":\"fff\",\"__v\":0},{\"isActive\":true,\"products\":[\"63da334d0c81be6ffe323ca1\"],\"_id\":\"63e25eb52736f13b5f211c6b\",\"name\":\"vv\",\"description\":\"vv\",\"created\":\"2023-02-07T14:22:45.294Z\",\"slug\":\"vv\",\"__v\":0},{\"isActive\":true,\"products\":[\"63de58050ac0a3759c375fc1\"],\"_id\":\"63e25f7ff2ecea3c6497dd97\",\"name\":\"vvv\",\"description\":\"vvv\",\"created\":\"2023-02-07T14:26:07.543Z\",\"slug\":\"vvv-MqzKa7Dt2M\",\"__v\":0},{\"isActive\":true,\"products\":[\"63da334d0c81be6ffe323ca1\"],\"_id\":\"63e2602b92975e3d2b998835\",\"name\":\"vv\",\"description\":\"vv\",\"created\":\"2023-02-07T14:28:59.117Z\",\"slug\":\"vv-ScjE1Hryik\",\"__v\":0},{\"isActive\":true,\"products\":[\"63da334d0c81be6ffe323ca1\"],\"_id\":\"63e2616daea2863ebb5afcbc\",\"name\":\"dd\",\"description\":\"dd\",\"created\":\"2023-02-07T14:34:21.382Z\",\"slug\":\"dd\",\"__v\":0},{\"isActive\":true,\"products\":[\"63da334d0c81be6ffe323ca1\"],\"_id\":\"63e26713c810fb412094ee6e\",\"name\":\"fff\",\"description\":\"ff\",\"created\":\"2023-02-07T14:58:27.738Z\",\"slug\":\"fff-2zBC1OPoTJ\",\"__v\":0},{\"isActive\":true,\"products\":[\"63da334d0c81be6ffe323ca1\"],\"_id\":\"63e2678158d93d41ae35880f\",\"name\":\"vcv\",\"description\":\"cvc\",\"created\":\"2023-02-07T15:00:17.415Z\",\"slug\":\"vcv\",\"__v\":0},{\"isActive\":true,\"products\":[\"63da334d0c81be6ffe323ca1\"],\"_id\":\"63e268381de13f428dca04db\",\"name\":\"sss\",\"description\":\"ss\",\"created\":\"2023-02-07T15:03:20.996Z\",\"slug\":\"sss\",\"__v\":0},{\"isActive\":true,\"products\":[\"63de58050ac0a3759c375fc1\"],\"_id\":\"63e268eb58e704436ac2f9c5\",\"name\":\"sss\",\"description\":\"ss\",\"created\":\"2023-02-07T15:06:19.954Z\",\"slug\":\"sss-QqBMYYuBMb\",\"__v\":0},{\"isActive\":true,\"products\":[\"63de58050ac0a3759c375fc1\"],\"_id\":\"63e2754f6208da4690d2697b\",\"name\":\"fff\",\"description\":\"fff\",\"created\":\"2023-02-07T15:59:11.194Z\",\"slug\":\"fff-Uca9gdP_FN\",\"__v\":0},{\"isActive\":true,\"products\":[\"63da334d0c81be6ffe323ca1\"],\"_id\":\"63e2a2d943c2b04a16b11a91\",\"name\":\"ads\",\"description\":\"asdasdas\",\"created\":\"2023-02-07T19:13:29.897Z\",\"slug\":\"ads\",\"__v\":0},{\"isActive\":true,\"products\":[\"63de58050ac0a3759c375fc1\"],\"_id\":\"63e370403c6ff511e53f822f\",\"name\":\"asd\",\"description\":\"ddd\",\"created\":\"2023-02-08T09:49:52.775Z\",\"slug\":\"asd\",\"__v\":0},{\"isActive\":true,\"products\":[\"63da334d0c81be6ffe323ca1\"],\"_id\":\"63e374d2a99549129cfa6421\",\"name\":\"sdfsdf\",\"description\":\"sdfsdf\",\"created\":\"2023-02-08T10:09:22.743Z\",\"slug\":\"sdfsdf-NWdG2XCsEp\",\"__v\":0},{\"isActive\":true,\"products\":[\"63da334d0c81be6ffe323ca1\"],\"_id\":\"63e50137dfcaa41352fc5310\",\"name\":\"vv\",\"description\":\"vvvv\",\"created\":\"2023-02-09T14:20:39.081Z\",\"slug\":\"vv-IC0XIBaqIP\",\"__v\":0},{\"isActive\":true,\"products\":[\"63da334d0c81be6ffe323ca1\"],\"_id\":\"63ece25b4255461c60664053\",\"name\":\"dgfdfg\",\"description\":\"dfgdfg\",\"created\":\"2023-02-15T13:47:07.453Z\",\"slug\":\"dgfdfg\",\"__v\":0},{\"isActive\":true,\"products\":[\"63ed276765b04225d4bd3e4b\"],\"_id\":\"63ed279f65b04225d4bd3e63\",\"name\":\"vvvv\",\"description\":\"vvvv\",\"created\":\"2023-02-15T18:42:39.819Z\",\"slug\":\"vvvv\",\"__v\":0},{\"isActive\":true,\"products\":[\"63ed276765b04225d4bd3e4b\"],\"_id\":\"63ed28bbc4ae20269c4bee52\",\"name\":\"yxcyxc\",\"description\":\"yxcyxc\",\"created\":\"2023-02-15T18:47:23.350Z\",\"slug\":\"yxcyxc\",\"__v\":0},{\"isActive\":true,\"products\":[\"63ed276765b04225d4bd3e4b\"],\"_id\":\"63ed2b52c4ae20269c4bee65\",\"name\":\"asdasd\",\"description\":\"asdasd\",\"created\":\"2023-02-15T18:58:26.164Z\",\"slug\":\"asdasd-jHGIYH8xx_\",\"__v\":0},{\"isActive\":true,\"products\":[\"63ed276765b04225d4bd3e4b\"],\"_id\":\"63ed2b69c4ae20269c4bee78\",\"name\":\"vvv\",\"description\":\"vvv\",\"created\":\"2023-02-15T18:58:49.684Z\",\"slug\":\"vvv-hlCUq3idMr\",\"__v\":0},{\"isActive\":true,\"products\":[\"63ed276765b04225d4bd3e4b\"],\"_id\":\"63ed2e996d909b27edb935a8\",\"name\":\"brija cat\",\"description\":\"asdasdasdads\",\"created\":\"2023-02-15T19:12:25.695Z\",\"slug\":\"brija-cat-kW1hS61o9u\",\"__v\":0},{\"isActive\":true,\"products\":[\"63ed276765b04225d4bd3e4b\"],\"_id\":\"6401acf1c59ad9f25c2f4862\",\"name\":\"ass\",\"description\":\"sss\",\"created\":\"2023-03-03T08:16:49.671Z\",\"slug\":\"ass\",\"__v\":0},{\"isActive\":true,\"products\":[\"63ed276765b04225d4bd3e4b\"],\"_id\":\"6401da149647c023763a91e3\",\"name\":\"ffff\",\"description\":\"fff\",\"created\":\"2023-03-03T11:29:24.414Z\",\"slug\":\"ffff\",\"__v\":0},{\"isActive\":true,\"products\":[\"63ed3108b81ccc28a4d9eaf2\"],\"_id\":\"6425695e2b91f22e206b2462\",\"name\":\"sdcvdvc\",\"description\":\"ccbvc\",\"created\":\"2023-03-30T10:50:06.016Z\",\"slug\":\"sdcvdvc\",\"__v\":0}]}",
+    "traceId": 191,
+    "trace": [],
+    "intermediateData": [
+      {
+        "type": "mongodb",
+        "id": "c2658a74-a695-4364-90e2-be2edeb6137a",
+        "preQueryRes": [
+          {
+            "_id": "ObjectId(\"63c09f00c2af1e73d134023b\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63de58050ac0a3759c375fc1\")"
+            ],
+            "name": "brija cat",
+            "description": "asdasdasdasdasd",
+            "created": "2023-02-01T11:17:51.659Z",
+            "slug": "brija-cat",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63e16c7ad3b14d19dafb2da3\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63da334d0c81be6ffe323ca1\")"
+            ],
+            "name": "random category",
+            "description": "some desc",
+            "created": "2023-02-06T21:09:14.692Z",
+            "slug": "random-category",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63e23d83f70bb12208578be9\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63ed3108b81ccc28a4d9eaf2\")"
+            ],
+            "name": "asdasd44",
+            "description": "asdasdasd",
+            "created": "2023-02-07T12:01:07.442Z",
+            "slug": "asdasd",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63e2414f4f67fc25b0400c19\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63de58050ac0a3759c375fc1\")"
+            ],
+            "name": "asdasd",
+            "description": "asdasd",
+            "created": "2023-02-07T12:17:19.046Z",
+            "slug": "asdasd-gco92TWtHu",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63e2563f172c57324bfb0045\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63ed276765b04225d4bd3e4b\")"
+            ],
+            "name": "vvv",
+            "description": "vvv",
+            "created": "2023-02-07T13:46:39.511Z",
+            "slug": "vvv",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63e25817c032d9342e0d6213\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63da334d0c81be6ffe323ca1\")"
+            ],
+            "name": "yyy",
+            "description": "cxccx",
+            "created": "2023-02-07T13:54:31.609Z",
+            "slug": "yyy-4btgzZ8iIO",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63e2594f28388b3637927145\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63da334d0c81be6ffe323ca1\")"
+            ],
+            "name": "cxcxxcx",
+            "description": "xcxc",
+            "created": "2023-02-07T13:59:43.917Z",
+            "slug": "cxcxxcx",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63e25c2ca9a29838778227cf\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63de58050ac0a3759c375fc1\")"
+            ],
+            "name": "vvv",
+            "description": "vvv",
+            "created": "2023-02-07T14:11:56.349Z",
+            "slug": "vvv-784mEIWcsy",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63e25d93fd48ea39fc26ecd0\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63de58050ac0a3759c375fc1\")"
+            ],
+            "name": "fff",
+            "description": "fff",
+            "created": "2023-02-07T14:17:55.776Z",
+            "slug": "fff",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63e25eb52736f13b5f211c6b\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63da334d0c81be6ffe323ca1\")"
+            ],
+            "name": "vv",
+            "description": "vv",
+            "created": "2023-02-07T14:22:45.294Z",
+            "slug": "vv",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63e25f7ff2ecea3c6497dd97\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63de58050ac0a3759c375fc1\")"
+            ],
+            "name": "vvv",
+            "description": "vvv",
+            "created": "2023-02-07T14:26:07.543Z",
+            "slug": "vvv-MqzKa7Dt2M",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63e2602b92975e3d2b998835\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63da334d0c81be6ffe323ca1\")"
+            ],
+            "name": "vv",
+            "description": "vv",
+            "created": "2023-02-07T14:28:59.117Z",
+            "slug": "vv-ScjE1Hryik",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63e2616daea2863ebb5afcbc\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63da334d0c81be6ffe323ca1\")"
+            ],
+            "name": "dd",
+            "description": "dd",
+            "created": "2023-02-07T14:34:21.382Z",
+            "slug": "dd",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63e26713c810fb412094ee6e\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63da334d0c81be6ffe323ca1\")"
+            ],
+            "name": "fff",
+            "description": "ff",
+            "created": "2023-02-07T14:58:27.738Z",
+            "slug": "fff-2zBC1OPoTJ",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63e2678158d93d41ae35880f\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63da334d0c81be6ffe323ca1\")"
+            ],
+            "name": "vcv",
+            "description": "cvc",
+            "created": "2023-02-07T15:00:17.415Z",
+            "slug": "vcv",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63e268381de13f428dca04db\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63da334d0c81be6ffe323ca1\")"
+            ],
+            "name": "sss",
+            "description": "ss",
+            "created": "2023-02-07T15:03:20.996Z",
+            "slug": "sss",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63e268eb58e704436ac2f9c5\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63de58050ac0a3759c375fc1\")"
+            ],
+            "name": "sss",
+            "description": "ss",
+            "created": "2023-02-07T15:06:19.954Z",
+            "slug": "sss-QqBMYYuBMb",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63e2754f6208da4690d2697b\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63de58050ac0a3759c375fc1\")"
+            ],
+            "name": "fff",
+            "description": "fff",
+            "created": "2023-02-07T15:59:11.194Z",
+            "slug": "fff-Uca9gdP_FN",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63e2a2d943c2b04a16b11a91\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63da334d0c81be6ffe323ca1\")"
+            ],
+            "name": "ads",
+            "description": "asdasdas",
+            "created": "2023-02-07T19:13:29.897Z",
+            "slug": "ads",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63e370403c6ff511e53f822f\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63de58050ac0a3759c375fc1\")"
+            ],
+            "name": "asd",
+            "description": "ddd",
+            "created": "2023-02-08T09:49:52.775Z",
+            "slug": "asd",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63e374d2a99549129cfa6421\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63da334d0c81be6ffe323ca1\")"
+            ],
+            "name": "sdfsdf",
+            "description": "sdfsdf",
+            "created": "2023-02-08T10:09:22.743Z",
+            "slug": "sdfsdf-NWdG2XCsEp",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63e50137dfcaa41352fc5310\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63da334d0c81be6ffe323ca1\")"
+            ],
+            "name": "vv",
+            "description": "vvvv",
+            "created": "2023-02-09T14:20:39.081Z",
+            "slug": "vv-IC0XIBaqIP",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63ece25b4255461c60664053\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63da334d0c81be6ffe323ca1\")"
+            ],
+            "name": "dgfdfg",
+            "description": "dfgdfg",
+            "created": "2023-02-15T13:47:07.453Z",
+            "slug": "dgfdfg",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63ed279f65b04225d4bd3e63\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63ed276765b04225d4bd3e4b\")"
+            ],
+            "name": "vvvv",
+            "description": "vvvv",
+            "created": "2023-02-15T18:42:39.819Z",
+            "slug": "vvvv",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63ed28bbc4ae20269c4bee52\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63ed276765b04225d4bd3e4b\")"
+            ],
+            "name": "yxcyxc",
+            "description": "yxcyxc",
+            "created": "2023-02-15T18:47:23.350Z",
+            "slug": "yxcyxc",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63ed2b52c4ae20269c4bee65\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63ed276765b04225d4bd3e4b\")"
+            ],
+            "name": "asdasd",
+            "description": "asdasd",
+            "created": "2023-02-15T18:58:26.164Z",
+            "slug": "asdasd-jHGIYH8xx_",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63ed2b69c4ae20269c4bee78\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63ed276765b04225d4bd3e4b\")"
+            ],
+            "name": "vvv",
+            "description": "vvv",
+            "created": "2023-02-15T18:58:49.684Z",
+            "slug": "vvv-hlCUq3idMr",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63ed2e996d909b27edb935a8\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63ed276765b04225d4bd3e4b\")"
+            ],
+            "name": "brija cat",
+            "description": "asdasdasdads",
+            "created": "2023-02-15T19:12:25.695Z",
+            "slug": "brija-cat-kW1hS61o9u",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"6401acf1c59ad9f25c2f4862\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63ed276765b04225d4bd3e4b\")"
+            ],
+            "name": "ass",
+            "description": "sss",
+            "created": "2023-03-03T08:16:49.671Z",
+            "slug": "ass",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"6401da149647c023763a91e3\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63ed276765b04225d4bd3e4b\")"
+            ],
+            "name": "ffff",
+            "description": "fff",
+            "created": "2023-03-03T11:29:24.414Z",
+            "slug": "ffff",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"6425695e2b91f22e206b2462\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63ed3108b81ccc28a4d9eaf2\")"
+            ],
+            "name": "sdcvdvc",
+            "description": "ccbvc",
+            "created": "2023-03-30T10:50:06.016Z",
+            "slug": "sdcvdvc",
+            "__v": 0
+          }
+        ],
+        "query": {
+          "isActive": true
+        },
+        "otherArgs": {},
+        "options": {
+          "projection": {}
+        },
+        "op": "find",
+        "db": "ecomm",
+        "collection": "categories",
+        "mongoRes": [
+          {
+            "_id": "ObjectId(\"63c09f00c2af1e73d134023b\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63de58050ac0a3759c375fc1\")"
+            ],
+            "name": "brija cat",
+            "description": "asdasdasdasdasd",
+            "created": "2023-02-01T11:17:51.659Z",
+            "slug": "brija-cat",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63e16c7ad3b14d19dafb2da3\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63da334d0c81be6ffe323ca1\")"
+            ],
+            "name": "random category",
+            "description": "some desc",
+            "created": "2023-02-06T21:09:14.692Z",
+            "slug": "random-category",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63e23d83f70bb12208578be9\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63ed3108b81ccc28a4d9eaf2\")"
+            ],
+            "name": "asdasd44",
+            "description": "asdasdasd",
+            "created": "2023-02-07T12:01:07.442Z",
+            "slug": "asdasd",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63e2414f4f67fc25b0400c19\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63de58050ac0a3759c375fc1\")"
+            ],
+            "name": "asdasd",
+            "description": "asdasd",
+            "created": "2023-02-07T12:17:19.046Z",
+            "slug": "asdasd-gco92TWtHu",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63e2563f172c57324bfb0045\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63ed276765b04225d4bd3e4b\")"
+            ],
+            "name": "vvv",
+            "description": "vvv",
+            "created": "2023-02-07T13:46:39.511Z",
+            "slug": "vvv",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63e25817c032d9342e0d6213\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63da334d0c81be6ffe323ca1\")"
+            ],
+            "name": "yyy",
+            "description": "cxccx",
+            "created": "2023-02-07T13:54:31.609Z",
+            "slug": "yyy-4btgzZ8iIO",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63e2594f28388b3637927145\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63da334d0c81be6ffe323ca1\")"
+            ],
+            "name": "cxcxxcx",
+            "description": "xcxc",
+            "created": "2023-02-07T13:59:43.917Z",
+            "slug": "cxcxxcx",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63e25c2ca9a29838778227cf\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63de58050ac0a3759c375fc1\")"
+            ],
+            "name": "vvv",
+            "description": "vvv",
+            "created": "2023-02-07T14:11:56.349Z",
+            "slug": "vvv-784mEIWcsy",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63e25d93fd48ea39fc26ecd0\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63de58050ac0a3759c375fc1\")"
+            ],
+            "name": "fff",
+            "description": "fff",
+            "created": "2023-02-07T14:17:55.776Z",
+            "slug": "fff",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63e25eb52736f13b5f211c6b\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63da334d0c81be6ffe323ca1\")"
+            ],
+            "name": "vv",
+            "description": "vv",
+            "created": "2023-02-07T14:22:45.294Z",
+            "slug": "vv",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63e25f7ff2ecea3c6497dd97\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63de58050ac0a3759c375fc1\")"
+            ],
+            "name": "vvv",
+            "description": "vvv",
+            "created": "2023-02-07T14:26:07.543Z",
+            "slug": "vvv-MqzKa7Dt2M",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63e2602b92975e3d2b998835\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63da334d0c81be6ffe323ca1\")"
+            ],
+            "name": "vv",
+            "description": "vv",
+            "created": "2023-02-07T14:28:59.117Z",
+            "slug": "vv-ScjE1Hryik",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63e2616daea2863ebb5afcbc\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63da334d0c81be6ffe323ca1\")"
+            ],
+            "name": "dd",
+            "description": "dd",
+            "created": "2023-02-07T14:34:21.382Z",
+            "slug": "dd",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63e26713c810fb412094ee6e\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63da334d0c81be6ffe323ca1\")"
+            ],
+            "name": "fff",
+            "description": "ff",
+            "created": "2023-02-07T14:58:27.738Z",
+            "slug": "fff-2zBC1OPoTJ",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63e2678158d93d41ae35880f\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63da334d0c81be6ffe323ca1\")"
+            ],
+            "name": "vcv",
+            "description": "cvc",
+            "created": "2023-02-07T15:00:17.415Z",
+            "slug": "vcv",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63e268381de13f428dca04db\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63da334d0c81be6ffe323ca1\")"
+            ],
+            "name": "sss",
+            "description": "ss",
+            "created": "2023-02-07T15:03:20.996Z",
+            "slug": "sss",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63e268eb58e704436ac2f9c5\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63de58050ac0a3759c375fc1\")"
+            ],
+            "name": "sss",
+            "description": "ss",
+            "created": "2023-02-07T15:06:19.954Z",
+            "slug": "sss-QqBMYYuBMb",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63e2754f6208da4690d2697b\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63de58050ac0a3759c375fc1\")"
+            ],
+            "name": "fff",
+            "description": "fff",
+            "created": "2023-02-07T15:59:11.194Z",
+            "slug": "fff-Uca9gdP_FN",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63e2a2d943c2b04a16b11a91\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63da334d0c81be6ffe323ca1\")"
+            ],
+            "name": "ads",
+            "description": "asdasdas",
+            "created": "2023-02-07T19:13:29.897Z",
+            "slug": "ads",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63e370403c6ff511e53f822f\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63de58050ac0a3759c375fc1\")"
+            ],
+            "name": "asd",
+            "description": "ddd",
+            "created": "2023-02-08T09:49:52.775Z",
+            "slug": "asd",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63e374d2a99549129cfa6421\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63da334d0c81be6ffe323ca1\")"
+            ],
+            "name": "sdfsdf",
+            "description": "sdfsdf",
+            "created": "2023-02-08T10:09:22.743Z",
+            "slug": "sdfsdf-NWdG2XCsEp",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63e50137dfcaa41352fc5310\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63da334d0c81be6ffe323ca1\")"
+            ],
+            "name": "vv",
+            "description": "vvvv",
+            "created": "2023-02-09T14:20:39.081Z",
+            "slug": "vv-IC0XIBaqIP",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63ece25b4255461c60664053\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63da334d0c81be6ffe323ca1\")"
+            ],
+            "name": "dgfdfg",
+            "description": "dfgdfg",
+            "created": "2023-02-15T13:47:07.453Z",
+            "slug": "dgfdfg",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63ed279f65b04225d4bd3e63\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63ed276765b04225d4bd3e4b\")"
+            ],
+            "name": "vvvv",
+            "description": "vvvv",
+            "created": "2023-02-15T18:42:39.819Z",
+            "slug": "vvvv",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63ed28bbc4ae20269c4bee52\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63ed276765b04225d4bd3e4b\")"
+            ],
+            "name": "yxcyxc",
+            "description": "yxcyxc",
+            "created": "2023-02-15T18:47:23.350Z",
+            "slug": "yxcyxc",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63ed2b52c4ae20269c4bee65\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63ed276765b04225d4bd3e4b\")"
+            ],
+            "name": "asdasd",
+            "description": "asdasd",
+            "created": "2023-02-15T18:58:26.164Z",
+            "slug": "asdasd-jHGIYH8xx_",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63ed2b69c4ae20269c4bee78\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63ed276765b04225d4bd3e4b\")"
+            ],
+            "name": "vvv",
+            "description": "vvv",
+            "created": "2023-02-15T18:58:49.684Z",
+            "slug": "vvv-hlCUq3idMr",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63ed2e996d909b27edb935a8\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63ed276765b04225d4bd3e4b\")"
+            ],
+            "name": "brija cat",
+            "description": "asdasdasdads",
+            "created": "2023-02-15T19:12:25.695Z",
+            "slug": "brija-cat-kW1hS61o9u",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"6401acf1c59ad9f25c2f4862\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63ed276765b04225d4bd3e4b\")"
+            ],
+            "name": "ass",
+            "description": "sss",
+            "created": "2023-03-03T08:16:49.671Z",
+            "slug": "ass",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"6401da149647c023763a91e3\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63ed276765b04225d4bd3e4b\")"
+            ],
+            "name": "ffff",
+            "description": "fff",
+            "created": "2023-03-03T11:29:24.414Z",
+            "slug": "ffff",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"6425695e2b91f22e206b2462\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63ed3108b81ccc28a4d9eaf2\")"
+            ],
+            "name": "sdcvdvc",
+            "description": "ccbvc",
+            "created": "2023-03-30T10:50:06.016Z",
+            "slug": "sdcvdvc",
+            "__v": 0
+          }
+        ],
+        "postQueryRes": [
+          {
+            "_id": "ObjectId(\"63c09f00c2af1e73d134023b\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63de58050ac0a3759c375fc1\")"
+            ],
+            "name": "brija cat",
+            "description": "asdasdasdasdasd",
+            "created": "2023-02-01T11:17:51.659Z",
+            "slug": "brija-cat",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63e16c7ad3b14d19dafb2da3\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63da334d0c81be6ffe323ca1\")"
+            ],
+            "name": "random category",
+            "description": "some desc",
+            "created": "2023-02-06T21:09:14.692Z",
+            "slug": "random-category",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63e23d83f70bb12208578be9\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63ed3108b81ccc28a4d9eaf2\")"
+            ],
+            "name": "asdasd44",
+            "description": "asdasdasd",
+            "created": "2023-02-07T12:01:07.442Z",
+            "slug": "asdasd",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63e2414f4f67fc25b0400c19\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63de58050ac0a3759c375fc1\")"
+            ],
+            "name": "asdasd",
+            "description": "asdasd",
+            "created": "2023-02-07T12:17:19.046Z",
+            "slug": "asdasd-gco92TWtHu",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63e2563f172c57324bfb0045\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63ed276765b04225d4bd3e4b\")"
+            ],
+            "name": "vvv",
+            "description": "vvv",
+            "created": "2023-02-07T13:46:39.511Z",
+            "slug": "vvv",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63e25817c032d9342e0d6213\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63da334d0c81be6ffe323ca1\")"
+            ],
+            "name": "yyy",
+            "description": "cxccx",
+            "created": "2023-02-07T13:54:31.609Z",
+            "slug": "yyy-4btgzZ8iIO",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63e2594f28388b3637927145\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63da334d0c81be6ffe323ca1\")"
+            ],
+            "name": "cxcxxcx",
+            "description": "xcxc",
+            "created": "2023-02-07T13:59:43.917Z",
+            "slug": "cxcxxcx",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63e25c2ca9a29838778227cf\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63de58050ac0a3759c375fc1\")"
+            ],
+            "name": "vvv",
+            "description": "vvv",
+            "created": "2023-02-07T14:11:56.349Z",
+            "slug": "vvv-784mEIWcsy",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63e25d93fd48ea39fc26ecd0\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63de58050ac0a3759c375fc1\")"
+            ],
+            "name": "fff",
+            "description": "fff",
+            "created": "2023-02-07T14:17:55.776Z",
+            "slug": "fff",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63e25eb52736f13b5f211c6b\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63da334d0c81be6ffe323ca1\")"
+            ],
+            "name": "vv",
+            "description": "vv",
+            "created": "2023-02-07T14:22:45.294Z",
+            "slug": "vv",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63e25f7ff2ecea3c6497dd97\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63de58050ac0a3759c375fc1\")"
+            ],
+            "name": "vvv",
+            "description": "vvv",
+            "created": "2023-02-07T14:26:07.543Z",
+            "slug": "vvv-MqzKa7Dt2M",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63e2602b92975e3d2b998835\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63da334d0c81be6ffe323ca1\")"
+            ],
+            "name": "vv",
+            "description": "vv",
+            "created": "2023-02-07T14:28:59.117Z",
+            "slug": "vv-ScjE1Hryik",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63e2616daea2863ebb5afcbc\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63da334d0c81be6ffe323ca1\")"
+            ],
+            "name": "dd",
+            "description": "dd",
+            "created": "2023-02-07T14:34:21.382Z",
+            "slug": "dd",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63e26713c810fb412094ee6e\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63da334d0c81be6ffe323ca1\")"
+            ],
+            "name": "fff",
+            "description": "ff",
+            "created": "2023-02-07T14:58:27.738Z",
+            "slug": "fff-2zBC1OPoTJ",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63e2678158d93d41ae35880f\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63da334d0c81be6ffe323ca1\")"
+            ],
+            "name": "vcv",
+            "description": "cvc",
+            "created": "2023-02-07T15:00:17.415Z",
+            "slug": "vcv",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63e268381de13f428dca04db\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63da334d0c81be6ffe323ca1\")"
+            ],
+            "name": "sss",
+            "description": "ss",
+            "created": "2023-02-07T15:03:20.996Z",
+            "slug": "sss",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63e268eb58e704436ac2f9c5\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63de58050ac0a3759c375fc1\")"
+            ],
+            "name": "sss",
+            "description": "ss",
+            "created": "2023-02-07T15:06:19.954Z",
+            "slug": "sss-QqBMYYuBMb",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63e2754f6208da4690d2697b\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63de58050ac0a3759c375fc1\")"
+            ],
+            "name": "fff",
+            "description": "fff",
+            "created": "2023-02-07T15:59:11.194Z",
+            "slug": "fff-Uca9gdP_FN",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63e2a2d943c2b04a16b11a91\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63da334d0c81be6ffe323ca1\")"
+            ],
+            "name": "ads",
+            "description": "asdasdas",
+            "created": "2023-02-07T19:13:29.897Z",
+            "slug": "ads",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63e370403c6ff511e53f822f\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63de58050ac0a3759c375fc1\")"
+            ],
+            "name": "asd",
+            "description": "ddd",
+            "created": "2023-02-08T09:49:52.775Z",
+            "slug": "asd",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63e374d2a99549129cfa6421\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63da334d0c81be6ffe323ca1\")"
+            ],
+            "name": "sdfsdf",
+            "description": "sdfsdf",
+            "created": "2023-02-08T10:09:22.743Z",
+            "slug": "sdfsdf-NWdG2XCsEp",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63e50137dfcaa41352fc5310\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63da334d0c81be6ffe323ca1\")"
+            ],
+            "name": "vv",
+            "description": "vvvv",
+            "created": "2023-02-09T14:20:39.081Z",
+            "slug": "vv-IC0XIBaqIP",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63ece25b4255461c60664053\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63da334d0c81be6ffe323ca1\")"
+            ],
+            "name": "dgfdfg",
+            "description": "dfgdfg",
+            "created": "2023-02-15T13:47:07.453Z",
+            "slug": "dgfdfg",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63ed279f65b04225d4bd3e63\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63ed276765b04225d4bd3e4b\")"
+            ],
+            "name": "vvvv",
+            "description": "vvvv",
+            "created": "2023-02-15T18:42:39.819Z",
+            "slug": "vvvv",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63ed28bbc4ae20269c4bee52\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63ed276765b04225d4bd3e4b\")"
+            ],
+            "name": "yxcyxc",
+            "description": "yxcyxc",
+            "created": "2023-02-15T18:47:23.350Z",
+            "slug": "yxcyxc",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63ed2b52c4ae20269c4bee65\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63ed276765b04225d4bd3e4b\")"
+            ],
+            "name": "asdasd",
+            "description": "asdasd",
+            "created": "2023-02-15T18:58:26.164Z",
+            "slug": "asdasd-jHGIYH8xx_",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63ed2b69c4ae20269c4bee78\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63ed276765b04225d4bd3e4b\")"
+            ],
+            "name": "vvv",
+            "description": "vvv",
+            "created": "2023-02-15T18:58:49.684Z",
+            "slug": "vvv-hlCUq3idMr",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63ed2e996d909b27edb935a8\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63ed276765b04225d4bd3e4b\")"
+            ],
+            "name": "brija cat",
+            "description": "asdasdasdads",
+            "created": "2023-02-15T19:12:25.695Z",
+            "slug": "brija-cat-kW1hS61o9u",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"6401acf1c59ad9f25c2f4862\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63ed276765b04225d4bd3e4b\")"
+            ],
+            "name": "ass",
+            "description": "sss",
+            "created": "2023-03-03T08:16:49.671Z",
+            "slug": "ass",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"6401da149647c023763a91e3\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63ed276765b04225d4bd3e4b\")"
+            ],
+            "name": "ffff",
+            "description": "fff",
+            "created": "2023-03-03T11:29:24.414Z",
+            "slug": "ffff",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"6425695e2b91f22e206b2462\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63ed3108b81ccc28a4d9eaf2\")"
+            ],
+            "name": "sdcvdvc",
+            "description": "ccbvc",
+            "created": "2023-03-30T10:50:06.016Z",
+            "slug": "sdcvdvc",
+            "__v": 0
+          }
+        ]
+      }
+    ],
+    "query": {},
+    "params": {},
+    "asyncStore": 8,
+    "mongoQueriesCapture": 1,
+    "statusCode": 200,
+    "traceLegacy": [
+      191
+    ],
+    "createdAt": "2023-03-30T11:18:36.577Z"
+  },
+  {
+    "id": "c707ae87-b656-48bc-b4ed-2f62c0e6493c",
+    "endpoint": "/api/category/list",
+    "url": "http://localhost:3000/api/category/list",
+    "body": {},
+    "method": "GET",
+    "headers": {
+      "host": "localhost:3000",
+      "connection": "keep-alive",
+      "sec-ch-ua": "\"Google Chrome\";v=\"111\", \"Not(A:Brand\";v=\"8\", \"Chromium\";v=\"111\"",
+      "accept": "application/json, text/plain, */*",
+      "sec-ch-ua-mobile": "?0",
+      "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzZGEzMjI3MDM3ZDE2NmZkNTFjZWYyNCIsImlhdCI6MTY4MDE3NTE2NSwiZXhwIjoxNjgwNzc5OTY1fQ.odXwwZprse2gBPEQtvzkwUln7Nxkbfyh9zojtKIxMa8",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+      "sec-ch-ua-platform": "\"macOS\"",
+      "sec-fetch-site": "same-origin",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-dest": "empty",
+      "accept-encoding": "gzip, deflate, br",
+      "accept-language": "en-US,en;q=0.9,hr;q=0.8,bs;q=0.7",
+      "cookie": "Webstorm-a7738556=37894940-6565-40a7-9ec5-b3a59a3f74e6; connect.sid=s%3AYt5uQ-ZhdJwLJja_sd814I2iAKkGpwzM.B%2F%2Btxr1eUYCZhBOzqQOsBsbTR8j%2FZn%2BbD1VFiJBRzAc",
+      "if-none-match": "W/\"1664-Z7w8D9qdz7rsTDuzJ/bJn3u1ppo\""
+    },
+    "responseData": "{\"categories\":[{\"isActive\":true,\"products\":[\"63ed3108b81ccc28a4d9eaf2\"],\"_id\":\"63e23d83f70bb12208578be9\",\"name\":\"asdasd44\",\"description\":\"asdasdasd\",\"created\":\"2023-02-07T12:01:07.442Z\",\"slug\":\"asdasd\",\"__v\":0},{\"isActive\":true,\"products\":[\"63de58050ac0a3759c375fc1\"],\"_id\":\"63e2414f4f67fc25b0400c19\",\"name\":\"asdasd\",\"description\":\"asdasd\",\"created\":\"2023-02-07T12:17:19.046Z\",\"slug\":\"asdasd-gco92TWtHu\",\"__v\":0},{\"isActive\":true,\"products\":[\"63ed276765b04225d4bd3e4b\"],\"_id\":\"63e2563f172c57324bfb0045\",\"name\":\"vvv\",\"description\":\"vvv\",\"created\":\"2023-02-07T13:46:39.511Z\",\"slug\":\"vvv\",\"__v\":0},{\"isActive\":true,\"products\":[\"63da334d0c81be6ffe323ca1\"],\"_id\":\"63e25817c032d9342e0d6213\",\"name\":\"yyy\",\"description\":\"cxccx\",\"created\":\"2023-02-07T13:54:31.609Z\",\"slug\":\"yyy-4btgzZ8iIO\",\"__v\":0},{\"isActive\":true,\"products\":[\"63da334d0c81be6ffe323ca1\"],\"_id\":\"63e2594f28388b3637927145\",\"name\":\"cxcxxcx\",\"description\":\"xcxc\",\"created\":\"2023-02-07T13:59:43.917Z\",\"slug\":\"cxcxxcx\",\"__v\":0},{\"isActive\":true,\"products\":[\"63de58050ac0a3759c375fc1\"],\"_id\":\"63e25c2ca9a29838778227cf\",\"name\":\"vvv\",\"description\":\"vvv\",\"created\":\"2023-02-07T14:11:56.349Z\",\"slug\":\"vvv-784mEIWcsy\",\"__v\":0},{\"isActive\":true,\"products\":[\"63de58050ac0a3759c375fc1\"],\"_id\":\"63e25d93fd48ea39fc26ecd0\",\"name\":\"fff\",\"description\":\"fff\",\"created\":\"2023-02-07T14:17:55.776Z\",\"slug\":\"fff\",\"__v\":0},{\"isActive\":true,\"products\":[\"63da334d0c81be6ffe323ca1\"],\"_id\":\"63e25eb52736f13b5f211c6b\",\"name\":\"vv\",\"description\":\"vv\",\"created\":\"2023-02-07T14:22:45.294Z\",\"slug\":\"vv\",\"__v\":0},{\"isActive\":true,\"products\":[\"63de58050ac0a3759c375fc1\"],\"_id\":\"63e25f7ff2ecea3c6497dd97\",\"name\":\"vvv\",\"description\":\"vvv\",\"created\":\"2023-02-07T14:26:07.543Z\",\"slug\":\"vvv-MqzKa7Dt2M\",\"__v\":0},{\"isActive\":true,\"products\":[\"63da334d0c81be6ffe323ca1\"],\"_id\":\"63e2602b92975e3d2b998835\",\"name\":\"vv\",\"description\":\"vv\",\"created\":\"2023-02-07T14:28:59.117Z\",\"slug\":\"vv-ScjE1Hryik\",\"__v\":0},{\"isActive\":true,\"products\":[\"63da334d0c81be6ffe323ca1\"],\"_id\":\"63e2616daea2863ebb5afcbc\",\"name\":\"dd\",\"description\":\"dd\",\"created\":\"2023-02-07T14:34:21.382Z\",\"slug\":\"dd\",\"__v\":0},{\"isActive\":true,\"products\":[\"63da334d0c81be6ffe323ca1\"],\"_id\":\"63e26713c810fb412094ee6e\",\"name\":\"fff\",\"description\":\"ff\",\"created\":\"2023-02-07T14:58:27.738Z\",\"slug\":\"fff-2zBC1OPoTJ\",\"__v\":0},{\"isActive\":true,\"products\":[\"63da334d0c81be6ffe323ca1\"],\"_id\":\"63e2678158d93d41ae35880f\",\"name\":\"vcv\",\"description\":\"cvc\",\"created\":\"2023-02-07T15:00:17.415Z\",\"slug\":\"vcv\",\"__v\":0},{\"isActive\":true,\"products\":[\"63da334d0c81be6ffe323ca1\"],\"_id\":\"63e268381de13f428dca04db\",\"name\":\"sss\",\"description\":\"ss\",\"created\":\"2023-02-07T15:03:20.996Z\",\"slug\":\"sss\",\"__v\":0},{\"isActive\":true,\"products\":[\"63de58050ac0a3759c375fc1\"],\"_id\":\"63e268eb58e704436ac2f9c5\",\"name\":\"sss\",\"description\":\"ss\",\"created\":\"2023-02-07T15:06:19.954Z\",\"slug\":\"sss-QqBMYYuBMb\",\"__v\":0},{\"isActive\":true,\"products\":[\"63de58050ac0a3759c375fc1\"],\"_id\":\"63e2754f6208da4690d2697b\",\"name\":\"fff\",\"description\":\"fff\",\"created\":\"2023-02-07T15:59:11.194Z\",\"slug\":\"fff-Uca9gdP_FN\",\"__v\":0},{\"isActive\":true,\"products\":[\"63da334d0c81be6ffe323ca1\"],\"_id\":\"63e2a2d943c2b04a16b11a91\",\"name\":\"ads\",\"description\":\"asdasdas\",\"created\":\"2023-02-07T19:13:29.897Z\",\"slug\":\"ads\",\"__v\":0},{\"isActive\":true,\"products\":[\"63de58050ac0a3759c375fc1\"],\"_id\":\"63e370403c6ff511e53f822f\",\"name\":\"asd\",\"description\":\"ddd\",\"created\":\"2023-02-08T09:49:52.775Z\",\"slug\":\"asd\",\"__v\":0},{\"isActive\":true,\"products\":[\"63da334d0c81be6ffe323ca1\"],\"_id\":\"63e374d2a99549129cfa6421\",\"name\":\"sdfsdf\",\"description\":\"sdfsdf\",\"created\":\"2023-02-08T10:09:22.743Z\",\"slug\":\"sdfsdf-NWdG2XCsEp\",\"__v\":0},{\"isActive\":true,\"products\":[\"63da334d0c81be6ffe323ca1\"],\"_id\":\"63e50137dfcaa41352fc5310\",\"name\":\"vv\",\"description\":\"vvvv\",\"created\":\"2023-02-09T14:20:39.081Z\",\"slug\":\"vv-IC0XIBaqIP\",\"__v\":0},{\"isActive\":true,\"products\":[\"63da334d0c81be6ffe323ca1\"],\"_id\":\"63ece25b4255461c60664053\",\"name\":\"dgfdfg\",\"description\":\"dfgdfg\",\"created\":\"2023-02-15T13:47:07.453Z\",\"slug\":\"dgfdfg\",\"__v\":0},{\"isActive\":true,\"products\":[\"63ed276765b04225d4bd3e4b\"],\"_id\":\"63ed279f65b04225d4bd3e63\",\"name\":\"vvvv\",\"description\":\"vvvv\",\"created\":\"2023-02-15T18:42:39.819Z\",\"slug\":\"vvvv\",\"__v\":0},{\"isActive\":true,\"products\":[\"63ed276765b04225d4bd3e4b\"],\"_id\":\"63ed28bbc4ae20269c4bee52\",\"name\":\"yxcyxc\",\"description\":\"yxcyxc\",\"created\":\"2023-02-15T18:47:23.350Z\",\"slug\":\"yxcyxc\",\"__v\":0},{\"isActive\":true,\"products\":[\"63ed276765b04225d4bd3e4b\"],\"_id\":\"63ed2b52c4ae20269c4bee65\",\"name\":\"asdasd\",\"description\":\"asdasd\",\"created\":\"2023-02-15T18:58:26.164Z\",\"slug\":\"asdasd-jHGIYH8xx_\",\"__v\":0},{\"isActive\":true,\"products\":[\"63ed276765b04225d4bd3e4b\"],\"_id\":\"63ed2b69c4ae20269c4bee78\",\"name\":\"vvv\",\"description\":\"vvv\",\"created\":\"2023-02-15T18:58:49.684Z\",\"slug\":\"vvv-hlCUq3idMr\",\"__v\":0},{\"isActive\":true,\"products\":[\"63ed276765b04225d4bd3e4b\"],\"_id\":\"63ed2e996d909b27edb935a8\",\"name\":\"brija cat\",\"description\":\"asdasdasdads\",\"created\":\"2023-02-15T19:12:25.695Z\",\"slug\":\"brija-cat-kW1hS61o9u\",\"__v\":0},{\"isActive\":true,\"products\":[\"63ed276765b04225d4bd3e4b\"],\"_id\":\"6401acf1c59ad9f25c2f4862\",\"name\":\"ass\",\"description\":\"sss\",\"created\":\"2023-03-03T08:16:49.671Z\",\"slug\":\"ass\",\"__v\":0},{\"isActive\":true,\"products\":[\"63ed276765b04225d4bd3e4b\"],\"_id\":\"6401da149647c023763a91e3\",\"name\":\"ffff\",\"description\":\"fff\",\"created\":\"2023-03-03T11:29:24.414Z\",\"slug\":\"ffff\",\"__v\":0},{\"isActive\":true,\"products\":[\"63ed3108b81ccc28a4d9eaf2\"],\"_id\":\"6425695e2b91f22e206b2462\",\"name\":\"sdcvdvc\",\"description\":\"ccbvc\",\"created\":\"2023-03-30T10:50:06.016Z\",\"slug\":\"sdcvdvc\",\"__v\":0},{\"isActive\":true,\"products\":[\"6401d9db8971c1232b37d29c\"],\"_id\":\"6425709013c88935f542ea2b\",\"name\":\"asdasd44\",\"description\":\"asdasd44\",\"created\":\"2023-03-30T11:20:48.968Z\",\"slug\":\"asdasd44\",\"__v\":0}]}",
+    "traceId": 192,
+    "trace": [],
+    "intermediateData": [
+      {
+        "type": "mongodb",
+        "id": "7fc854c0-a20e-47ba-abee-e1fbfdc63aa5",
+        "preQueryRes": [
+          {
+            "_id": "ObjectId(\"63e23d83f70bb12208578be9\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63ed3108b81ccc28a4d9eaf2\")"
+            ],
+            "name": "asdasd44",
+            "description": "asdasdasd",
+            "created": "2023-02-07T12:01:07.442Z",
+            "slug": "asdasd",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63e2414f4f67fc25b0400c19\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63de58050ac0a3759c375fc1\")"
+            ],
+            "name": "asdasd",
+            "description": "asdasd",
+            "created": "2023-02-07T12:17:19.046Z",
+            "slug": "asdasd-gco92TWtHu",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63e2563f172c57324bfb0045\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63ed276765b04225d4bd3e4b\")"
+            ],
+            "name": "vvv",
+            "description": "vvv",
+            "created": "2023-02-07T13:46:39.511Z",
+            "slug": "vvv",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63e25817c032d9342e0d6213\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63da334d0c81be6ffe323ca1\")"
+            ],
+            "name": "yyy",
+            "description": "cxccx",
+            "created": "2023-02-07T13:54:31.609Z",
+            "slug": "yyy-4btgzZ8iIO",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63e2594f28388b3637927145\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63da334d0c81be6ffe323ca1\")"
+            ],
+            "name": "cxcxxcx",
+            "description": "xcxc",
+            "created": "2023-02-07T13:59:43.917Z",
+            "slug": "cxcxxcx",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63e25c2ca9a29838778227cf\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63de58050ac0a3759c375fc1\")"
+            ],
+            "name": "vvv",
+            "description": "vvv",
+            "created": "2023-02-07T14:11:56.349Z",
+            "slug": "vvv-784mEIWcsy",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63e25d93fd48ea39fc26ecd0\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63de58050ac0a3759c375fc1\")"
+            ],
+            "name": "fff",
+            "description": "fff",
+            "created": "2023-02-07T14:17:55.776Z",
+            "slug": "fff",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63e25eb52736f13b5f211c6b\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63da334d0c81be6ffe323ca1\")"
+            ],
+            "name": "vv",
+            "description": "vv",
+            "created": "2023-02-07T14:22:45.294Z",
+            "slug": "vv",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63e25f7ff2ecea3c6497dd97\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63de58050ac0a3759c375fc1\")"
+            ],
+            "name": "vvv",
+            "description": "vvv",
+            "created": "2023-02-07T14:26:07.543Z",
+            "slug": "vvv-MqzKa7Dt2M",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63e2602b92975e3d2b998835\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63da334d0c81be6ffe323ca1\")"
+            ],
+            "name": "vv",
+            "description": "vv",
+            "created": "2023-02-07T14:28:59.117Z",
+            "slug": "vv-ScjE1Hryik",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63e2616daea2863ebb5afcbc\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63da334d0c81be6ffe323ca1\")"
+            ],
+            "name": "dd",
+            "description": "dd",
+            "created": "2023-02-07T14:34:21.382Z",
+            "slug": "dd",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63e26713c810fb412094ee6e\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63da334d0c81be6ffe323ca1\")"
+            ],
+            "name": "fff",
+            "description": "ff",
+            "created": "2023-02-07T14:58:27.738Z",
+            "slug": "fff-2zBC1OPoTJ",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63e2678158d93d41ae35880f\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63da334d0c81be6ffe323ca1\")"
+            ],
+            "name": "vcv",
+            "description": "cvc",
+            "created": "2023-02-07T15:00:17.415Z",
+            "slug": "vcv",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63e268381de13f428dca04db\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63da334d0c81be6ffe323ca1\")"
+            ],
+            "name": "sss",
+            "description": "ss",
+            "created": "2023-02-07T15:03:20.996Z",
+            "slug": "sss",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63e268eb58e704436ac2f9c5\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63de58050ac0a3759c375fc1\")"
+            ],
+            "name": "sss",
+            "description": "ss",
+            "created": "2023-02-07T15:06:19.954Z",
+            "slug": "sss-QqBMYYuBMb",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63e2754f6208da4690d2697b\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63de58050ac0a3759c375fc1\")"
+            ],
+            "name": "fff",
+            "description": "fff",
+            "created": "2023-02-07T15:59:11.194Z",
+            "slug": "fff-Uca9gdP_FN",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63e2a2d943c2b04a16b11a91\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63da334d0c81be6ffe323ca1\")"
+            ],
+            "name": "ads",
+            "description": "asdasdas",
+            "created": "2023-02-07T19:13:29.897Z",
+            "slug": "ads",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63e370403c6ff511e53f822f\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63de58050ac0a3759c375fc1\")"
+            ],
+            "name": "asd",
+            "description": "ddd",
+            "created": "2023-02-08T09:49:52.775Z",
+            "slug": "asd",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63e374d2a99549129cfa6421\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63da334d0c81be6ffe323ca1\")"
+            ],
+            "name": "sdfsdf",
+            "description": "sdfsdf",
+            "created": "2023-02-08T10:09:22.743Z",
+            "slug": "sdfsdf-NWdG2XCsEp",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63e50137dfcaa41352fc5310\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63da334d0c81be6ffe323ca1\")"
+            ],
+            "name": "vv",
+            "description": "vvvv",
+            "created": "2023-02-09T14:20:39.081Z",
+            "slug": "vv-IC0XIBaqIP",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63ece25b4255461c60664053\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63da334d0c81be6ffe323ca1\")"
+            ],
+            "name": "dgfdfg",
+            "description": "dfgdfg",
+            "created": "2023-02-15T13:47:07.453Z",
+            "slug": "dgfdfg",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63ed279f65b04225d4bd3e63\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63ed276765b04225d4bd3e4b\")"
+            ],
+            "name": "vvvv",
+            "description": "vvvv",
+            "created": "2023-02-15T18:42:39.819Z",
+            "slug": "vvvv",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63ed28bbc4ae20269c4bee52\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63ed276765b04225d4bd3e4b\")"
+            ],
+            "name": "yxcyxc",
+            "description": "yxcyxc",
+            "created": "2023-02-15T18:47:23.350Z",
+            "slug": "yxcyxc",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63ed2b52c4ae20269c4bee65\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63ed276765b04225d4bd3e4b\")"
+            ],
+            "name": "asdasd",
+            "description": "asdasd",
+            "created": "2023-02-15T18:58:26.164Z",
+            "slug": "asdasd-jHGIYH8xx_",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63ed2b69c4ae20269c4bee78\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63ed276765b04225d4bd3e4b\")"
+            ],
+            "name": "vvv",
+            "description": "vvv",
+            "created": "2023-02-15T18:58:49.684Z",
+            "slug": "vvv-hlCUq3idMr",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63ed2e996d909b27edb935a8\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63ed276765b04225d4bd3e4b\")"
+            ],
+            "name": "brija cat",
+            "description": "asdasdasdads",
+            "created": "2023-02-15T19:12:25.695Z",
+            "slug": "brija-cat-kW1hS61o9u",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"6401acf1c59ad9f25c2f4862\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63ed276765b04225d4bd3e4b\")"
+            ],
+            "name": "ass",
+            "description": "sss",
+            "created": "2023-03-03T08:16:49.671Z",
+            "slug": "ass",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"6401da149647c023763a91e3\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63ed276765b04225d4bd3e4b\")"
+            ],
+            "name": "ffff",
+            "description": "fff",
+            "created": "2023-03-03T11:29:24.414Z",
+            "slug": "ffff",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"6425695e2b91f22e206b2462\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63ed3108b81ccc28a4d9eaf2\")"
+            ],
+            "name": "sdcvdvc",
+            "description": "ccbvc",
+            "created": "2023-03-30T10:50:06.016Z",
+            "slug": "sdcvdvc",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"6425709013c88935f542ea2b\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"6401d9db8971c1232b37d29c\")"
+            ],
+            "name": "asdasd44",
+            "description": "asdasd44",
+            "created": "2023-03-30T11:20:48.968Z",
+            "slug": "asdasd44",
+            "__v": 0
+          }
+        ],
+        "query": {
+          "isActive": true
+        },
+        "otherArgs": {},
+        "options": {
+          "projection": {}
+        },
+        "op": "find",
+        "db": "ecomm",
+        "collection": "categories",
+        "mongoRes": [
+          {
+            "_id": "ObjectId(\"63e23d83f70bb12208578be9\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63ed3108b81ccc28a4d9eaf2\")"
+            ],
+            "name": "asdasd44",
+            "description": "asdasdasd",
+            "created": "2023-02-07T12:01:07.442Z",
+            "slug": "asdasd",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63e2414f4f67fc25b0400c19\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63de58050ac0a3759c375fc1\")"
+            ],
+            "name": "asdasd",
+            "description": "asdasd",
+            "created": "2023-02-07T12:17:19.046Z",
+            "slug": "asdasd-gco92TWtHu",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63e2563f172c57324bfb0045\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63ed276765b04225d4bd3e4b\")"
+            ],
+            "name": "vvv",
+            "description": "vvv",
+            "created": "2023-02-07T13:46:39.511Z",
+            "slug": "vvv",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63e25817c032d9342e0d6213\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63da334d0c81be6ffe323ca1\")"
+            ],
+            "name": "yyy",
+            "description": "cxccx",
+            "created": "2023-02-07T13:54:31.609Z",
+            "slug": "yyy-4btgzZ8iIO",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63e2594f28388b3637927145\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63da334d0c81be6ffe323ca1\")"
+            ],
+            "name": "cxcxxcx",
+            "description": "xcxc",
+            "created": "2023-02-07T13:59:43.917Z",
+            "slug": "cxcxxcx",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63e25c2ca9a29838778227cf\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63de58050ac0a3759c375fc1\")"
+            ],
+            "name": "vvv",
+            "description": "vvv",
+            "created": "2023-02-07T14:11:56.349Z",
+            "slug": "vvv-784mEIWcsy",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63e25d93fd48ea39fc26ecd0\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63de58050ac0a3759c375fc1\")"
+            ],
+            "name": "fff",
+            "description": "fff",
+            "created": "2023-02-07T14:17:55.776Z",
+            "slug": "fff",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63e25eb52736f13b5f211c6b\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63da334d0c81be6ffe323ca1\")"
+            ],
+            "name": "vv",
+            "description": "vv",
+            "created": "2023-02-07T14:22:45.294Z",
+            "slug": "vv",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63e25f7ff2ecea3c6497dd97\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63de58050ac0a3759c375fc1\")"
+            ],
+            "name": "vvv",
+            "description": "vvv",
+            "created": "2023-02-07T14:26:07.543Z",
+            "slug": "vvv-MqzKa7Dt2M",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63e2602b92975e3d2b998835\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63da334d0c81be6ffe323ca1\")"
+            ],
+            "name": "vv",
+            "description": "vv",
+            "created": "2023-02-07T14:28:59.117Z",
+            "slug": "vv-ScjE1Hryik",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63e2616daea2863ebb5afcbc\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63da334d0c81be6ffe323ca1\")"
+            ],
+            "name": "dd",
+            "description": "dd",
+            "created": "2023-02-07T14:34:21.382Z",
+            "slug": "dd",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63e26713c810fb412094ee6e\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63da334d0c81be6ffe323ca1\")"
+            ],
+            "name": "fff",
+            "description": "ff",
+            "created": "2023-02-07T14:58:27.738Z",
+            "slug": "fff-2zBC1OPoTJ",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63e2678158d93d41ae35880f\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63da334d0c81be6ffe323ca1\")"
+            ],
+            "name": "vcv",
+            "description": "cvc",
+            "created": "2023-02-07T15:00:17.415Z",
+            "slug": "vcv",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63e268381de13f428dca04db\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63da334d0c81be6ffe323ca1\")"
+            ],
+            "name": "sss",
+            "description": "ss",
+            "created": "2023-02-07T15:03:20.996Z",
+            "slug": "sss",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63e268eb58e704436ac2f9c5\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63de58050ac0a3759c375fc1\")"
+            ],
+            "name": "sss",
+            "description": "ss",
+            "created": "2023-02-07T15:06:19.954Z",
+            "slug": "sss-QqBMYYuBMb",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63e2754f6208da4690d2697b\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63de58050ac0a3759c375fc1\")"
+            ],
+            "name": "fff",
+            "description": "fff",
+            "created": "2023-02-07T15:59:11.194Z",
+            "slug": "fff-Uca9gdP_FN",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63e2a2d943c2b04a16b11a91\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63da334d0c81be6ffe323ca1\")"
+            ],
+            "name": "ads",
+            "description": "asdasdas",
+            "created": "2023-02-07T19:13:29.897Z",
+            "slug": "ads",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63e370403c6ff511e53f822f\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63de58050ac0a3759c375fc1\")"
+            ],
+            "name": "asd",
+            "description": "ddd",
+            "created": "2023-02-08T09:49:52.775Z",
+            "slug": "asd",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63e374d2a99549129cfa6421\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63da334d0c81be6ffe323ca1\")"
+            ],
+            "name": "sdfsdf",
+            "description": "sdfsdf",
+            "created": "2023-02-08T10:09:22.743Z",
+            "slug": "sdfsdf-NWdG2XCsEp",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63e50137dfcaa41352fc5310\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63da334d0c81be6ffe323ca1\")"
+            ],
+            "name": "vv",
+            "description": "vvvv",
+            "created": "2023-02-09T14:20:39.081Z",
+            "slug": "vv-IC0XIBaqIP",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63ece25b4255461c60664053\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63da334d0c81be6ffe323ca1\")"
+            ],
+            "name": "dgfdfg",
+            "description": "dfgdfg",
+            "created": "2023-02-15T13:47:07.453Z",
+            "slug": "dgfdfg",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63ed279f65b04225d4bd3e63\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63ed276765b04225d4bd3e4b\")"
+            ],
+            "name": "vvvv",
+            "description": "vvvv",
+            "created": "2023-02-15T18:42:39.819Z",
+            "slug": "vvvv",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63ed28bbc4ae20269c4bee52\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63ed276765b04225d4bd3e4b\")"
+            ],
+            "name": "yxcyxc",
+            "description": "yxcyxc",
+            "created": "2023-02-15T18:47:23.350Z",
+            "slug": "yxcyxc",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63ed2b52c4ae20269c4bee65\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63ed276765b04225d4bd3e4b\")"
+            ],
+            "name": "asdasd",
+            "description": "asdasd",
+            "created": "2023-02-15T18:58:26.164Z",
+            "slug": "asdasd-jHGIYH8xx_",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63ed2b69c4ae20269c4bee78\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63ed276765b04225d4bd3e4b\")"
+            ],
+            "name": "vvv",
+            "description": "vvv",
+            "created": "2023-02-15T18:58:49.684Z",
+            "slug": "vvv-hlCUq3idMr",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63ed2e996d909b27edb935a8\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63ed276765b04225d4bd3e4b\")"
+            ],
+            "name": "brija cat",
+            "description": "asdasdasdads",
+            "created": "2023-02-15T19:12:25.695Z",
+            "slug": "brija-cat-kW1hS61o9u",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"6401acf1c59ad9f25c2f4862\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63ed276765b04225d4bd3e4b\")"
+            ],
+            "name": "ass",
+            "description": "sss",
+            "created": "2023-03-03T08:16:49.671Z",
+            "slug": "ass",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"6401da149647c023763a91e3\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63ed276765b04225d4bd3e4b\")"
+            ],
+            "name": "ffff",
+            "description": "fff",
+            "created": "2023-03-03T11:29:24.414Z",
+            "slug": "ffff",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"6425695e2b91f22e206b2462\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63ed3108b81ccc28a4d9eaf2\")"
+            ],
+            "name": "sdcvdvc",
+            "description": "ccbvc",
+            "created": "2023-03-30T10:50:06.016Z",
+            "slug": "sdcvdvc",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"6425709013c88935f542ea2b\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"6401d9db8971c1232b37d29c\")"
+            ],
+            "name": "asdasd44",
+            "description": "asdasd44",
+            "created": "2023-03-30T11:20:48.968Z",
+            "slug": "asdasd44",
+            "__v": 0
+          }
+        ],
+        "postQueryRes": [
+          {
+            "_id": "ObjectId(\"63e23d83f70bb12208578be9\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63ed3108b81ccc28a4d9eaf2\")"
+            ],
+            "name": "asdasd44",
+            "description": "asdasdasd",
+            "created": "2023-02-07T12:01:07.442Z",
+            "slug": "asdasd",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63e2414f4f67fc25b0400c19\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63de58050ac0a3759c375fc1\")"
+            ],
+            "name": "asdasd",
+            "description": "asdasd",
+            "created": "2023-02-07T12:17:19.046Z",
+            "slug": "asdasd-gco92TWtHu",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63e2563f172c57324bfb0045\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63ed276765b04225d4bd3e4b\")"
+            ],
+            "name": "vvv",
+            "description": "vvv",
+            "created": "2023-02-07T13:46:39.511Z",
+            "slug": "vvv",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63e25817c032d9342e0d6213\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63da334d0c81be6ffe323ca1\")"
+            ],
+            "name": "yyy",
+            "description": "cxccx",
+            "created": "2023-02-07T13:54:31.609Z",
+            "slug": "yyy-4btgzZ8iIO",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63e2594f28388b3637927145\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63da334d0c81be6ffe323ca1\")"
+            ],
+            "name": "cxcxxcx",
+            "description": "xcxc",
+            "created": "2023-02-07T13:59:43.917Z",
+            "slug": "cxcxxcx",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63e25c2ca9a29838778227cf\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63de58050ac0a3759c375fc1\")"
+            ],
+            "name": "vvv",
+            "description": "vvv",
+            "created": "2023-02-07T14:11:56.349Z",
+            "slug": "vvv-784mEIWcsy",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63e25d93fd48ea39fc26ecd0\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63de58050ac0a3759c375fc1\")"
+            ],
+            "name": "fff",
+            "description": "fff",
+            "created": "2023-02-07T14:17:55.776Z",
+            "slug": "fff",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63e25eb52736f13b5f211c6b\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63da334d0c81be6ffe323ca1\")"
+            ],
+            "name": "vv",
+            "description": "vv",
+            "created": "2023-02-07T14:22:45.294Z",
+            "slug": "vv",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63e25f7ff2ecea3c6497dd97\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63de58050ac0a3759c375fc1\")"
+            ],
+            "name": "vvv",
+            "description": "vvv",
+            "created": "2023-02-07T14:26:07.543Z",
+            "slug": "vvv-MqzKa7Dt2M",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63e2602b92975e3d2b998835\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63da334d0c81be6ffe323ca1\")"
+            ],
+            "name": "vv",
+            "description": "vv",
+            "created": "2023-02-07T14:28:59.117Z",
+            "slug": "vv-ScjE1Hryik",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63e2616daea2863ebb5afcbc\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63da334d0c81be6ffe323ca1\")"
+            ],
+            "name": "dd",
+            "description": "dd",
+            "created": "2023-02-07T14:34:21.382Z",
+            "slug": "dd",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63e26713c810fb412094ee6e\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63da334d0c81be6ffe323ca1\")"
+            ],
+            "name": "fff",
+            "description": "ff",
+            "created": "2023-02-07T14:58:27.738Z",
+            "slug": "fff-2zBC1OPoTJ",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63e2678158d93d41ae35880f\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63da334d0c81be6ffe323ca1\")"
+            ],
+            "name": "vcv",
+            "description": "cvc",
+            "created": "2023-02-07T15:00:17.415Z",
+            "slug": "vcv",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63e268381de13f428dca04db\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63da334d0c81be6ffe323ca1\")"
+            ],
+            "name": "sss",
+            "description": "ss",
+            "created": "2023-02-07T15:03:20.996Z",
+            "slug": "sss",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63e268eb58e704436ac2f9c5\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63de58050ac0a3759c375fc1\")"
+            ],
+            "name": "sss",
+            "description": "ss",
+            "created": "2023-02-07T15:06:19.954Z",
+            "slug": "sss-QqBMYYuBMb",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63e2754f6208da4690d2697b\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63de58050ac0a3759c375fc1\")"
+            ],
+            "name": "fff",
+            "description": "fff",
+            "created": "2023-02-07T15:59:11.194Z",
+            "slug": "fff-Uca9gdP_FN",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63e2a2d943c2b04a16b11a91\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63da334d0c81be6ffe323ca1\")"
+            ],
+            "name": "ads",
+            "description": "asdasdas",
+            "created": "2023-02-07T19:13:29.897Z",
+            "slug": "ads",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63e370403c6ff511e53f822f\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63de58050ac0a3759c375fc1\")"
+            ],
+            "name": "asd",
+            "description": "ddd",
+            "created": "2023-02-08T09:49:52.775Z",
+            "slug": "asd",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63e374d2a99549129cfa6421\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63da334d0c81be6ffe323ca1\")"
+            ],
+            "name": "sdfsdf",
+            "description": "sdfsdf",
+            "created": "2023-02-08T10:09:22.743Z",
+            "slug": "sdfsdf-NWdG2XCsEp",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63e50137dfcaa41352fc5310\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63da334d0c81be6ffe323ca1\")"
+            ],
+            "name": "vv",
+            "description": "vvvv",
+            "created": "2023-02-09T14:20:39.081Z",
+            "slug": "vv-IC0XIBaqIP",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63ece25b4255461c60664053\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63da334d0c81be6ffe323ca1\")"
+            ],
+            "name": "dgfdfg",
+            "description": "dfgdfg",
+            "created": "2023-02-15T13:47:07.453Z",
+            "slug": "dgfdfg",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63ed279f65b04225d4bd3e63\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63ed276765b04225d4bd3e4b\")"
+            ],
+            "name": "vvvv",
+            "description": "vvvv",
+            "created": "2023-02-15T18:42:39.819Z",
+            "slug": "vvvv",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63ed28bbc4ae20269c4bee52\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63ed276765b04225d4bd3e4b\")"
+            ],
+            "name": "yxcyxc",
+            "description": "yxcyxc",
+            "created": "2023-02-15T18:47:23.350Z",
+            "slug": "yxcyxc",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63ed2b52c4ae20269c4bee65\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63ed276765b04225d4bd3e4b\")"
+            ],
+            "name": "asdasd",
+            "description": "asdasd",
+            "created": "2023-02-15T18:58:26.164Z",
+            "slug": "asdasd-jHGIYH8xx_",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63ed2b69c4ae20269c4bee78\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63ed276765b04225d4bd3e4b\")"
+            ],
+            "name": "vvv",
+            "description": "vvv",
+            "created": "2023-02-15T18:58:49.684Z",
+            "slug": "vvv-hlCUq3idMr",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63ed2e996d909b27edb935a8\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63ed276765b04225d4bd3e4b\")"
+            ],
+            "name": "brija cat",
+            "description": "asdasdasdads",
+            "created": "2023-02-15T19:12:25.695Z",
+            "slug": "brija-cat-kW1hS61o9u",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"6401acf1c59ad9f25c2f4862\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63ed276765b04225d4bd3e4b\")"
+            ],
+            "name": "ass",
+            "description": "sss",
+            "created": "2023-03-03T08:16:49.671Z",
+            "slug": "ass",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"6401da149647c023763a91e3\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63ed276765b04225d4bd3e4b\")"
+            ],
+            "name": "ffff",
+            "description": "fff",
+            "created": "2023-03-03T11:29:24.414Z",
+            "slug": "ffff",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"6425695e2b91f22e206b2462\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"63ed3108b81ccc28a4d9eaf2\")"
+            ],
+            "name": "sdcvdvc",
+            "description": "ccbvc",
+            "created": "2023-03-30T10:50:06.016Z",
+            "slug": "sdcvdvc",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"6425709013c88935f542ea2b\")",
+            "isActive": true,
+            "products": [
+              "ObjectId(\"6401d9db8971c1232b37d29c\")"
+            ],
+            "name": "asdasd44",
+            "description": "asdasd44",
+            "created": "2023-03-30T11:20:48.968Z",
+            "slug": "asdasd44",
+            "__v": 0
+          }
+        ]
+      }
+    ],
+    "query": {},
+    "params": {},
+    "asyncStore": 2,
+    "mongoQueriesCapture": 1,
+    "statusCode": 200,
+    "traceLegacy": [
+      192
+    ],
+    "createdAt": "2023-03-30T11:36:56.402Z"
+  }
+]

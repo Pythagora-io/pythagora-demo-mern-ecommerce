@@ -1,0 +1,246 @@
+[
+  {
+    "id": "954e08b6-8229-4535-98f3-549f6516c78a",
+    "endpoint": "/api/merchant/add",
+    "url": "http://localhost:3000/api/merchant/add",
+    "body": {
+      "name": "bnmbnm",
+      "email": "bnmbn@brija.com",
+      "phoneNumber": "1234567890",
+      "brandName": "nmmnbmbnm",
+      "business": "bnbmbmbnmnbmbnm"
+    },
+    "method": "POST",
+    "headers": {
+      "host": "localhost:3000",
+      "connection": "keep-alive",
+      "content-length": "123",
+      "sec-ch-ua": "\"Google Chrome\";v=\"111\", \"Not(A:Brand\";v=\"8\", \"Chromium\";v=\"111\"",
+      "accept": "application/json, text/plain, */*",
+      "content-type": "application/json",
+      "sec-ch-ua-mobile": "?0",
+      "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzZGEzMjI3MDM3ZDE2NmZkNTFjZWYyNCIsImlhdCI6MTY4MDE3NTE2NSwiZXhwIjoxNjgwNzc5OTY1fQ.odXwwZprse2gBPEQtvzkwUln7Nxkbfyh9zojtKIxMa8",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+      "sec-ch-ua-platform": "\"macOS\"",
+      "origin": "http://localhost:3000",
+      "sec-fetch-site": "same-origin",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-dest": "empty",
+      "accept-encoding": "gzip, deflate, br",
+      "accept-language": "en-US,en;q=0.9,hr;q=0.8,bs;q=0.7",
+      "cookie": "Webstorm-a7738556=37894940-6565-40a7-9ec5-b3a59a3f74e6; connect.sid=s%3AYt5uQ-ZhdJwLJja_sd814I2iAKkGpwzM.B%2F%2Btxr1eUYCZhBOzqQOsBsbTR8j%2FZn%2BbD1VFiJBRzAc"
+    },
+    "responseData": "{\"success\":true,\"message\":\"We received your request! we will reach you on your phone number 1234567890!\",\"merchant\":{\"isActive\":false,\"brand\":null,\"status\":\"Waiting Approval\",\"_id\":\"642570fa13c88935f542ea95\",\"name\":\"bnmbnm\",\"email\":\"bnmbn@brija.com\",\"business\":\"bnbmbmbnmnbmbnm\",\"phoneNumber\":\"1234567890\",\"brandName\":\"nmmnbmbnm\",\"created\":\"2023-03-30T11:22:34.141Z\",\"__v\":0}}",
+    "traceId": 12937,
+    "trace": [],
+    "intermediateData": [
+      {
+        "type": "mongodb",
+        "id": "37232686-5d05-4c9e-b6e9-c95a8750356a",
+        "preQueryRes": [],
+        "query": {
+          "email": "bnmbn@brija.com"
+        },
+        "otherArgs": {},
+        "options": {
+          "projection": {}
+        },
+        "op": "find",
+        "db": "ecomm",
+        "collection": "merchants",
+        "mongoRes": null,
+        "postQueryRes": []
+      },
+      {
+        "type": "mongodb",
+        "id": "d1c11d34-e61e-4a10-a8e5-8b418a2c7a45",
+        "preQueryRes": [],
+        "query": {
+          "email": "bnmbn@brija.com"
+        },
+        "otherArgs": {},
+        "options": {
+          "projection": {}
+        },
+        "op": "findOne",
+        "db": "ecomm",
+        "collection": "merchants",
+        "mongoRes": null,
+        "postQueryRes": []
+      },
+      {
+        "type": "mongodb",
+        "id": "dc326980-27b3-4ef3-81f3-ace7a3a56db1",
+        "preQueryRes": [],
+        "query": {
+          "isActive": false,
+          "brand": null,
+          "status": "Waiting Approval",
+          "_id": "ObjectId(\"642570fa13c88935f542ea95\")",
+          "name": "bnmbnm",
+          "email": "bnmbn@brija.com",
+          "business": "bnbmbmbnmnbmbnm",
+          "phoneNumber": "1234567890",
+          "brandName": "nmmnbmbnm",
+          "created": "2023-03-30T11:22:34.141Z",
+          "__v": 0
+        },
+        "otherArgs": {},
+        "options": {},
+        "op": "insertOne",
+        "db": "ecomm",
+        "collection": "merchants",
+        "mongoRes": {
+          "n": 1,
+          "ok": 1
+        },
+        "postQueryRes": [
+          {
+            "_id": "ObjectId(\"642570fa13c88935f542ea95\")",
+            "isActive": false,
+            "brand": null,
+            "status": "Waiting Approval",
+            "name": "bnmbnm",
+            "email": "bnmbn@brija.com",
+            "business": "bnbmbmbnmnbmbnm",
+            "phoneNumber": "1234567890",
+            "brandName": "nmmnbmbnm",
+            "created": "2023-03-30T11:22:34.141Z",
+            "__v": 0
+          }
+        ]
+      }
+    ],
+    "query": {},
+    "params": {},
+    "asyncStore": 67,
+    "mongoQueriesCapture": 3,
+    "statusCode": 200,
+    "traceLegacy": [
+      12937
+    ],
+    "createdAt": "2023-03-30T11:22:34.148Z"
+  },
+  {
+    "id": "d25c894b-934a-4b8d-b970-62a58f2fbcf2",
+    "endpoint": "/api/merchant/add",
+    "url": "http://localhost:3000/api/merchant/add",
+    "body": {
+      "name": "uiopuip",
+      "email": "ipoipo@brija.com",
+      "phoneNumber": "1234567890",
+      "brandName": "90iojmkl",
+      "business": "u,jmghn zmjnzjn"
+    },
+    "method": "POST",
+    "headers": {
+      "host": "localhost:3000",
+      "connection": "keep-alive",
+      "content-length": "124",
+      "sec-ch-ua": "\"Google Chrome\";v=\"111\", \"Not(A:Brand\";v=\"8\", \"Chromium\";v=\"111\"",
+      "accept": "application/json, text/plain, */*",
+      "content-type": "application/json",
+      "sec-ch-ua-mobile": "?0",
+      "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzZGEzMjI3MDM3ZDE2NmZkNTFjZWYyNCIsImlhdCI6MTY4MDE3NTE2NSwiZXhwIjoxNjgwNzc5OTY1fQ.odXwwZprse2gBPEQtvzkwUln7Nxkbfyh9zojtKIxMa8",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+      "sec-ch-ua-platform": "\"macOS\"",
+      "origin": "http://localhost:3000",
+      "sec-fetch-site": "same-origin",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-dest": "empty",
+      "accept-encoding": "gzip, deflate, br",
+      "accept-language": "en-US,en;q=0.9,hr;q=0.8,bs;q=0.7",
+      "cookie": "Webstorm-a7738556=37894940-6565-40a7-9ec5-b3a59a3f74e6; connect.sid=s%3AYt5uQ-ZhdJwLJja_sd814I2iAKkGpwzM.B%2F%2Btxr1eUYCZhBOzqQOsBsbTR8j%2FZn%2BbD1VFiJBRzAc"
+    },
+    "responseData": "{\"success\":true,\"message\":\"We received your request! we will reach you on your phone number 1234567890!\",\"merchant\":{\"isActive\":false,\"brand\":null,\"status\":\"Waiting Approval\",\"_id\":\"6425710c13c88935f542eaa5\",\"name\":\"uiopuip\",\"email\":\"ipoipo@brija.com\",\"business\":\"u,jmghn zmjnzjn\",\"phoneNumber\":\"1234567890\",\"brandName\":\"90iojmkl\",\"created\":\"2023-03-30T11:22:52.046Z\",\"__v\":0}}",
+    "traceId": 13931,
+    "trace": [],
+    "intermediateData": [
+      {
+        "type": "mongodb",
+        "id": "54118866-073a-4c4b-816a-811ba7d4f7bb",
+        "preQueryRes": [],
+        "query": {
+          "email": "ipoipo@brija.com"
+        },
+        "otherArgs": {},
+        "options": {
+          "projection": {}
+        },
+        "op": "find",
+        "db": "ecomm",
+        "collection": "merchants",
+        "mongoRes": null,
+        "postQueryRes": []
+      },
+      {
+        "type": "mongodb",
+        "id": "85056437-3240-433f-bae4-21041d573fb6",
+        "preQueryRes": [],
+        "query": {
+          "email": "ipoipo@brija.com"
+        },
+        "otherArgs": {},
+        "options": {
+          "projection": {}
+        },
+        "op": "findOne",
+        "db": "ecomm",
+        "collection": "merchants",
+        "mongoRes": null,
+        "postQueryRes": []
+      },
+      {
+        "type": "mongodb",
+        "id": "2c44c737-bb99-47a2-a7e6-7c71e039981e",
+        "preQueryRes": [],
+        "query": {
+          "isActive": false,
+          "brand": null,
+          "status": "Waiting Approval",
+          "_id": "ObjectId(\"6425710c13c88935f542eaa5\")",
+          "name": "uiopuip",
+          "email": "ipoipo@brija.com",
+          "business": "u,jmghn zmjnzjn",
+          "phoneNumber": "1234567890",
+          "brandName": "90iojmkl",
+          "created": "2023-03-30T11:22:52.046Z",
+          "__v": 0
+        },
+        "otherArgs": {},
+        "options": {},
+        "op": "insertOne",
+        "db": "ecomm",
+        "collection": "merchants",
+        "mongoRes": {
+          "n": 1,
+          "ok": 1
+        },
+        "postQueryRes": [
+          {
+            "_id": "ObjectId(\"6425710c13c88935f542eaa5\")",
+            "isActive": false,
+            "brand": null,
+            "status": "Waiting Approval",
+            "name": "uiopuip",
+            "email": "ipoipo@brija.com",
+            "business": "u,jmghn zmjnzjn",
+            "phoneNumber": "1234567890",
+            "brandName": "90iojmkl",
+            "created": "2023-03-30T11:22:52.046Z",
+            "__v": 0
+          }
+        ]
+      }
+    ],
+    "query": {},
+    "params": {},
+    "asyncStore": 71,
+    "mongoQueriesCapture": 3,
+    "statusCode": 200,
+    "traceLegacy": [
+      13931
+    ],
+    "createdAt": "2023-03-30T11:22:52.055Z"
+  }
+]

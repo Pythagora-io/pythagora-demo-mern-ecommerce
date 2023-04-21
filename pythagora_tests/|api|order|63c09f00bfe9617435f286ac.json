@@ -1,0 +1,357 @@
+[
+  {
+    "id": "6efcdc3e-8ac7-44f0-b274-2a139e41c8f3",
+    "endpoint": "/api/order/63c09f00bfe9617435f286ac",
+    "url": "http://localhost:3000/api/order/63c09f00bfe9617435f286ac",
+    "body": {},
+    "method": "GET",
+    "headers": {
+      "host": "localhost:3000",
+      "connection": "keep-alive",
+      "sec-ch-ua": "\"Google Chrome\";v=\"111\", \"Not(A:Brand\";v=\"8\", \"Chromium\";v=\"111\"",
+      "accept": "application/json, text/plain, */*",
+      "sec-ch-ua-mobile": "?0",
+      "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzZGEzMjI3MDM3ZDE2NmZkNTFjZWYyNCIsImlhdCI6MTY4MDE3NTE2NSwiZXhwIjoxNjgwNzc5OTY1fQ.odXwwZprse2gBPEQtvzkwUln7Nxkbfyh9zojtKIxMa8",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+      "sec-ch-ua-platform": "\"macOS\"",
+      "sec-fetch-site": "same-origin",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-dest": "empty",
+      "accept-encoding": "gzip, deflate, br",
+      "accept-language": "en-US,en;q=0.9,hr;q=0.8,bs;q=0.7",
+      "cookie": "Webstorm-a7738556=37894940-6565-40a7-9ec5-b3a59a3f74e6; connect.sid=s%3AYt5uQ-ZhdJwLJja_sd814I2iAKkGpwzM.B%2F%2Btxr1eUYCZhBOzqQOsBsbTR8j%2FZn%2BbD1VFiJBRzAc"
+    },
+    "responseData": "{\"order\":{\"_id\":\"63c09f00bfe9617435f286ac\",\"total\":7,\"created\":\"2023-02-01T11:31:00.976Z\",\"totalTax\":0,\"products\":[{\"purchasePrice\":6,\"totalPrice\":6,\"priceWithTax\":6,\"totalTax\":0,\"status\":\"Processing\",\"_id\":\"63c09f00bfe9617435f286a5\",\"quantity\":1,\"product\":null},{\"purchasePrice\":1,\"totalPrice\":1,\"priceWithTax\":1,\"totalTax\":0,\"status\":\"Shipped\",\"_id\":\"63c09f00bfe9617435f286a6\",\"quantity\":1,\"product\":null}],\"cartId\":\"63c09f00bfe9617435f286a4\",\"totalWithTax\":7}}",
+    "traceId": 16393,
+    "trace": [],
+    "intermediateData": [
+      {
+        "type": "mongodb",
+        "id": "77e8628c-0164-4ec0-9604-ad3c87d056f8",
+        "preQueryRes": [
+          {
+            "_id": "ObjectId(\"63da3227037d166fd51cef24\")",
+            "merchant": null,
+            "provider": "Email",
+            "role": "ROLE ADMIN",
+            "email": "admin@pythagora.io",
+            "password": "$2a$10$oONswexLk.uMD.x753Ed3e1D1h2zhFdyoRY/ssnIZDw0oppDqUEvK",
+            "firstName": "admin",
+            "lastName": "adminff",
+            "created": "2023-02-01T09:34:31.627Z",
+            "__v": 0,
+            "phoneNumber": "34433455443324",
+            "resetPasswordExpires": "2023-03-30T11:58:38.333Z",
+            "resetPasswordToken": "bf3b42b9ab15984ff9014db6513413b913c075af061c16d8a8efb5193793a5c6a49ab3802b94930cc921207c6cafcee0"
+          }
+        ],
+        "query": {
+          "_id": "ObjectId(\"63da3227037d166fd51cef24\")"
+        },
+        "otherArgs": {},
+        "options": {
+          "projection": {}
+        },
+        "op": "find",
+        "db": "ecomm",
+        "collection": "users",
+        "mongoRes": {
+          "_id": "ObjectId(\"63da3227037d166fd51cef24\")",
+          "merchant": null,
+          "provider": "Email",
+          "role": "ROLE ADMIN",
+          "email": "admin@pythagora.io",
+          "password": "$2a$10$oONswexLk.uMD.x753Ed3e1D1h2zhFdyoRY/ssnIZDw0oppDqUEvK",
+          "firstName": "admin",
+          "lastName": "adminff",
+          "created": "2023-02-01T09:34:31.627Z",
+          "__v": 0,
+          "phoneNumber": "34433455443324",
+          "resetPasswordExpires": "2023-03-30T11:58:38.333Z",
+          "resetPasswordToken": "bf3b42b9ab15984ff9014db6513413b913c075af061c16d8a8efb5193793a5c6a49ab3802b94930cc921207c6cafcee0"
+        },
+        "postQueryRes": [
+          {
+            "_id": "ObjectId(\"63da3227037d166fd51cef24\")",
+            "merchant": null,
+            "provider": "Email",
+            "role": "ROLE ADMIN",
+            "email": "admin@pythagora.io",
+            "password": "$2a$10$oONswexLk.uMD.x753Ed3e1D1h2zhFdyoRY/ssnIZDw0oppDqUEvK",
+            "firstName": "admin",
+            "lastName": "adminff",
+            "created": "2023-02-01T09:34:31.627Z",
+            "__v": 0,
+            "phoneNumber": "34433455443324",
+            "resetPasswordExpires": "2023-03-30T11:58:38.333Z",
+            "resetPasswordToken": "bf3b42b9ab15984ff9014db6513413b913c075af061c16d8a8efb5193793a5c6a49ab3802b94930cc921207c6cafcee0"
+          }
+        ]
+      },
+      {
+        "type": "mongodb",
+        "id": "5293a49a-959f-4dd4-8fcf-11deba66e92b",
+        "preQueryRes": [
+          {
+            "_id": "ObjectId(\"63da3227037d166fd51cef24\")",
+            "merchant": null,
+            "provider": "Email",
+            "role": "ROLE ADMIN",
+            "email": "admin@pythagora.io",
+            "password": "$2a$10$oONswexLk.uMD.x753Ed3e1D1h2zhFdyoRY/ssnIZDw0oppDqUEvK",
+            "firstName": "admin",
+            "lastName": "adminff",
+            "created": "2023-02-01T09:34:31.627Z",
+            "__v": 0,
+            "phoneNumber": "34433455443324",
+            "resetPasswordExpires": "2023-03-30T11:58:38.333Z",
+            "resetPasswordToken": "bf3b42b9ab15984ff9014db6513413b913c075af061c16d8a8efb5193793a5c6a49ab3802b94930cc921207c6cafcee0"
+          }
+        ],
+        "query": {
+          "_id": "ObjectId(\"63da3227037d166fd51cef24\")"
+        },
+        "otherArgs": {},
+        "options": {
+          "projection": {}
+        },
+        "op": "findOne",
+        "db": "ecomm",
+        "collection": "users",
+        "mongoRes": {
+          "_id": "ObjectId(\"63da3227037d166fd51cef24\")",
+          "merchant": null,
+          "provider": "Email",
+          "role": "ROLE ADMIN",
+          "email": "admin@pythagora.io",
+          "password": "$2a$10$oONswexLk.uMD.x753Ed3e1D1h2zhFdyoRY/ssnIZDw0oppDqUEvK",
+          "firstName": "admin",
+          "lastName": "adminff",
+          "created": "2023-02-01T09:34:31.627Z",
+          "__v": 0,
+          "phoneNumber": "34433455443324",
+          "resetPasswordExpires": "2023-03-30T11:58:38.333Z",
+          "resetPasswordToken": "bf3b42b9ab15984ff9014db6513413b913c075af061c16d8a8efb5193793a5c6a49ab3802b94930cc921207c6cafcee0"
+        },
+        "postQueryRes": [
+          {
+            "_id": "ObjectId(\"63da3227037d166fd51cef24\")",
+            "merchant": null,
+            "provider": "Email",
+            "role": "ROLE ADMIN",
+            "email": "admin@pythagora.io",
+            "password": "$2a$10$oONswexLk.uMD.x753Ed3e1D1h2zhFdyoRY/ssnIZDw0oppDqUEvK",
+            "firstName": "admin",
+            "lastName": "adminff",
+            "created": "2023-02-01T09:34:31.627Z",
+            "__v": 0,
+            "phoneNumber": "34433455443324",
+            "resetPasswordExpires": "2023-03-30T11:58:38.333Z",
+            "resetPasswordToken": "bf3b42b9ab15984ff9014db6513413b913c075af061c16d8a8efb5193793a5c6a49ab3802b94930cc921207c6cafcee0"
+          }
+        ]
+      },
+      {
+        "type": "mongodb",
+        "id": "0994eeb1-9a8b-4f5d-b2e5-7042e103af51",
+        "preQueryRes": [
+          {
+            "_id": "ObjectId(\"63c09f00bfe9617435f286ac\")",
+            "total": 7,
+            "cart": "ObjectId(\"63c09f00bfe9617435f286a4\")",
+            "user": "ObjectId(\"63da3227037d166fd51cef24\")",
+            "created": "2023-02-01T11:31:00.976Z",
+            "__v": 0
+          }
+        ],
+        "query": {
+          "_id": "ObjectId(\"63c09f00bfe9617435f286ac\")"
+        },
+        "otherArgs": {},
+        "options": {
+          "projection": {}
+        },
+        "op": "find",
+        "db": "ecomm",
+        "collection": "orders",
+        "mongoRes": {
+          "_id": "ObjectId(\"63c09f00bfe9617435f286ac\")",
+          "total": 7,
+          "cart": "ObjectId(\"63c09f00bfe9617435f286a4\")",
+          "user": "ObjectId(\"63da3227037d166fd51cef24\")",
+          "created": "2023-02-01T11:31:00.976Z",
+          "__v": 0
+        },
+        "postQueryRes": [
+          {
+            "_id": "ObjectId(\"63c09f00bfe9617435f286ac\")",
+            "total": 7,
+            "cart": "ObjectId(\"63c09f00bfe9617435f286a4\")",
+            "user": "ObjectId(\"63da3227037d166fd51cef24\")",
+            "created": "2023-02-01T11:31:00.976Z",
+            "__v": 0
+          }
+        ]
+      },
+      {
+        "type": "mongodb",
+        "id": "1c7998c8-1a94-43d0-94b4-c1484013d000",
+        "preQueryRes": [
+          {
+            "_id": "ObjectId(\"63c09f00bfe9617435f286ac\")",
+            "total": 7,
+            "cart": "ObjectId(\"63c09f00bfe9617435f286a4\")",
+            "user": "ObjectId(\"63da3227037d166fd51cef24\")",
+            "created": "2023-02-01T11:31:00.976Z",
+            "__v": 0
+          }
+        ],
+        "query": {
+          "_id": "ObjectId(\"63c09f00bfe9617435f286ac\")"
+        },
+        "otherArgs": {},
+        "options": {
+          "projection": {}
+        },
+        "op": "findOne",
+        "db": "ecomm",
+        "collection": "orders",
+        "mongoRes": {
+          "_id": "ObjectId(\"63c09f00bfe9617435f286ac\")",
+          "total": 7,
+          "cart": "ObjectId(\"63c09f00bfe9617435f286a4\")",
+          "user": "ObjectId(\"63da3227037d166fd51cef24\")",
+          "created": "2023-02-01T11:31:00.976Z",
+          "__v": 0
+        },
+        "postQueryRes": [
+          {
+            "_id": "ObjectId(\"63c09f00bfe9617435f286ac\")",
+            "total": 7,
+            "cart": "ObjectId(\"63c09f00bfe9617435f286a4\")",
+            "user": "ObjectId(\"63da3227037d166fd51cef24\")",
+            "created": "2023-02-01T11:31:00.976Z",
+            "__v": 0
+          }
+        ]
+      },
+      {
+        "type": "mongodb",
+        "id": "736e3f72-8e1e-466c-8561-167ad2c05a70",
+        "preQueryRes": [
+          {
+            "_id": "ObjectId(\"63c09f00bfe9617435f286a4\")",
+            "user": "ObjectId(\"63da3227037d166fd51cef24\")",
+            "products": [
+              {
+                "purchasePrice": 6,
+                "totalPrice": 6,
+                "priceWithTax": 0,
+                "totalTax": 0,
+                "status": "Processing",
+                "_id": "ObjectId(\"63c09f00bfe9617435f286a5\")",
+                "quantity": 1,
+                "product": "ObjectId(\"63da4a270e7d2673cc13f8c4\")"
+              },
+              {
+                "purchasePrice": 1,
+                "totalPrice": 1,
+                "priceWithTax": 0,
+                "totalTax": 0,
+                "status": "Shipped",
+                "_id": "ObjectId(\"63c09f00bfe9617435f286a6\")",
+                "quantity": 1,
+                "product": "ObjectId(\"63da334d0c81be6ffe323ca1\")"
+              }
+            ],
+            "created": "2023-02-01T11:31:00.940Z",
+            "__v": 0
+          }
+        ],
+        "query": {
+          "_id": {
+            "$in": [
+              "ObjectId(\"63c09f00bfe9617435f286a4\")"
+            ]
+          }
+        },
+        "otherArgs": {},
+        "options": {
+          "projection": {}
+        },
+        "op": "find",
+        "db": "ecomm",
+        "collection": "carts",
+        "mongoRes": [
+          {
+            "_id": "ObjectId(\"63c09f00bfe9617435f286a4\")",
+            "user": "ObjectId(\"63da3227037d166fd51cef24\")",
+            "products": [
+              {
+                "purchasePrice": 6,
+                "totalPrice": 6,
+                "priceWithTax": 0,
+                "totalTax": 0,
+                "status": "Processing",
+                "_id": "ObjectId(\"63c09f00bfe9617435f286a5\")",
+                "quantity": 1,
+                "product": "ObjectId(\"63da4a270e7d2673cc13f8c4\")"
+              },
+              {
+                "purchasePrice": 1,
+                "totalPrice": 1,
+                "priceWithTax": 0,
+                "totalTax": 0,
+                "status": "Shipped",
+                "_id": "ObjectId(\"63c09f00bfe9617435f286a6\")",
+                "quantity": 1,
+                "product": "ObjectId(\"63da334d0c81be6ffe323ca1\")"
+              }
+            ],
+            "created": "2023-02-01T11:31:00.940Z",
+            "__v": 0
+          }
+        ],
+        "postQueryRes": [
+          {
+            "_id": "ObjectId(\"63c09f00bfe9617435f286a4\")",
+            "user": "ObjectId(\"63da3227037d166fd51cef24\")",
+            "products": [
+              {
+                "purchasePrice": 6,
+                "totalPrice": 6,
+                "priceWithTax": 0,
+                "totalTax": 0,
+                "status": "Processing",
+                "_id": "ObjectId(\"63c09f00bfe9617435f286a5\")",
+                "quantity": 1,
+                "product": "ObjectId(\"63da4a270e7d2673cc13f8c4\")"
+              },
+              {
+                "purchasePrice": 1,
+                "totalPrice": 1,
+                "priceWithTax": 0,
+                "totalTax": 0,
+                "status": "Shipped",
+                "_id": "ObjectId(\"63c09f00bfe9617435f286a6\")",
+                "quantity": 1,
+                "product": "ObjectId(\"63da334d0c81be6ffe323ca1\")"
+              }
+            ],
+            "created": "2023-02-01T11:31:00.940Z",
+            "__v": 0
+          }
+        ]
+      }
+    ],
+    "query": {},
+    "params": {},
+    "asyncStore": 87,
+    "mongoQueriesCapture": 5,
+    "statusCode": 200,
+    "traceLegacy": [
+      16393
+    ],
+    "createdAt": "2023-03-30T11:23:09.536Z"
+  }
+]

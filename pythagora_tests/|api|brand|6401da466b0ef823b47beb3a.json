@@ -1,0 +1,135 @@
+[
+  {
+    "id": "3746e84b-fc16-490d-83ff-0ed47bd741e5",
+    "endpoint": "/api/brand/6401da466b0ef823b47beb3a",
+    "url": "http://localhost:3000/api/brand/6401da466b0ef823b47beb3a",
+    "body": {},
+    "method": "GET",
+    "headers": {
+      "host": "localhost:3000",
+      "connection": "keep-alive",
+      "sec-ch-ua": "\"Google Chrome\";v=\"111\", \"Not(A:Brand\";v=\"8\", \"Chromium\";v=\"111\"",
+      "accept": "application/json, text/plain, */*",
+      "sec-ch-ua-mobile": "?0",
+      "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzZGEzMjI3MDM3ZDE2NmZkNTFjZWYyNCIsImlhdCI6MTY4MDE3NTE2NSwiZXhwIjoxNjgwNzc5OTY1fQ.odXwwZprse2gBPEQtvzkwUln7Nxkbfyh9zojtKIxMa8",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+      "sec-ch-ua-platform": "\"macOS\"",
+      "sec-fetch-site": "same-origin",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-dest": "empty",
+      "accept-encoding": "gzip, deflate, br",
+      "accept-language": "en-US,en;q=0.9,hr;q=0.8,bs;q=0.7",
+      "cookie": "Webstorm-a7738556=37894940-6565-40a7-9ec5-b3a59a3f74e6; connect.sid=s%3AYt5uQ-ZhdJwLJja_sd814I2iAKkGpwzM.B%2F%2Btxr1eUYCZhBOzqQOsBsbTR8j%2FZn%2BbD1VFiJBRzAc"
+    },
+    "responseData": "{\"brand\":{\"isActive\":true,\"merchant\":null,\"_id\":\"6401da466b0ef823b47beb3a\",\"name\":\"bbb\",\"description\":\"bbbb\",\"created\":\"2023-03-03T11:30:14.740Z\",\"slug\":\"bbb\",\"__v\":0}}",
+    "traceId": 1845,
+    "trace": [],
+    "intermediateData": [
+      {
+        "type": "mongodb",
+        "id": "51ad0020-0cd6-45ae-b5fb-6be3d914d41a",
+        "preQueryRes": [
+          {
+            "_id": "ObjectId(\"6401da466b0ef823b47beb3a\")",
+            "isActive": true,
+            "merchant": null,
+            "name": "bbb",
+            "description": "bbbb",
+            "created": "2023-03-03T11:30:14.740Z",
+            "slug": "bbb",
+            "__v": 0
+          }
+        ],
+        "query": {
+          "_id": "ObjectId(\"6401da466b0ef823b47beb3a\")"
+        },
+        "otherArgs": {},
+        "options": {
+          "projection": {}
+        },
+        "op": "find",
+        "db": "ecomm",
+        "collection": "brands",
+        "mongoRes": {
+          "_id": "ObjectId(\"6401da466b0ef823b47beb3a\")",
+          "isActive": true,
+          "merchant": null,
+          "name": "bbb",
+          "description": "bbbb",
+          "created": "2023-03-03T11:30:14.740Z",
+          "slug": "bbb",
+          "__v": 0
+        },
+        "postQueryRes": [
+          {
+            "_id": "ObjectId(\"6401da466b0ef823b47beb3a\")",
+            "isActive": true,
+            "merchant": null,
+            "name": "bbb",
+            "description": "bbbb",
+            "created": "2023-03-03T11:30:14.740Z",
+            "slug": "bbb",
+            "__v": 0
+          }
+        ]
+      },
+      {
+        "type": "mongodb",
+        "id": "029289c2-0dc4-41f6-b5a8-3c100f5e3a30",
+        "preQueryRes": [
+          {
+            "_id": "ObjectId(\"6401da466b0ef823b47beb3a\")",
+            "isActive": true,
+            "merchant": null,
+            "name": "bbb",
+            "description": "bbbb",
+            "created": "2023-03-03T11:30:14.740Z",
+            "slug": "bbb",
+            "__v": 0
+          }
+        ],
+        "query": {
+          "_id": "ObjectId(\"6401da466b0ef823b47beb3a\")"
+        },
+        "otherArgs": {},
+        "options": {
+          "projection": {}
+        },
+        "op": "findOne",
+        "db": "ecomm",
+        "collection": "brands",
+        "mongoRes": {
+          "_id": "ObjectId(\"6401da466b0ef823b47beb3a\")",
+          "isActive": true,
+          "merchant": null,
+          "name": "bbb",
+          "description": "bbbb",
+          "created": "2023-03-03T11:30:14.740Z",
+          "slug": "bbb",
+          "__v": 0
+        },
+        "postQueryRes": [
+          {
+            "_id": "ObjectId(\"6401da466b0ef823b47beb3a\")",
+            "isActive": true,
+            "merchant": null,
+            "name": "bbb",
+            "description": "bbbb",
+            "created": "2023-03-03T11:30:14.740Z",
+            "slug": "bbb",
+            "__v": 0
+          }
+        ]
+      }
+    ],
+    "query": {},
+    "params": {},
+    "asyncStore": 9,
+    "mongoQueriesCapture": 2,
+    "statusCode": 200,
+    "traceLegacy": [
+      1845
+    ],
+    "createdAt": "2023-03-30T11:29:40.247Z"
+  }
+]

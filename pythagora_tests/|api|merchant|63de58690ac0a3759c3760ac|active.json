@@ -1,0 +1,602 @@
+[
+  {
+    "id": "fb9ed701-ceca-4282-8751-b87ab272da79",
+    "endpoint": "/api/merchant/63de58690ac0a3759c3760ac/active",
+    "url": "http://localhost:3000/api/merchant/63de58690ac0a3759c3760ac/active",
+    "body": {
+      "merchant": {
+        "isActive": true
+      }
+    },
+    "method": "PUT",
+    "headers": {
+      "host": "localhost:3000",
+      "connection": "keep-alive",
+      "content-length": "30",
+      "sec-ch-ua": "\"Google Chrome\";v=\"111\", \"Not(A:Brand\";v=\"8\", \"Chromium\";v=\"111\"",
+      "accept": "application/json, text/plain, */*",
+      "content-type": "application/json",
+      "sec-ch-ua-mobile": "?0",
+      "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzZGEzMjI3MDM3ZDE2NmZkNTFjZWYyNCIsImlhdCI6MTY4MDE3NTE2NSwiZXhwIjoxNjgwNzc5OTY1fQ.odXwwZprse2gBPEQtvzkwUln7Nxkbfyh9zojtKIxMa8",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+      "sec-ch-ua-platform": "\"macOS\"",
+      "origin": "http://localhost:3000",
+      "sec-fetch-site": "same-origin",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-dest": "empty",
+      "accept-encoding": "gzip, deflate, br",
+      "accept-language": "en-US,en;q=0.9,hr;q=0.8,bs;q=0.7",
+      "cookie": "Webstorm-a7738556=37894940-6565-40a7-9ec5-b3a59a3f74e6; connect.sid=s%3AYt5uQ-ZhdJwLJja_sd814I2iAKkGpwzM.B%2F%2Btxr1eUYCZhBOzqQOsBsbTR8j%2FZn%2BbD1VFiJBRzAc"
+    },
+    "responseData": "{\"success\":true}",
+    "traceId": 11135,
+    "trace": [],
+    "intermediateData": [
+      {
+        "type": "mongodb",
+        "id": "78bd51f6-01e6-4c8b-93a2-77be323c7644",
+        "preQueryRes": [
+          {
+            "_id": "ObjectId(\"63da3227037d166fd51cef24\")",
+            "merchant": null,
+            "provider": "Email",
+            "role": "ROLE ADMIN",
+            "email": "admin@pythagora.io",
+            "password": "$2a$10$oONswexLk.uMD.x753Ed3e1D1h2zhFdyoRY/ssnIZDw0oppDqUEvK",
+            "firstName": "admin",
+            "lastName": "adminff",
+            "created": "2023-02-01T09:34:31.627Z",
+            "__v": 0,
+            "phoneNumber": "34433455443324",
+            "resetPasswordExpires": "2023-03-30T11:58:38.333Z",
+            "resetPasswordToken": "bf3b42b9ab15984ff9014db6513413b913c075af061c16d8a8efb5193793a5c6a49ab3802b94930cc921207c6cafcee0"
+          }
+        ],
+        "query": {
+          "_id": "ObjectId(\"63da3227037d166fd51cef24\")"
+        },
+        "otherArgs": {},
+        "options": {
+          "projection": {}
+        },
+        "op": "find",
+        "db": "ecomm",
+        "collection": "users",
+        "mongoRes": {
+          "_id": "ObjectId(\"63da3227037d166fd51cef24\")",
+          "merchant": null,
+          "provider": "Email",
+          "role": "ROLE ADMIN",
+          "email": "admin@pythagora.io",
+          "password": "$2a$10$oONswexLk.uMD.x753Ed3e1D1h2zhFdyoRY/ssnIZDw0oppDqUEvK",
+          "firstName": "admin",
+          "lastName": "adminff",
+          "created": "2023-02-01T09:34:31.627Z",
+          "__v": 0,
+          "phoneNumber": "34433455443324",
+          "resetPasswordExpires": "2023-03-30T11:58:38.333Z",
+          "resetPasswordToken": "bf3b42b9ab15984ff9014db6513413b913c075af061c16d8a8efb5193793a5c6a49ab3802b94930cc921207c6cafcee0"
+        },
+        "postQueryRes": [
+          {
+            "_id": "ObjectId(\"63da3227037d166fd51cef24\")",
+            "merchant": null,
+            "provider": "Email",
+            "role": "ROLE ADMIN",
+            "email": "admin@pythagora.io",
+            "password": "$2a$10$oONswexLk.uMD.x753Ed3e1D1h2zhFdyoRY/ssnIZDw0oppDqUEvK",
+            "firstName": "admin",
+            "lastName": "adminff",
+            "created": "2023-02-01T09:34:31.627Z",
+            "__v": 0,
+            "phoneNumber": "34433455443324",
+            "resetPasswordExpires": "2023-03-30T11:58:38.333Z",
+            "resetPasswordToken": "bf3b42b9ab15984ff9014db6513413b913c075af061c16d8a8efb5193793a5c6a49ab3802b94930cc921207c6cafcee0"
+          }
+        ]
+      },
+      {
+        "type": "mongodb",
+        "id": "d948d638-228f-4c50-b90d-2d68ee1225f1",
+        "preQueryRes": [
+          {
+            "_id": "ObjectId(\"63da3227037d166fd51cef24\")",
+            "merchant": null,
+            "provider": "Email",
+            "role": "ROLE ADMIN",
+            "email": "admin@pythagora.io",
+            "password": "$2a$10$oONswexLk.uMD.x753Ed3e1D1h2zhFdyoRY/ssnIZDw0oppDqUEvK",
+            "firstName": "admin",
+            "lastName": "adminff",
+            "created": "2023-02-01T09:34:31.627Z",
+            "__v": 0,
+            "phoneNumber": "34433455443324",
+            "resetPasswordExpires": "2023-03-30T11:58:38.333Z",
+            "resetPasswordToken": "bf3b42b9ab15984ff9014db6513413b913c075af061c16d8a8efb5193793a5c6a49ab3802b94930cc921207c6cafcee0"
+          }
+        ],
+        "query": {
+          "_id": "ObjectId(\"63da3227037d166fd51cef24\")"
+        },
+        "otherArgs": {},
+        "options": {
+          "projection": {}
+        },
+        "op": "findOne",
+        "db": "ecomm",
+        "collection": "users",
+        "mongoRes": {
+          "_id": "ObjectId(\"63da3227037d166fd51cef24\")",
+          "merchant": null,
+          "provider": "Email",
+          "role": "ROLE ADMIN",
+          "email": "admin@pythagora.io",
+          "password": "$2a$10$oONswexLk.uMD.x753Ed3e1D1h2zhFdyoRY/ssnIZDw0oppDqUEvK",
+          "firstName": "admin",
+          "lastName": "adminff",
+          "created": "2023-02-01T09:34:31.627Z",
+          "__v": 0,
+          "phoneNumber": "34433455443324",
+          "resetPasswordExpires": "2023-03-30T11:58:38.333Z",
+          "resetPasswordToken": "bf3b42b9ab15984ff9014db6513413b913c075af061c16d8a8efb5193793a5c6a49ab3802b94930cc921207c6cafcee0"
+        },
+        "postQueryRes": [
+          {
+            "_id": "ObjectId(\"63da3227037d166fd51cef24\")",
+            "merchant": null,
+            "provider": "Email",
+            "role": "ROLE ADMIN",
+            "email": "admin@pythagora.io",
+            "password": "$2a$10$oONswexLk.uMD.x753Ed3e1D1h2zhFdyoRY/ssnIZDw0oppDqUEvK",
+            "firstName": "admin",
+            "lastName": "adminff",
+            "created": "2023-02-01T09:34:31.627Z",
+            "__v": 0,
+            "phoneNumber": "34433455443324",
+            "resetPasswordExpires": "2023-03-30T11:58:38.333Z",
+            "resetPasswordToken": "bf3b42b9ab15984ff9014db6513413b913c075af061c16d8a8efb5193793a5c6a49ab3802b94930cc921207c6cafcee0"
+          }
+        ]
+      },
+      {
+        "type": "mongodb",
+        "id": "fb5b05f9-b2bd-438d-8934-400471a31ce6",
+        "preQueryRes": [
+          {
+            "_id": "ObjectId(\"63de58690ac0a3759c3760ac\")",
+            "isActive": false,
+            "brand": null,
+            "status": "Approved",
+            "name": "asdasd",
+            "email": "asda@asd.com",
+            "business": "dfgdfgdfgsdff",
+            "phoneNumber": "2342342344",
+            "brandName": "sdfsfgd",
+            "created": "2023-02-04T13:06:49.219Z",
+            "__v": 0
+          }
+        ],
+        "query": {
+          "_id": "ObjectId(\"63de58690ac0a3759c3760ac\")"
+        },
+        "otherArgs": {
+          "update": {
+            "$set": {
+              "isActive": true
+            }
+          }
+        },
+        "options": {
+          "upsert": false,
+          "remove": false,
+          "projection": {},
+          "returnDocument": "after"
+        },
+        "op": "findOneAndUpdate",
+        "db": "ecomm",
+        "collection": "merchants",
+        "mongoRes": {
+          "lastErrorObject": {
+            "n": 1,
+            "updatedExisting": true
+          },
+          "value": {
+            "_id": "ObjectId(\"63de58690ac0a3759c3760ac\")",
+            "isActive": true,
+            "brand": null,
+            "status": "Approved",
+            "name": "asdasd",
+            "email": "asda@asd.com",
+            "business": "dfgdfgdfgsdff",
+            "phoneNumber": "2342342344",
+            "brandName": "sdfsfgd",
+            "created": "2023-02-04T13:06:49.219Z",
+            "__v": 0
+          },
+          "ok": 1
+        },
+        "postQueryRes": [
+          {
+            "_id": "ObjectId(\"63de58690ac0a3759c3760ac\")",
+            "isActive": true,
+            "brand": null,
+            "status": "Approved",
+            "name": "asdasd",
+            "email": "asda@asd.com",
+            "business": "dfgdfgdfgsdff",
+            "phoneNumber": "2342342344",
+            "brandName": "sdfsfgd",
+            "created": "2023-02-04T13:06:49.219Z",
+            "__v": 0
+          }
+        ]
+      }
+    ],
+    "query": {},
+    "params": {},
+    "asyncStore": 58,
+    "mongoQueriesCapture": 3,
+    "statusCode": 200,
+    "traceLegacy": [
+      11135
+    ],
+    "createdAt": "2023-03-30T11:21:56.062Z"
+  },
+  {
+    "id": "a7b95fbe-4969-47bd-9864-b25db122c42a",
+    "endpoint": "/api/merchant/63de58690ac0a3759c3760ac/active",
+    "url": "http://localhost:3000/api/merchant/63de58690ac0a3759c3760ac/active",
+    "body": {
+      "merchant": {
+        "isActive": false
+      }
+    },
+    "method": "PUT",
+    "headers": {
+      "host": "localhost:3000",
+      "connection": "keep-alive",
+      "content-length": "31",
+      "sec-ch-ua": "\"Google Chrome\";v=\"111\", \"Not(A:Brand\";v=\"8\", \"Chromium\";v=\"111\"",
+      "accept": "application/json, text/plain, */*",
+      "content-type": "application/json",
+      "sec-ch-ua-mobile": "?0",
+      "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzZGEzMjI3MDM3ZDE2NmZkNTFjZWYyNCIsImlhdCI6MTY4MDE3NTE2NSwiZXhwIjoxNjgwNzc5OTY1fQ.odXwwZprse2gBPEQtvzkwUln7Nxkbfyh9zojtKIxMa8",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+      "sec-ch-ua-platform": "\"macOS\"",
+      "origin": "http://localhost:3000",
+      "sec-fetch-site": "same-origin",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-dest": "empty",
+      "accept-encoding": "gzip, deflate, br",
+      "accept-language": "en-US,en;q=0.9,hr;q=0.8,bs;q=0.7",
+      "cookie": "Webstorm-a7738556=37894940-6565-40a7-9ec5-b3a59a3f74e6; connect.sid=s%3AYt5uQ-ZhdJwLJja_sd814I2iAKkGpwzM.B%2F%2Btxr1eUYCZhBOzqQOsBsbTR8j%2FZn%2BbD1VFiJBRzAc"
+    },
+    "responseData": "{\"success\":true}",
+    "traceId": 11531,
+    "trace": [],
+    "intermediateData": [
+      {
+        "type": "mongodb",
+        "id": "f5ddc185-3483-48aa-b723-5142d476caab",
+        "preQueryRes": [
+          {
+            "_id": "ObjectId(\"63da3227037d166fd51cef24\")",
+            "merchant": null,
+            "provider": "Email",
+            "role": "ROLE ADMIN",
+            "email": "admin@pythagora.io",
+            "password": "$2a$10$oONswexLk.uMD.x753Ed3e1D1h2zhFdyoRY/ssnIZDw0oppDqUEvK",
+            "firstName": "admin",
+            "lastName": "adminff",
+            "created": "2023-02-01T09:34:31.627Z",
+            "__v": 0,
+            "phoneNumber": "34433455443324",
+            "resetPasswordExpires": "2023-03-30T11:58:38.333Z",
+            "resetPasswordToken": "bf3b42b9ab15984ff9014db6513413b913c075af061c16d8a8efb5193793a5c6a49ab3802b94930cc921207c6cafcee0"
+          }
+        ],
+        "query": {
+          "_id": "ObjectId(\"63da3227037d166fd51cef24\")"
+        },
+        "otherArgs": {},
+        "options": {
+          "projection": {}
+        },
+        "op": "find",
+        "db": "ecomm",
+        "collection": "users",
+        "mongoRes": {
+          "_id": "ObjectId(\"63da3227037d166fd51cef24\")",
+          "merchant": null,
+          "provider": "Email",
+          "role": "ROLE ADMIN",
+          "email": "admin@pythagora.io",
+          "password": "$2a$10$oONswexLk.uMD.x753Ed3e1D1h2zhFdyoRY/ssnIZDw0oppDqUEvK",
+          "firstName": "admin",
+          "lastName": "adminff",
+          "created": "2023-02-01T09:34:31.627Z",
+          "__v": 0,
+          "phoneNumber": "34433455443324",
+          "resetPasswordExpires": "2023-03-30T11:58:38.333Z",
+          "resetPasswordToken": "bf3b42b9ab15984ff9014db6513413b913c075af061c16d8a8efb5193793a5c6a49ab3802b94930cc921207c6cafcee0"
+        },
+        "postQueryRes": [
+          {
+            "_id": "ObjectId(\"63da3227037d166fd51cef24\")",
+            "merchant": null,
+            "provider": "Email",
+            "role": "ROLE ADMIN",
+            "email": "admin@pythagora.io",
+            "password": "$2a$10$oONswexLk.uMD.x753Ed3e1D1h2zhFdyoRY/ssnIZDw0oppDqUEvK",
+            "firstName": "admin",
+            "lastName": "adminff",
+            "created": "2023-02-01T09:34:31.627Z",
+            "__v": 0,
+            "phoneNumber": "34433455443324",
+            "resetPasswordExpires": "2023-03-30T11:58:38.333Z",
+            "resetPasswordToken": "bf3b42b9ab15984ff9014db6513413b913c075af061c16d8a8efb5193793a5c6a49ab3802b94930cc921207c6cafcee0"
+          }
+        ]
+      },
+      {
+        "type": "mongodb",
+        "id": "72d1e8d1-5faa-4e69-8294-edab4ff20d9f",
+        "preQueryRes": [
+          {
+            "_id": "ObjectId(\"63da3227037d166fd51cef24\")",
+            "merchant": null,
+            "provider": "Email",
+            "role": "ROLE ADMIN",
+            "email": "admin@pythagora.io",
+            "password": "$2a$10$oONswexLk.uMD.x753Ed3e1D1h2zhFdyoRY/ssnIZDw0oppDqUEvK",
+            "firstName": "admin",
+            "lastName": "adminff",
+            "created": "2023-02-01T09:34:31.627Z",
+            "__v": 0,
+            "phoneNumber": "34433455443324",
+            "resetPasswordExpires": "2023-03-30T11:58:38.333Z",
+            "resetPasswordToken": "bf3b42b9ab15984ff9014db6513413b913c075af061c16d8a8efb5193793a5c6a49ab3802b94930cc921207c6cafcee0"
+          }
+        ],
+        "query": {
+          "_id": "ObjectId(\"63da3227037d166fd51cef24\")"
+        },
+        "otherArgs": {},
+        "options": {
+          "projection": {}
+        },
+        "op": "findOne",
+        "db": "ecomm",
+        "collection": "users",
+        "mongoRes": {
+          "_id": "ObjectId(\"63da3227037d166fd51cef24\")",
+          "merchant": null,
+          "provider": "Email",
+          "role": "ROLE ADMIN",
+          "email": "admin@pythagora.io",
+          "password": "$2a$10$oONswexLk.uMD.x753Ed3e1D1h2zhFdyoRY/ssnIZDw0oppDqUEvK",
+          "firstName": "admin",
+          "lastName": "adminff",
+          "created": "2023-02-01T09:34:31.627Z",
+          "__v": 0,
+          "phoneNumber": "34433455443324",
+          "resetPasswordExpires": "2023-03-30T11:58:38.333Z",
+          "resetPasswordToken": "bf3b42b9ab15984ff9014db6513413b913c075af061c16d8a8efb5193793a5c6a49ab3802b94930cc921207c6cafcee0"
+        },
+        "postQueryRes": [
+          {
+            "_id": "ObjectId(\"63da3227037d166fd51cef24\")",
+            "merchant": null,
+            "provider": "Email",
+            "role": "ROLE ADMIN",
+            "email": "admin@pythagora.io",
+            "password": "$2a$10$oONswexLk.uMD.x753Ed3e1D1h2zhFdyoRY/ssnIZDw0oppDqUEvK",
+            "firstName": "admin",
+            "lastName": "adminff",
+            "created": "2023-02-01T09:34:31.627Z",
+            "__v": 0,
+            "phoneNumber": "34433455443324",
+            "resetPasswordExpires": "2023-03-30T11:58:38.333Z",
+            "resetPasswordToken": "bf3b42b9ab15984ff9014db6513413b913c075af061c16d8a8efb5193793a5c6a49ab3802b94930cc921207c6cafcee0"
+          }
+        ]
+      },
+      {
+        "type": "mongodb",
+        "id": "be3c3e9d-388a-4f1f-8c1b-4070b877986d",
+        "preQueryRes": [
+          {
+            "_id": "ObjectId(\"63de58690ac0a3759c3760ac\")",
+            "isActive": true,
+            "brand": null,
+            "status": "Approved",
+            "name": "asdasd",
+            "email": "asda@asd.com",
+            "business": "dfgdfgdfgsdff",
+            "phoneNumber": "2342342344",
+            "brandName": "sdfsfgd",
+            "created": "2023-02-04T13:06:49.219Z",
+            "__v": 0
+          }
+        ],
+        "query": {
+          "_id": "ObjectId(\"63de58690ac0a3759c3760ac\")"
+        },
+        "otherArgs": {
+          "update": {
+            "$set": {
+              "isActive": false
+            }
+          }
+        },
+        "options": {
+          "upsert": false,
+          "remove": false,
+          "projection": {},
+          "returnDocument": "after"
+        },
+        "op": "findOneAndUpdate",
+        "db": "ecomm",
+        "collection": "merchants",
+        "mongoRes": {
+          "lastErrorObject": {
+            "n": 1,
+            "updatedExisting": true
+          },
+          "value": {
+            "_id": "ObjectId(\"63de58690ac0a3759c3760ac\")",
+            "isActive": false,
+            "brand": null,
+            "status": "Approved",
+            "name": "asdasd",
+            "email": "asda@asd.com",
+            "business": "dfgdfgdfgsdff",
+            "phoneNumber": "2342342344",
+            "brandName": "sdfsfgd",
+            "created": "2023-02-04T13:06:49.219Z",
+            "__v": 0
+          },
+          "ok": 1
+        },
+        "postQueryRes": [
+          {
+            "_id": "ObjectId(\"63de58690ac0a3759c3760ac\")",
+            "isActive": false,
+            "brand": null,
+            "status": "Approved",
+            "name": "asdasd",
+            "email": "asda@asd.com",
+            "business": "dfgdfgdfgsdff",
+            "phoneNumber": "2342342344",
+            "brandName": "sdfsfgd",
+            "created": "2023-02-04T13:06:49.219Z",
+            "__v": 0
+          }
+        ]
+      },
+      {
+        "type": "mongodb",
+        "id": "1b09207f-71c9-4615-b035-328dbe4f8d64",
+        "preQueryRes": [
+          {
+            "_id": "ObjectId(\"63de58690ac0a3759c3760ac\")",
+            "isActive": false,
+            "brand": null,
+            "status": "Approved",
+            "name": "asdasd",
+            "email": "asda@asd.com",
+            "business": "dfgdfgdfgsdff",
+            "phoneNumber": "2342342344",
+            "brandName": "sdfsfgd",
+            "created": "2023-02-04T13:06:49.219Z",
+            "__v": 0
+          }
+        ],
+        "query": {
+          "_id": "ObjectId(\"63de58690ac0a3759c3760ac\")"
+        },
+        "otherArgs": {},
+        "options": {
+          "projection": {}
+        },
+        "op": "find",
+        "db": "ecomm",
+        "collection": "merchants",
+        "mongoRes": {
+          "_id": "ObjectId(\"63de58690ac0a3759c3760ac\")",
+          "isActive": false,
+          "brand": null,
+          "status": "Approved",
+          "name": "asdasd",
+          "email": "asda@asd.com",
+          "business": "dfgdfgdfgsdff",
+          "phoneNumber": "2342342344",
+          "brandName": "sdfsfgd",
+          "created": "2023-02-04T13:06:49.219Z",
+          "__v": 0
+        },
+        "postQueryRes": [
+          {
+            "_id": "ObjectId(\"63de58690ac0a3759c3760ac\")",
+            "isActive": false,
+            "brand": null,
+            "status": "Approved",
+            "name": "asdasd",
+            "email": "asda@asd.com",
+            "business": "dfgdfgdfgsdff",
+            "phoneNumber": "2342342344",
+            "brandName": "sdfsfgd",
+            "created": "2023-02-04T13:06:49.219Z",
+            "__v": 0
+          }
+        ]
+      },
+      {
+        "type": "mongodb",
+        "id": "8d30ae3f-a080-4d3c-ad48-666889350697",
+        "preQueryRes": [
+          {
+            "_id": "ObjectId(\"63de58690ac0a3759c3760ac\")",
+            "isActive": false,
+            "brand": null,
+            "status": "Approved",
+            "name": "asdasd",
+            "email": "asda@asd.com",
+            "business": "dfgdfgdfgsdff",
+            "phoneNumber": "2342342344",
+            "brandName": "sdfsfgd",
+            "created": "2023-02-04T13:06:49.219Z",
+            "__v": 0
+          }
+        ],
+        "query": {
+          "_id": "ObjectId(\"63de58690ac0a3759c3760ac\")"
+        },
+        "otherArgs": {},
+        "options": {
+          "projection": {}
+        },
+        "op": "findOne",
+        "db": "ecomm",
+        "collection": "merchants",
+        "mongoRes": {
+          "_id": "ObjectId(\"63de58690ac0a3759c3760ac\")",
+          "isActive": false,
+          "brand": null,
+          "status": "Approved",
+          "name": "asdasd",
+          "email": "asda@asd.com",
+          "business": "dfgdfgdfgsdff",
+          "phoneNumber": "2342342344",
+          "brandName": "sdfsfgd",
+          "created": "2023-02-04T13:06:49.219Z",
+          "__v": 0
+        },
+        "postQueryRes": [
+          {
+            "_id": "ObjectId(\"63de58690ac0a3759c3760ac\")",
+            "isActive": false,
+            "brand": null,
+            "status": "Approved",
+            "name": "asdasd",
+            "email": "asda@asd.com",
+            "business": "dfgdfgdfgsdff",
+            "phoneNumber": "2342342344",
+            "brandName": "sdfsfgd",
+            "created": "2023-02-04T13:06:49.219Z",
+            "__v": 0
+          }
+        ]
+      }
+    ],
+    "query": {},
+    "params": {},
+    "asyncStore": 60,
+    "mongoQueriesCapture": 5,
+    "statusCode": 200,
+    "traceLegacy": [
+      11531
+    ],
+    "createdAt": "2023-03-30T11:21:59.324Z"
+  }
+]

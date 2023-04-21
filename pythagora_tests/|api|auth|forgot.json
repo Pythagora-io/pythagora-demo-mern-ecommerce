@@ -1,0 +1,152 @@
+[
+  {
+    "id": "2db3dfd9-a111-4ae1-ba97-5545256a8c88",
+    "endpoint": "/api/auth/forgot",
+    "url": "http://localhost:3000/api/auth/forgot",
+    "body": {
+      "email": "zvonimir@pythagora.io"
+    },
+    "method": "POST",
+    "headers": {
+      "host": "localhost:3000",
+      "connection": "keep-alive",
+      "content-length": "33",
+      "sec-ch-ua": "\"Google Chrome\";v=\"111\", \"Not(A:Brand\";v=\"8\", \"Chromium\";v=\"111\"",
+      "accept": "application/json, text/plain, */*",
+      "content-type": "application/json",
+      "sec-ch-ua-mobile": "?0",
+      "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MjU2ZDljNDA4NzgzMzE0NGQ3MWMxNiIsImlhdCI6MTY4MDE3NDU0MiwiZXhwIjoxNjgwNzc5MzQyfQ.hy-D-AdsWSuUg3f1CH03FBHQFMFtwmklRwDCckvbzHk",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+      "sec-ch-ua-platform": "\"macOS\"",
+      "origin": "http://localhost:3000",
+      "sec-fetch-site": "same-origin",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-dest": "empty",
+      "accept-encoding": "gzip, deflate, br",
+      "accept-language": "en-US,en;q=0.9,hr;q=0.8,bs;q=0.7",
+      "cookie": "Webstorm-a7738556=37894940-6565-40a7-9ec5-b3a59a3f74e6; connect.sid=s%3AYt5uQ-ZhdJwLJja_sd814I2iAKkGpwzM.B%2F%2Btxr1eUYCZhBOzqQOsBsbTR8j%2FZn%2BbD1VFiJBRzAc"
+    },
+    "responseData": "{\"success\":true,\"message\":\"Please check your email for the link to reset your password.\"}",
+    "traceId": 5095,
+    "trace": [],
+    "intermediateData": [
+      {
+        "type": "mongodb",
+        "id": "60384dab-a9b7-4b21-9a4b-1c42e262b6a0",
+        "preQueryRes": [
+          {
+            "_id": "ObjectId(\"64256d9c4087833144d71c16\")",
+            "merchant": null,
+            "provider": "Email",
+            "role": "ROLE MEMBER",
+            "email": "zvonimir@pythagora.io",
+            "password": "$2a$10$q.qSwsVDSfInrPD75DS5K.SITdtmOaDU6ph8KPggOKazK2jnoPOya",
+            "firstName": "asdasd",
+            "lastName": "asdasd",
+            "created": "2023-03-30T11:08:12.608Z",
+            "__v": 0
+          }
+        ],
+        "query": {
+          "email": "zvonimir@pythagora.io"
+        },
+        "otherArgs": {},
+        "options": {
+          "projection": {}
+        },
+        "op": "find",
+        "db": "ecomm",
+        "collection": "users",
+        "mongoRes": {
+          "_id": "ObjectId(\"64256d9c4087833144d71c16\")",
+          "merchant": null,
+          "provider": "Email",
+          "role": "ROLE MEMBER",
+          "email": "zvonimir@pythagora.io",
+          "password": "$2a$10$q.qSwsVDSfInrPD75DS5K.SITdtmOaDU6ph8KPggOKazK2jnoPOya",
+          "firstName": "asdasd",
+          "lastName": "asdasd",
+          "created": "2023-03-30T11:08:12.608Z",
+          "__v": 0
+        },
+        "postQueryRes": [
+          {
+            "_id": "ObjectId(\"64256d9c4087833144d71c16\")",
+            "merchant": null,
+            "provider": "Email",
+            "role": "ROLE MEMBER",
+            "email": "zvonimir@pythagora.io",
+            "password": "$2a$10$q.qSwsVDSfInrPD75DS5K.SITdtmOaDU6ph8KPggOKazK2jnoPOya",
+            "firstName": "asdasd",
+            "lastName": "asdasd",
+            "created": "2023-03-30T11:08:12.608Z",
+            "__v": 0
+          }
+        ]
+      },
+      {
+        "type": "mongodb",
+        "id": "88c38610-967e-42f7-bb02-a841565caefa",
+        "preQueryRes": [
+          {
+            "_id": "ObjectId(\"64256d9c4087833144d71c16\")",
+            "merchant": null,
+            "provider": "Email",
+            "role": "ROLE MEMBER",
+            "email": "zvonimir@pythagora.io",
+            "password": "$2a$10$q.qSwsVDSfInrPD75DS5K.SITdtmOaDU6ph8KPggOKazK2jnoPOya",
+            "firstName": "asdasd",
+            "lastName": "asdasd",
+            "created": "2023-03-30T11:08:12.608Z",
+            "__v": 0
+          }
+        ],
+        "query": {
+          "email": "zvonimir@pythagora.io"
+        },
+        "otherArgs": {},
+        "options": {
+          "projection": {}
+        },
+        "op": "findOne",
+        "db": "ecomm",
+        "collection": "users",
+        "mongoRes": {
+          "_id": "ObjectId(\"64256d9c4087833144d71c16\")",
+          "merchant": null,
+          "provider": "Email",
+          "role": "ROLE MEMBER",
+          "email": "zvonimir@pythagora.io",
+          "password": "$2a$10$q.qSwsVDSfInrPD75DS5K.SITdtmOaDU6ph8KPggOKazK2jnoPOya",
+          "firstName": "asdasd",
+          "lastName": "asdasd",
+          "created": "2023-03-30T11:08:12.608Z",
+          "__v": 0
+        },
+        "postQueryRes": [
+          {
+            "_id": "ObjectId(\"64256d9c4087833144d71c16\")",
+            "merchant": null,
+            "provider": "Email",
+            "role": "ROLE MEMBER",
+            "email": "zvonimir@pythagora.io",
+            "password": "$2a$10$q.qSwsVDSfInrPD75DS5K.SITdtmOaDU6ph8KPggOKazK2jnoPOya",
+            "firstName": "asdasd",
+            "lastName": "asdasd",
+            "created": "2023-03-30T11:08:12.608Z",
+            "__v": 0
+          }
+        ]
+      }
+    ],
+    "query": {},
+    "params": {},
+    "asyncStore": 32,
+    "mongoQueriesCapture": 2,
+    "statusCode": 200,
+    "traceLegacy": [
+      5095
+    ],
+    "createdAt": "2023-03-30T11:10:57.031Z"
+  }
+]

@@ -1,0 +1,1445 @@
+[
+  {
+    "id": "9ac2995a-8a52-42f9-991b-cea537929655",
+    "endpoint": "/api/address",
+    "url": "http://localhost:3000/api/address",
+    "body": {},
+    "method": "GET",
+    "headers": {
+      "host": "localhost:3000",
+      "connection": "keep-alive",
+      "sec-ch-ua": "\"Google Chrome\";v=\"111\", \"Not(A:Brand\";v=\"8\", \"Chromium\";v=\"111\"",
+      "accept": "application/json, text/plain, */*",
+      "sec-ch-ua-mobile": "?0",
+      "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MjU2ZDljNDA4NzgzMzE0NGQ3MWMxNiIsImlhdCI6MTY4MDE3NDU0MiwiZXhwIjoxNjgwNzc5MzQyfQ.hy-D-AdsWSuUg3f1CH03FBHQFMFtwmklRwDCckvbzHk",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+      "sec-ch-ua-platform": "\"macOS\"",
+      "sec-fetch-site": "same-origin",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-dest": "empty",
+      "accept-encoding": "gzip, deflate, br",
+      "accept-language": "en-US,en;q=0.9,hr;q=0.8,bs;q=0.7",
+      "cookie": "Webstorm-a7738556=37894940-6565-40a7-9ec5-b3a59a3f74e6; connect.sid=s%3AYt5uQ-ZhdJwLJja_sd814I2iAKkGpwzM.B%2F%2Btxr1eUYCZhBOzqQOsBsbTR8j%2FZn%2BbD1VFiJBRzAc",
+      "if-none-match": "W/\"10-z8s30gUcHSmz1h6OYqMmLdVtgfI\""
+    },
+    "responseData": "{\"addresses\":[]}",
+    "traceId": 2100,
+    "trace": [],
+    "intermediateData": [
+      {
+        "type": "mongodb",
+        "id": "0b3873e2-a378-45b9-98a2-738a3f819d8b",
+        "preQueryRes": [
+          {
+            "_id": "ObjectId(\"64256d9c4087833144d71c16\")",
+            "merchant": null,
+            "provider": "Email",
+            "role": "ROLE MEMBER",
+            "email": "zvonimir@pythagora.io",
+            "password": "$2a$10$q.qSwsVDSfInrPD75DS5K.SITdtmOaDU6ph8KPggOKazK2jnoPOya",
+            "firstName": "asdasd",
+            "lastName": "asdasd",
+            "created": "2023-03-30T11:08:12.608Z",
+            "__v": 0
+          }
+        ],
+        "query": {
+          "_id": "ObjectId(\"64256d9c4087833144d71c16\")"
+        },
+        "otherArgs": {},
+        "options": {
+          "projection": {}
+        },
+        "op": "find",
+        "db": "ecomm",
+        "collection": "users",
+        "mongoRes": {
+          "_id": "ObjectId(\"64256d9c4087833144d71c16\")",
+          "merchant": null,
+          "provider": "Email",
+          "role": "ROLE MEMBER",
+          "email": "zvonimir@pythagora.io",
+          "password": "$2a$10$q.qSwsVDSfInrPD75DS5K.SITdtmOaDU6ph8KPggOKazK2jnoPOya",
+          "firstName": "asdasd",
+          "lastName": "asdasd",
+          "created": "2023-03-30T11:08:12.608Z",
+          "__v": 0
+        },
+        "postQueryRes": [
+          {
+            "_id": "ObjectId(\"64256d9c4087833144d71c16\")",
+            "merchant": null,
+            "provider": "Email",
+            "role": "ROLE MEMBER",
+            "email": "zvonimir@pythagora.io",
+            "password": "$2a$10$q.qSwsVDSfInrPD75DS5K.SITdtmOaDU6ph8KPggOKazK2jnoPOya",
+            "firstName": "asdasd",
+            "lastName": "asdasd",
+            "created": "2023-03-30T11:08:12.608Z",
+            "__v": 0
+          }
+        ]
+      },
+      {
+        "type": "mongodb",
+        "id": "3b4bbb76-1148-44de-a89a-b58c47bcfdd1",
+        "preQueryRes": [
+          {
+            "_id": "ObjectId(\"64256d9c4087833144d71c16\")",
+            "merchant": null,
+            "provider": "Email",
+            "role": "ROLE MEMBER",
+            "email": "zvonimir@pythagora.io",
+            "password": "$2a$10$q.qSwsVDSfInrPD75DS5K.SITdtmOaDU6ph8KPggOKazK2jnoPOya",
+            "firstName": "asdasd",
+            "lastName": "asdasd",
+            "created": "2023-03-30T11:08:12.608Z",
+            "__v": 0
+          }
+        ],
+        "query": {
+          "_id": "ObjectId(\"64256d9c4087833144d71c16\")"
+        },
+        "otherArgs": {},
+        "options": {
+          "projection": {}
+        },
+        "op": "findOne",
+        "db": "ecomm",
+        "collection": "users",
+        "mongoRes": {
+          "_id": "ObjectId(\"64256d9c4087833144d71c16\")",
+          "merchant": null,
+          "provider": "Email",
+          "role": "ROLE MEMBER",
+          "email": "zvonimir@pythagora.io",
+          "password": "$2a$10$q.qSwsVDSfInrPD75DS5K.SITdtmOaDU6ph8KPggOKazK2jnoPOya",
+          "firstName": "asdasd",
+          "lastName": "asdasd",
+          "created": "2023-03-30T11:08:12.608Z",
+          "__v": 0
+        },
+        "postQueryRes": [
+          {
+            "_id": "ObjectId(\"64256d9c4087833144d71c16\")",
+            "merchant": null,
+            "provider": "Email",
+            "role": "ROLE MEMBER",
+            "email": "zvonimir@pythagora.io",
+            "password": "$2a$10$q.qSwsVDSfInrPD75DS5K.SITdtmOaDU6ph8KPggOKazK2jnoPOya",
+            "firstName": "asdasd",
+            "lastName": "asdasd",
+            "created": "2023-03-30T11:08:12.608Z",
+            "__v": 0
+          }
+        ]
+      },
+      {
+        "type": "mongodb",
+        "id": "e26a808a-f546-4764-9c4e-15727d67d093",
+        "preQueryRes": [],
+        "query": {
+          "user": "ObjectId(\"64256d9c4087833144d71c16\")"
+        },
+        "otherArgs": {},
+        "options": {
+          "projection": {}
+        },
+        "op": "find",
+        "db": "ecomm",
+        "collection": "addresses",
+        "mongoRes": [],
+        "postQueryRes": []
+      }
+    ],
+    "query": {},
+    "params": {},
+    "asyncStore": 10,
+    "mongoQueriesCapture": 3,
+    "statusCode": 200,
+    "traceLegacy": [
+      2100
+    ],
+    "createdAt": "2023-03-30T11:09:22.277Z"
+  },
+  {
+    "id": "59a745f3-53da-48df-b1a3-53f402d7e249",
+    "endpoint": "/api/address",
+    "url": "http://localhost:3000/api/address",
+    "body": {},
+    "method": "GET",
+    "headers": {
+      "host": "localhost:3000",
+      "connection": "keep-alive",
+      "sec-ch-ua": "\"Google Chrome\";v=\"111\", \"Not(A:Brand\";v=\"8\", \"Chromium\";v=\"111\"",
+      "accept": "application/json, text/plain, */*",
+      "sec-ch-ua-mobile": "?0",
+      "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MjU2ZDljNDA4NzgzMzE0NGQ3MWMxNiIsImlhdCI6MTY4MDE3NDU0MiwiZXhwIjoxNjgwNzc5MzQyfQ.hy-D-AdsWSuUg3f1CH03FBHQFMFtwmklRwDCckvbzHk",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+      "sec-ch-ua-platform": "\"macOS\"",
+      "sec-fetch-site": "same-origin",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-dest": "empty",
+      "accept-encoding": "gzip, deflate, br",
+      "accept-language": "en-US,en;q=0.9,hr;q=0.8,bs;q=0.7",
+      "cookie": "Webstorm-a7738556=37894940-6565-40a7-9ec5-b3a59a3f74e6; connect.sid=s%3AYt5uQ-ZhdJwLJja_sd814I2iAKkGpwzM.B%2F%2Btxr1eUYCZhBOzqQOsBsbTR8j%2FZn%2BbD1VFiJBRzAc",
+      "if-none-match": "W/\"10-z8s30gUcHSmz1h6OYqMmLdVtgfI\""
+    },
+    "responseData": "{\"addresses\":[{\"isDefault\":true,\"_id\":\"64256deb4087833144d71c25\",\"address\":\"asasd\",\"city\":\"asdasd\",\"state\":\"asdasd\",\"country\":\"asdasd\",\"zipCode\":\"12312\",\"user\":\"64256d9c4087833144d71c16\",\"created\":\"2023-03-30T11:09:31.416Z\",\"__v\":0}]}",
+    "traceId": 2276,
+    "trace": [],
+    "intermediateData": [
+      {
+        "type": "mongodb",
+        "id": "984f4a0a-84e9-42fd-8277-286fc561f1ae",
+        "preQueryRes": [
+          {
+            "_id": "ObjectId(\"64256d9c4087833144d71c16\")",
+            "merchant": null,
+            "provider": "Email",
+            "role": "ROLE MEMBER",
+            "email": "zvonimir@pythagora.io",
+            "password": "$2a$10$q.qSwsVDSfInrPD75DS5K.SITdtmOaDU6ph8KPggOKazK2jnoPOya",
+            "firstName": "asdasd",
+            "lastName": "asdasd",
+            "created": "2023-03-30T11:08:12.608Z",
+            "__v": 0
+          }
+        ],
+        "query": {
+          "_id": "ObjectId(\"64256d9c4087833144d71c16\")"
+        },
+        "otherArgs": {},
+        "options": {
+          "projection": {}
+        },
+        "op": "find",
+        "db": "ecomm",
+        "collection": "users",
+        "mongoRes": {
+          "_id": "ObjectId(\"64256d9c4087833144d71c16\")",
+          "merchant": null,
+          "provider": "Email",
+          "role": "ROLE MEMBER",
+          "email": "zvonimir@pythagora.io",
+          "password": "$2a$10$q.qSwsVDSfInrPD75DS5K.SITdtmOaDU6ph8KPggOKazK2jnoPOya",
+          "firstName": "asdasd",
+          "lastName": "asdasd",
+          "created": "2023-03-30T11:08:12.608Z",
+          "__v": 0
+        },
+        "postQueryRes": [
+          {
+            "_id": "ObjectId(\"64256d9c4087833144d71c16\")",
+            "merchant": null,
+            "provider": "Email",
+            "role": "ROLE MEMBER",
+            "email": "zvonimir@pythagora.io",
+            "password": "$2a$10$q.qSwsVDSfInrPD75DS5K.SITdtmOaDU6ph8KPggOKazK2jnoPOya",
+            "firstName": "asdasd",
+            "lastName": "asdasd",
+            "created": "2023-03-30T11:08:12.608Z",
+            "__v": 0
+          }
+        ]
+      },
+      {
+        "type": "mongodb",
+        "id": "f463fedc-5305-4e45-bea5-e5a99bb0f527",
+        "preQueryRes": [
+          {
+            "_id": "ObjectId(\"64256d9c4087833144d71c16\")",
+            "merchant": null,
+            "provider": "Email",
+            "role": "ROLE MEMBER",
+            "email": "zvonimir@pythagora.io",
+            "password": "$2a$10$q.qSwsVDSfInrPD75DS5K.SITdtmOaDU6ph8KPggOKazK2jnoPOya",
+            "firstName": "asdasd",
+            "lastName": "asdasd",
+            "created": "2023-03-30T11:08:12.608Z",
+            "__v": 0
+          }
+        ],
+        "query": {
+          "_id": "ObjectId(\"64256d9c4087833144d71c16\")"
+        },
+        "otherArgs": {},
+        "options": {
+          "projection": {}
+        },
+        "op": "findOne",
+        "db": "ecomm",
+        "collection": "users",
+        "mongoRes": {
+          "_id": "ObjectId(\"64256d9c4087833144d71c16\")",
+          "merchant": null,
+          "provider": "Email",
+          "role": "ROLE MEMBER",
+          "email": "zvonimir@pythagora.io",
+          "password": "$2a$10$q.qSwsVDSfInrPD75DS5K.SITdtmOaDU6ph8KPggOKazK2jnoPOya",
+          "firstName": "asdasd",
+          "lastName": "asdasd",
+          "created": "2023-03-30T11:08:12.608Z",
+          "__v": 0
+        },
+        "postQueryRes": [
+          {
+            "_id": "ObjectId(\"64256d9c4087833144d71c16\")",
+            "merchant": null,
+            "provider": "Email",
+            "role": "ROLE MEMBER",
+            "email": "zvonimir@pythagora.io",
+            "password": "$2a$10$q.qSwsVDSfInrPD75DS5K.SITdtmOaDU6ph8KPggOKazK2jnoPOya",
+            "firstName": "asdasd",
+            "lastName": "asdasd",
+            "created": "2023-03-30T11:08:12.608Z",
+            "__v": 0
+          }
+        ]
+      },
+      {
+        "type": "mongodb",
+        "id": "4838ea7d-8a65-4360-9a6d-54dd67d5021d",
+        "preQueryRes": [
+          {
+            "_id": "ObjectId(\"64256deb4087833144d71c25\")",
+            "isDefault": true,
+            "address": "asasd",
+            "city": "asdasd",
+            "state": "asdasd",
+            "country": "asdasd",
+            "zipCode": "12312",
+            "user": "ObjectId(\"64256d9c4087833144d71c16\")",
+            "created": "2023-03-30T11:09:31.416Z",
+            "__v": 0
+          }
+        ],
+        "query": {
+          "user": "ObjectId(\"64256d9c4087833144d71c16\")"
+        },
+        "otherArgs": {},
+        "options": {
+          "projection": {}
+        },
+        "op": "find",
+        "db": "ecomm",
+        "collection": "addresses",
+        "mongoRes": [
+          {
+            "_id": "ObjectId(\"64256deb4087833144d71c25\")",
+            "isDefault": true,
+            "address": "asasd",
+            "city": "asdasd",
+            "state": "asdasd",
+            "country": "asdasd",
+            "zipCode": "12312",
+            "user": "ObjectId(\"64256d9c4087833144d71c16\")",
+            "created": "2023-03-30T11:09:31.416Z",
+            "__v": 0
+          }
+        ],
+        "postQueryRes": [
+          {
+            "_id": "ObjectId(\"64256deb4087833144d71c25\")",
+            "isDefault": true,
+            "address": "asasd",
+            "city": "asdasd",
+            "state": "asdasd",
+            "country": "asdasd",
+            "zipCode": "12312",
+            "user": "ObjectId(\"64256d9c4087833144d71c16\")",
+            "created": "2023-03-30T11:09:31.416Z",
+            "__v": 0
+          }
+        ]
+      }
+    ],
+    "query": {},
+    "params": {},
+    "asyncStore": 12,
+    "mongoQueriesCapture": 3,
+    "statusCode": 200,
+    "traceLegacy": [
+      2276
+    ],
+    "createdAt": "2023-03-30T11:09:31.464Z"
+  },
+  {
+    "id": "047602a1-4d5b-4eec-a438-8fd7a743aeb7",
+    "endpoint": "/api/address",
+    "url": "http://localhost:3000/api/address",
+    "body": {},
+    "method": "GET",
+    "headers": {
+      "host": "localhost:3000",
+      "connection": "keep-alive",
+      "sec-ch-ua": "\"Google Chrome\";v=\"111\", \"Not(A:Brand\";v=\"8\", \"Chromium\";v=\"111\"",
+      "accept": "application/json, text/plain, */*",
+      "sec-ch-ua-mobile": "?0",
+      "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MjU2ZDljNDA4NzgzMzE0NGQ3MWMxNiIsImlhdCI6MTY4MDE3NDU0MiwiZXhwIjoxNjgwNzc5MzQyfQ.hy-D-AdsWSuUg3f1CH03FBHQFMFtwmklRwDCckvbzHk",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+      "sec-ch-ua-platform": "\"macOS\"",
+      "sec-fetch-site": "same-origin",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-dest": "empty",
+      "accept-encoding": "gzip, deflate, br",
+      "accept-language": "en-US,en;q=0.9,hr;q=0.8,bs;q=0.7",
+      "cookie": "Webstorm-a7738556=37894940-6565-40a7-9ec5-b3a59a3f74e6; connect.sid=s%3AYt5uQ-ZhdJwLJja_sd814I2iAKkGpwzM.B%2F%2Btxr1eUYCZhBOzqQOsBsbTR8j%2FZn%2BbD1VFiJBRzAc",
+      "if-none-match": "W/\"ea-CCbnqe+g8TcD1Ss/jZS70IKL1oo\""
+    },
+    "responseData": "{\"addresses\":[{\"isDefault\":true,\"_id\":\"64256deb4087833144d71c25\",\"address\":\"asasdasd\",\"city\":\"asdasd\",\"state\":\"asdasd\",\"country\":\"asdasd\",\"zipCode\":\"12312\",\"user\":\"64256d9c4087833144d71c16\",\"created\":\"2023-03-30T11:09:31.416Z\",\"__v\":0}]}",
+    "traceId": 2276,
+    "trace": [],
+    "intermediateData": [
+      {
+        "type": "mongodb",
+        "id": "d245e313-cb5d-4e4e-b5d6-db7964bc0980",
+        "preQueryRes": [
+          {
+            "_id": "ObjectId(\"64256d9c4087833144d71c16\")",
+            "merchant": null,
+            "provider": "Email",
+            "role": "ROLE MEMBER",
+            "email": "zvonimir@pythagora.io",
+            "password": "$2a$10$q.qSwsVDSfInrPD75DS5K.SITdtmOaDU6ph8KPggOKazK2jnoPOya",
+            "firstName": "asdasd",
+            "lastName": "asdasd",
+            "created": "2023-03-30T11:08:12.608Z",
+            "__v": 0
+          }
+        ],
+        "query": {
+          "_id": "ObjectId(\"64256d9c4087833144d71c16\")"
+        },
+        "otherArgs": {},
+        "options": {
+          "projection": {}
+        },
+        "op": "find",
+        "db": "ecomm",
+        "collection": "users",
+        "mongoRes": {
+          "_id": "ObjectId(\"64256d9c4087833144d71c16\")",
+          "merchant": null,
+          "provider": "Email",
+          "role": "ROLE MEMBER",
+          "email": "zvonimir@pythagora.io",
+          "password": "$2a$10$q.qSwsVDSfInrPD75DS5K.SITdtmOaDU6ph8KPggOKazK2jnoPOya",
+          "firstName": "asdasd",
+          "lastName": "asdasd",
+          "created": "2023-03-30T11:08:12.608Z",
+          "__v": 0
+        },
+        "postQueryRes": [
+          {
+            "_id": "ObjectId(\"64256d9c4087833144d71c16\")",
+            "merchant": null,
+            "provider": "Email",
+            "role": "ROLE MEMBER",
+            "email": "zvonimir@pythagora.io",
+            "password": "$2a$10$q.qSwsVDSfInrPD75DS5K.SITdtmOaDU6ph8KPggOKazK2jnoPOya",
+            "firstName": "asdasd",
+            "lastName": "asdasd",
+            "created": "2023-03-30T11:08:12.608Z",
+            "__v": 0
+          }
+        ]
+      },
+      {
+        "type": "mongodb",
+        "id": "c7e6dbf4-4655-4666-bfa8-644493342cf8",
+        "preQueryRes": [
+          {
+            "_id": "ObjectId(\"64256d9c4087833144d71c16\")",
+            "merchant": null,
+            "provider": "Email",
+            "role": "ROLE MEMBER",
+            "email": "zvonimir@pythagora.io",
+            "password": "$2a$10$q.qSwsVDSfInrPD75DS5K.SITdtmOaDU6ph8KPggOKazK2jnoPOya",
+            "firstName": "asdasd",
+            "lastName": "asdasd",
+            "created": "2023-03-30T11:08:12.608Z",
+            "__v": 0
+          }
+        ],
+        "query": {
+          "_id": "ObjectId(\"64256d9c4087833144d71c16\")"
+        },
+        "otherArgs": {},
+        "options": {
+          "projection": {}
+        },
+        "op": "findOne",
+        "db": "ecomm",
+        "collection": "users",
+        "mongoRes": {
+          "_id": "ObjectId(\"64256d9c4087833144d71c16\")",
+          "merchant": null,
+          "provider": "Email",
+          "role": "ROLE MEMBER",
+          "email": "zvonimir@pythagora.io",
+          "password": "$2a$10$q.qSwsVDSfInrPD75DS5K.SITdtmOaDU6ph8KPggOKazK2jnoPOya",
+          "firstName": "asdasd",
+          "lastName": "asdasd",
+          "created": "2023-03-30T11:08:12.608Z",
+          "__v": 0
+        },
+        "postQueryRes": [
+          {
+            "_id": "ObjectId(\"64256d9c4087833144d71c16\")",
+            "merchant": null,
+            "provider": "Email",
+            "role": "ROLE MEMBER",
+            "email": "zvonimir@pythagora.io",
+            "password": "$2a$10$q.qSwsVDSfInrPD75DS5K.SITdtmOaDU6ph8KPggOKazK2jnoPOya",
+            "firstName": "asdasd",
+            "lastName": "asdasd",
+            "created": "2023-03-30T11:08:12.608Z",
+            "__v": 0
+          }
+        ]
+      },
+      {
+        "type": "mongodb",
+        "id": "4cbbd9fb-362d-4403-bfe1-826a481f4ec9",
+        "preQueryRes": [
+          {
+            "_id": "ObjectId(\"64256deb4087833144d71c25\")",
+            "isDefault": true,
+            "address": "asasdasd",
+            "city": "asdasd",
+            "state": "asdasd",
+            "country": "asdasd",
+            "zipCode": "12312",
+            "user": "ObjectId(\"64256d9c4087833144d71c16\")",
+            "created": "2023-03-30T11:09:31.416Z",
+            "__v": 0
+          }
+        ],
+        "query": {
+          "user": "ObjectId(\"64256d9c4087833144d71c16\")"
+        },
+        "otherArgs": {},
+        "options": {
+          "projection": {}
+        },
+        "op": "find",
+        "db": "ecomm",
+        "collection": "addresses",
+        "mongoRes": [
+          {
+            "_id": "ObjectId(\"64256deb4087833144d71c25\")",
+            "isDefault": true,
+            "address": "asasdasd",
+            "city": "asdasd",
+            "state": "asdasd",
+            "country": "asdasd",
+            "zipCode": "12312",
+            "user": "ObjectId(\"64256d9c4087833144d71c16\")",
+            "created": "2023-03-30T11:09:31.416Z",
+            "__v": 0
+          }
+        ],
+        "postQueryRes": [
+          {
+            "_id": "ObjectId(\"64256deb4087833144d71c25\")",
+            "isDefault": true,
+            "address": "asasdasd",
+            "city": "asdasd",
+            "state": "asdasd",
+            "country": "asdasd",
+            "zipCode": "12312",
+            "user": "ObjectId(\"64256d9c4087833144d71c16\")",
+            "created": "2023-03-30T11:09:31.416Z",
+            "__v": 0
+          }
+        ]
+      }
+    ],
+    "query": {},
+    "params": {},
+    "asyncStore": 15,
+    "mongoQueriesCapture": 3,
+    "statusCode": 200,
+    "traceLegacy": [
+      2276
+    ],
+    "createdAt": "2023-03-30T11:09:38.268Z"
+  },
+  {
+    "id": "3aa1b1e5-849c-4637-bfe5-471500cb6828",
+    "endpoint": "/api/address",
+    "url": "http://localhost:3000/api/address",
+    "body": {},
+    "method": "GET",
+    "headers": {
+      "host": "localhost:3000",
+      "connection": "keep-alive",
+      "sec-ch-ua": "\"Google Chrome\";v=\"111\", \"Not(A:Brand\";v=\"8\", \"Chromium\";v=\"111\"",
+      "accept": "application/json, text/plain, */*",
+      "sec-ch-ua-mobile": "?0",
+      "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MjU2ZDljNDA4NzgzMzE0NGQ3MWMxNiIsImlhdCI6MTY4MDE3NDU0MiwiZXhwIjoxNjgwNzc5MzQyfQ.hy-D-AdsWSuUg3f1CH03FBHQFMFtwmklRwDCckvbzHk",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+      "sec-ch-ua-platform": "\"macOS\"",
+      "sec-fetch-site": "same-origin",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-dest": "empty",
+      "accept-encoding": "gzip, deflate, br",
+      "accept-language": "en-US,en;q=0.9,hr;q=0.8,bs;q=0.7",
+      "cookie": "Webstorm-a7738556=37894940-6565-40a7-9ec5-b3a59a3f74e6; connect.sid=s%3AYt5uQ-ZhdJwLJja_sd814I2iAKkGpwzM.B%2F%2Btxr1eUYCZhBOzqQOsBsbTR8j%2FZn%2BbD1VFiJBRzAc",
+      "if-none-match": "W/\"ed-D2zz2OKhPc0SRqc8lFI5LGglcMs\""
+    },
+    "responseData": "{\"addresses\":[{\"isDefault\":true,\"_id\":\"64256deb4087833144d71c25\",\"address\":\"asasdasd\",\"city\":\"asdasd\",\"state\":\"asdasd\",\"country\":\"asdasd\",\"zipCode\":\"12312\",\"user\":\"64256d9c4087833144d71c16\",\"created\":\"2023-03-30T11:09:31.416Z\",\"__v\":0},{\"isDefault\":false,\"_id\":\"64256df94087833144d71c2e\",\"address\":\"cvxcv\",\"city\":\"xcvxcv\",\"state\":\"xcvxcv\",\"country\":\"xcvxcv\",\"zipCode\":\"34234\",\"user\":\"64256d9c4087833144d71c16\",\"created\":\"2023-03-30T11:09:45.263Z\",\"__v\":0}]}",
+    "traceId": 2986,
+    "trace": [],
+    "intermediateData": [
+      {
+        "type": "mongodb",
+        "id": "162db8a2-6e2f-40db-acba-080541e7c9ed",
+        "preQueryRes": [
+          {
+            "_id": "ObjectId(\"64256d9c4087833144d71c16\")",
+            "merchant": null,
+            "provider": "Email",
+            "role": "ROLE MEMBER",
+            "email": "zvonimir@pythagora.io",
+            "password": "$2a$10$q.qSwsVDSfInrPD75DS5K.SITdtmOaDU6ph8KPggOKazK2jnoPOya",
+            "firstName": "asdasd",
+            "lastName": "asdasd",
+            "created": "2023-03-30T11:08:12.608Z",
+            "__v": 0
+          }
+        ],
+        "query": {
+          "_id": "ObjectId(\"64256d9c4087833144d71c16\")"
+        },
+        "otherArgs": {},
+        "options": {
+          "projection": {}
+        },
+        "op": "find",
+        "db": "ecomm",
+        "collection": "users",
+        "mongoRes": {
+          "_id": "ObjectId(\"64256d9c4087833144d71c16\")",
+          "merchant": null,
+          "provider": "Email",
+          "role": "ROLE MEMBER",
+          "email": "zvonimir@pythagora.io",
+          "password": "$2a$10$q.qSwsVDSfInrPD75DS5K.SITdtmOaDU6ph8KPggOKazK2jnoPOya",
+          "firstName": "asdasd",
+          "lastName": "asdasd",
+          "created": "2023-03-30T11:08:12.608Z",
+          "__v": 0
+        },
+        "postQueryRes": [
+          {
+            "_id": "ObjectId(\"64256d9c4087833144d71c16\")",
+            "merchant": null,
+            "provider": "Email",
+            "role": "ROLE MEMBER",
+            "email": "zvonimir@pythagora.io",
+            "password": "$2a$10$q.qSwsVDSfInrPD75DS5K.SITdtmOaDU6ph8KPggOKazK2jnoPOya",
+            "firstName": "asdasd",
+            "lastName": "asdasd",
+            "created": "2023-03-30T11:08:12.608Z",
+            "__v": 0
+          }
+        ]
+      },
+      {
+        "type": "mongodb",
+        "id": "31f5440b-c662-466d-84fd-c11d73a7ffa2",
+        "preQueryRes": [
+          {
+            "_id": "ObjectId(\"64256d9c4087833144d71c16\")",
+            "merchant": null,
+            "provider": "Email",
+            "role": "ROLE MEMBER",
+            "email": "zvonimir@pythagora.io",
+            "password": "$2a$10$q.qSwsVDSfInrPD75DS5K.SITdtmOaDU6ph8KPggOKazK2jnoPOya",
+            "firstName": "asdasd",
+            "lastName": "asdasd",
+            "created": "2023-03-30T11:08:12.608Z",
+            "__v": 0
+          }
+        ],
+        "query": {
+          "_id": "ObjectId(\"64256d9c4087833144d71c16\")"
+        },
+        "otherArgs": {},
+        "options": {
+          "projection": {}
+        },
+        "op": "findOne",
+        "db": "ecomm",
+        "collection": "users",
+        "mongoRes": {
+          "_id": "ObjectId(\"64256d9c4087833144d71c16\")",
+          "merchant": null,
+          "provider": "Email",
+          "role": "ROLE MEMBER",
+          "email": "zvonimir@pythagora.io",
+          "password": "$2a$10$q.qSwsVDSfInrPD75DS5K.SITdtmOaDU6ph8KPggOKazK2jnoPOya",
+          "firstName": "asdasd",
+          "lastName": "asdasd",
+          "created": "2023-03-30T11:08:12.608Z",
+          "__v": 0
+        },
+        "postQueryRes": [
+          {
+            "_id": "ObjectId(\"64256d9c4087833144d71c16\")",
+            "merchant": null,
+            "provider": "Email",
+            "role": "ROLE MEMBER",
+            "email": "zvonimir@pythagora.io",
+            "password": "$2a$10$q.qSwsVDSfInrPD75DS5K.SITdtmOaDU6ph8KPggOKazK2jnoPOya",
+            "firstName": "asdasd",
+            "lastName": "asdasd",
+            "created": "2023-03-30T11:08:12.608Z",
+            "__v": 0
+          }
+        ]
+      },
+      {
+        "type": "mongodb",
+        "id": "272d55bb-b17e-479b-bbbc-792c9ca1cfb1",
+        "preQueryRes": [
+          {
+            "_id": "ObjectId(\"64256deb4087833144d71c25\")",
+            "isDefault": true,
+            "address": "asasdasd",
+            "city": "asdasd",
+            "state": "asdasd",
+            "country": "asdasd",
+            "zipCode": "12312",
+            "user": "ObjectId(\"64256d9c4087833144d71c16\")",
+            "created": "2023-03-30T11:09:31.416Z",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"64256df94087833144d71c2e\")",
+            "isDefault": false,
+            "address": "cvxcv",
+            "city": "xcvxcv",
+            "state": "xcvxcv",
+            "country": "xcvxcv",
+            "zipCode": "34234",
+            "user": "ObjectId(\"64256d9c4087833144d71c16\")",
+            "created": "2023-03-30T11:09:45.263Z",
+            "__v": 0
+          }
+        ],
+        "query": {
+          "user": "ObjectId(\"64256d9c4087833144d71c16\")"
+        },
+        "otherArgs": {},
+        "options": {
+          "projection": {}
+        },
+        "op": "find",
+        "db": "ecomm",
+        "collection": "addresses",
+        "mongoRes": [
+          {
+            "_id": "ObjectId(\"64256deb4087833144d71c25\")",
+            "isDefault": true,
+            "address": "asasdasd",
+            "city": "asdasd",
+            "state": "asdasd",
+            "country": "asdasd",
+            "zipCode": "12312",
+            "user": "ObjectId(\"64256d9c4087833144d71c16\")",
+            "created": "2023-03-30T11:09:31.416Z",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"64256df94087833144d71c2e\")",
+            "isDefault": false,
+            "address": "cvxcv",
+            "city": "xcvxcv",
+            "state": "xcvxcv",
+            "country": "xcvxcv",
+            "zipCode": "34234",
+            "user": "ObjectId(\"64256d9c4087833144d71c16\")",
+            "created": "2023-03-30T11:09:45.263Z",
+            "__v": 0
+          }
+        ],
+        "postQueryRes": [
+          {
+            "_id": "ObjectId(\"64256deb4087833144d71c25\")",
+            "isDefault": true,
+            "address": "asasdasd",
+            "city": "asdasd",
+            "state": "asdasd",
+            "country": "asdasd",
+            "zipCode": "12312",
+            "user": "ObjectId(\"64256d9c4087833144d71c16\")",
+            "created": "2023-03-30T11:09:31.416Z",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"64256df94087833144d71c2e\")",
+            "isDefault": false,
+            "address": "cvxcv",
+            "city": "xcvxcv",
+            "state": "xcvxcv",
+            "country": "xcvxcv",
+            "zipCode": "34234",
+            "user": "ObjectId(\"64256d9c4087833144d71c16\")",
+            "created": "2023-03-30T11:09:45.263Z",
+            "__v": 0
+          }
+        ]
+      }
+    ],
+    "query": {},
+    "params": {},
+    "asyncStore": 17,
+    "mongoQueriesCapture": 3,
+    "statusCode": 200,
+    "traceLegacy": [
+      2986
+    ],
+    "createdAt": "2023-03-30T11:09:45.302Z"
+  },
+  {
+    "id": "216a74bd-cd73-454f-bd21-de821e9699b2",
+    "endpoint": "/api/address",
+    "url": "http://localhost:3000/api/address",
+    "body": {},
+    "method": "GET",
+    "headers": {
+      "host": "localhost:3000",
+      "connection": "keep-alive",
+      "sec-ch-ua": "\"Google Chrome\";v=\"111\", \"Not(A:Brand\";v=\"8\", \"Chromium\";v=\"111\"",
+      "accept": "application/json, text/plain, */*",
+      "sec-ch-ua-mobile": "?0",
+      "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MjU2ZDljNDA4NzgzMzE0NGQ3MWMxNiIsImlhdCI6MTY4MDE3NDU0MiwiZXhwIjoxNjgwNzc5MzQyfQ.hy-D-AdsWSuUg3f1CH03FBHQFMFtwmklRwDCckvbzHk",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+      "sec-ch-ua-platform": "\"macOS\"",
+      "sec-fetch-site": "same-origin",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-dest": "empty",
+      "accept-encoding": "gzip, deflate, br",
+      "accept-language": "en-US,en;q=0.9,hr;q=0.8,bs;q=0.7",
+      "cookie": "Webstorm-a7738556=37894940-6565-40a7-9ec5-b3a59a3f74e6; connect.sid=s%3AYt5uQ-ZhdJwLJja_sd814I2iAKkGpwzM.B%2F%2Btxr1eUYCZhBOzqQOsBsbTR8j%2FZn%2BbD1VFiJBRzAc",
+      "if-none-match": "W/\"1c9-BJDRb1PvTXeXUgGjXPOVQNScDN8\""
+    },
+    "responseData": "{\"addresses\":[{\"isDefault\":false,\"_id\":\"64256df94087833144d71c2e\",\"address\":\"cvxcv\",\"city\":\"xcvxcv\",\"state\":\"xcvxcv\",\"country\":\"xcvxcv\",\"zipCode\":\"34234\",\"user\":\"64256d9c4087833144d71c16\",\"created\":\"2023-03-30T11:09:45.263Z\",\"__v\":0}]}",
+    "traceId": 2986,
+    "trace": [],
+    "intermediateData": [
+      {
+        "type": "mongodb",
+        "id": "ddcdc5b5-ce32-4e62-842e-97e81d8ea020",
+        "preQueryRes": [
+          {
+            "_id": "ObjectId(\"64256d9c4087833144d71c16\")",
+            "merchant": null,
+            "provider": "Email",
+            "role": "ROLE MEMBER",
+            "email": "zvonimir@pythagora.io",
+            "password": "$2a$10$q.qSwsVDSfInrPD75DS5K.SITdtmOaDU6ph8KPggOKazK2jnoPOya",
+            "firstName": "asdasd",
+            "lastName": "asdasd",
+            "created": "2023-03-30T11:08:12.608Z",
+            "__v": 0
+          }
+        ],
+        "query": {
+          "_id": "ObjectId(\"64256d9c4087833144d71c16\")"
+        },
+        "otherArgs": {},
+        "options": {
+          "projection": {}
+        },
+        "op": "find",
+        "db": "ecomm",
+        "collection": "users",
+        "mongoRes": {
+          "_id": "ObjectId(\"64256d9c4087833144d71c16\")",
+          "merchant": null,
+          "provider": "Email",
+          "role": "ROLE MEMBER",
+          "email": "zvonimir@pythagora.io",
+          "password": "$2a$10$q.qSwsVDSfInrPD75DS5K.SITdtmOaDU6ph8KPggOKazK2jnoPOya",
+          "firstName": "asdasd",
+          "lastName": "asdasd",
+          "created": "2023-03-30T11:08:12.608Z",
+          "__v": 0
+        },
+        "postQueryRes": [
+          {
+            "_id": "ObjectId(\"64256d9c4087833144d71c16\")",
+            "merchant": null,
+            "provider": "Email",
+            "role": "ROLE MEMBER",
+            "email": "zvonimir@pythagora.io",
+            "password": "$2a$10$q.qSwsVDSfInrPD75DS5K.SITdtmOaDU6ph8KPggOKazK2jnoPOya",
+            "firstName": "asdasd",
+            "lastName": "asdasd",
+            "created": "2023-03-30T11:08:12.608Z",
+            "__v": 0
+          }
+        ]
+      },
+      {
+        "type": "mongodb",
+        "id": "7498de0e-0c73-4e42-8d7d-b3b2774fe32f",
+        "preQueryRes": [
+          {
+            "_id": "ObjectId(\"64256d9c4087833144d71c16\")",
+            "merchant": null,
+            "provider": "Email",
+            "role": "ROLE MEMBER",
+            "email": "zvonimir@pythagora.io",
+            "password": "$2a$10$q.qSwsVDSfInrPD75DS5K.SITdtmOaDU6ph8KPggOKazK2jnoPOya",
+            "firstName": "asdasd",
+            "lastName": "asdasd",
+            "created": "2023-03-30T11:08:12.608Z",
+            "__v": 0
+          }
+        ],
+        "query": {
+          "_id": "ObjectId(\"64256d9c4087833144d71c16\")"
+        },
+        "otherArgs": {},
+        "options": {
+          "projection": {}
+        },
+        "op": "findOne",
+        "db": "ecomm",
+        "collection": "users",
+        "mongoRes": {
+          "_id": "ObjectId(\"64256d9c4087833144d71c16\")",
+          "merchant": null,
+          "provider": "Email",
+          "role": "ROLE MEMBER",
+          "email": "zvonimir@pythagora.io",
+          "password": "$2a$10$q.qSwsVDSfInrPD75DS5K.SITdtmOaDU6ph8KPggOKazK2jnoPOya",
+          "firstName": "asdasd",
+          "lastName": "asdasd",
+          "created": "2023-03-30T11:08:12.608Z",
+          "__v": 0
+        },
+        "postQueryRes": [
+          {
+            "_id": "ObjectId(\"64256d9c4087833144d71c16\")",
+            "merchant": null,
+            "provider": "Email",
+            "role": "ROLE MEMBER",
+            "email": "zvonimir@pythagora.io",
+            "password": "$2a$10$q.qSwsVDSfInrPD75DS5K.SITdtmOaDU6ph8KPggOKazK2jnoPOya",
+            "firstName": "asdasd",
+            "lastName": "asdasd",
+            "created": "2023-03-30T11:08:12.608Z",
+            "__v": 0
+          }
+        ]
+      },
+      {
+        "type": "mongodb",
+        "id": "99be43a0-e977-4577-bb67-9f361231ada4",
+        "preQueryRes": [
+          {
+            "_id": "ObjectId(\"64256df94087833144d71c2e\")",
+            "isDefault": false,
+            "address": "cvxcv",
+            "city": "xcvxcv",
+            "state": "xcvxcv",
+            "country": "xcvxcv",
+            "zipCode": "34234",
+            "user": "ObjectId(\"64256d9c4087833144d71c16\")",
+            "created": "2023-03-30T11:09:45.263Z",
+            "__v": 0
+          }
+        ],
+        "query": {
+          "user": "ObjectId(\"64256d9c4087833144d71c16\")"
+        },
+        "otherArgs": {},
+        "options": {
+          "projection": {}
+        },
+        "op": "find",
+        "db": "ecomm",
+        "collection": "addresses",
+        "mongoRes": [
+          {
+            "_id": "ObjectId(\"64256df94087833144d71c2e\")",
+            "isDefault": false,
+            "address": "cvxcv",
+            "city": "xcvxcv",
+            "state": "xcvxcv",
+            "country": "xcvxcv",
+            "zipCode": "34234",
+            "user": "ObjectId(\"64256d9c4087833144d71c16\")",
+            "created": "2023-03-30T11:09:45.263Z",
+            "__v": 0
+          }
+        ],
+        "postQueryRes": [
+          {
+            "_id": "ObjectId(\"64256df94087833144d71c2e\")",
+            "isDefault": false,
+            "address": "cvxcv",
+            "city": "xcvxcv",
+            "state": "xcvxcv",
+            "country": "xcvxcv",
+            "zipCode": "34234",
+            "user": "ObjectId(\"64256d9c4087833144d71c16\")",
+            "created": "2023-03-30T11:09:45.263Z",
+            "__v": 0
+          }
+        ]
+      }
+    ],
+    "query": {},
+    "params": {},
+    "asyncStore": 20,
+    "mongoQueriesCapture": 3,
+    "statusCode": 200,
+    "traceLegacy": [
+      2986
+    ],
+    "createdAt": "2023-03-30T11:09:51.331Z"
+  },
+  {
+    "id": "62cccb04-0728-4c9a-9cab-bea0340168f5",
+    "endpoint": "/api/address",
+    "url": "http://localhost:3000/api/address",
+    "body": {},
+    "method": "GET",
+    "headers": {
+      "host": "localhost:3000",
+      "connection": "keep-alive",
+      "sec-ch-ua": "\"Google Chrome\";v=\"111\", \"Not(A:Brand\";v=\"8\", \"Chromium\";v=\"111\"",
+      "accept": "application/json, text/plain, */*",
+      "sec-ch-ua-mobile": "?0",
+      "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzZGEzMjI3MDM3ZDE2NmZkNTFjZWYyNCIsImlhdCI6MTY4MDE3NTE2NSwiZXhwIjoxNjgwNzc5OTY1fQ.odXwwZprse2gBPEQtvzkwUln7Nxkbfyh9zojtKIxMa8",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+      "sec-ch-ua-platform": "\"macOS\"",
+      "sec-fetch-site": "same-origin",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-dest": "empty",
+      "accept-encoding": "gzip, deflate, br",
+      "accept-language": "en-US,en;q=0.9,hr;q=0.8,bs;q=0.7",
+      "cookie": "Webstorm-a7738556=37894940-6565-40a7-9ec5-b3a59a3f74e6; connect.sid=s%3AYt5uQ-ZhdJwLJja_sd814I2iAKkGpwzM.B%2F%2Btxr1eUYCZhBOzqQOsBsbTR8j%2FZn%2BbD1VFiJBRzAc",
+      "if-none-match": "W/\"eb-VUSrf+Q088gNAIiw9wPC69gTJhg\""
+    },
+    "responseData": "{\"addresses\":[{\"isDefault\":true,\"_id\":\"63c09f00c2af1e73d1340264\",\"address\":\"asdffddsssvvv\",\"city\":\"asd\",\"state\":\"asd\",\"country\":\"asdej\",\"zipCode\":\"123123\",\"user\":\"63da3227037d166fd51cef24\",\"created\":\"2023-02-01T11:18:14.422Z\",\"__v\":0},{\"isDefault\":true,\"_id\":\"63e25a0532ea03373295bd93\",\"address\":\"sdda\",\"city\":\"asd\",\"state\":\"asd\",\"country\":\"asd\",\"zipCode\":\"20000\",\"user\":\"63da3227037d166fd51cef24\",\"created\":\"2023-02-07T14:02:45.162Z\",\"__v\":0},{\"isDefault\":true,\"_id\":\"63e2a58a05d65f4a760fc8ed\",\"address\":\"asdamm\",\"city\":\"asd\",\"state\":\"asd\",\"country\":\"asd\",\"zipCode\":\"10000\",\"user\":\"63da3227037d166fd51cef24\",\"created\":\"2023-02-07T19:24:58.585Z\",\"__v\":0},{\"isDefault\":true,\"_id\":\"63ed26f3c5bda82595e1c773\",\"address\":\"new address\",\"city\":\"werw\",\"state\":\"ewrw\",\"country\":\"werw\",\"zipCode\":\"10000\",\"user\":\"63da3227037d166fd51cef24\",\"created\":\"2023-02-15T18:39:47.381Z\",\"__v\":0},{\"isDefault\":false,\"_id\":\"63f89ff0b911c92402d5db40\",\"address\":\"asdasd\",\"city\":\"asdasd\",\"state\":\"asdas\",\"country\":\"asda\",\"zipCode\":\"10000\",\"user\":\"63da3227037d166fd51cef24\",\"created\":\"2023-02-24T11:30:56.956Z\",\"__v\":0},{\"isDefault\":false,\"_id\":\"6401d9ab8939ef22e63c93f6\",\"address\":\"yxcyx\",\"city\":\"yxc\",\"state\":\"xyxc\",\"country\":\"yxcyxc\",\"zipCode\":\"123123\",\"user\":\"63da3227037d166fd51cef24\",\"created\":\"2023-03-03T11:27:39.006Z\",\"__v\":0},{\"isDefault\":false,\"_id\":\"640b1fc8d9e6b74d200d5ef3\",\"address\":\"nnn\",\"city\":\"nnnn\",\"state\":\"nnn\",\"country\":\"nnnn\",\"zipCode\":\"10000\",\"user\":\"63da3227037d166fd51cef24\",\"created\":\"2023-03-10T12:17:12.721Z\",\"__v\":0}]}",
+    "traceId": 2121,
+    "trace": [],
+    "intermediateData": [
+      {
+        "type": "mongodb",
+        "id": "f3463efa-fec8-4886-a091-bd3322b27b9e",
+        "preQueryRes": [
+          {
+            "_id": "ObjectId(\"63da3227037d166fd51cef24\")",
+            "merchant": null,
+            "provider": "Email",
+            "role": "ROLE ADMIN",
+            "email": "admin@pythagora.io",
+            "password": "$2a$10$oONswexLk.uMD.x753Ed3e1D1h2zhFdyoRY/ssnIZDw0oppDqUEvK",
+            "firstName": "admin",
+            "lastName": "adminff",
+            "created": "2023-02-01T09:34:31.627Z",
+            "__v": 0,
+            "phoneNumber": "34433455443324",
+            "resetPasswordExpires": "2023-03-30T11:58:38.333Z",
+            "resetPasswordToken": "bf3b42b9ab15984ff9014db6513413b913c075af061c16d8a8efb5193793a5c6a49ab3802b94930cc921207c6cafcee0"
+          }
+        ],
+        "query": {
+          "_id": "ObjectId(\"63da3227037d166fd51cef24\")"
+        },
+        "otherArgs": {},
+        "options": {
+          "projection": {}
+        },
+        "op": "find",
+        "db": "ecomm",
+        "collection": "users",
+        "mongoRes": {
+          "_id": "ObjectId(\"63da3227037d166fd51cef24\")",
+          "merchant": null,
+          "provider": "Email",
+          "role": "ROLE ADMIN",
+          "email": "admin@pythagora.io",
+          "password": "$2a$10$oONswexLk.uMD.x753Ed3e1D1h2zhFdyoRY/ssnIZDw0oppDqUEvK",
+          "firstName": "admin",
+          "lastName": "adminff",
+          "created": "2023-02-01T09:34:31.627Z",
+          "__v": 0,
+          "phoneNumber": "34433455443324",
+          "resetPasswordExpires": "2023-03-30T11:58:38.333Z",
+          "resetPasswordToken": "bf3b42b9ab15984ff9014db6513413b913c075af061c16d8a8efb5193793a5c6a49ab3802b94930cc921207c6cafcee0"
+        },
+        "postQueryRes": [
+          {
+            "_id": "ObjectId(\"63da3227037d166fd51cef24\")",
+            "merchant": null,
+            "provider": "Email",
+            "role": "ROLE ADMIN",
+            "email": "admin@pythagora.io",
+            "password": "$2a$10$oONswexLk.uMD.x753Ed3e1D1h2zhFdyoRY/ssnIZDw0oppDqUEvK",
+            "firstName": "admin",
+            "lastName": "adminff",
+            "created": "2023-02-01T09:34:31.627Z",
+            "__v": 0,
+            "phoneNumber": "34433455443324",
+            "resetPasswordExpires": "2023-03-30T11:58:38.333Z",
+            "resetPasswordToken": "bf3b42b9ab15984ff9014db6513413b913c075af061c16d8a8efb5193793a5c6a49ab3802b94930cc921207c6cafcee0"
+          }
+        ]
+      },
+      {
+        "type": "mongodb",
+        "id": "b44e3f86-b1d0-4fd7-919a-4d4f2a63c777",
+        "preQueryRes": [
+          {
+            "_id": "ObjectId(\"63da3227037d166fd51cef24\")",
+            "merchant": null,
+            "provider": "Email",
+            "role": "ROLE ADMIN",
+            "email": "admin@pythagora.io",
+            "password": "$2a$10$oONswexLk.uMD.x753Ed3e1D1h2zhFdyoRY/ssnIZDw0oppDqUEvK",
+            "firstName": "admin",
+            "lastName": "adminff",
+            "created": "2023-02-01T09:34:31.627Z",
+            "__v": 0,
+            "phoneNumber": "34433455443324",
+            "resetPasswordExpires": "2023-03-30T11:58:38.333Z",
+            "resetPasswordToken": "bf3b42b9ab15984ff9014db6513413b913c075af061c16d8a8efb5193793a5c6a49ab3802b94930cc921207c6cafcee0"
+          }
+        ],
+        "query": {
+          "_id": "ObjectId(\"63da3227037d166fd51cef24\")"
+        },
+        "otherArgs": {},
+        "options": {
+          "projection": {}
+        },
+        "op": "findOne",
+        "db": "ecomm",
+        "collection": "users",
+        "mongoRes": {
+          "_id": "ObjectId(\"63da3227037d166fd51cef24\")",
+          "merchant": null,
+          "provider": "Email",
+          "role": "ROLE ADMIN",
+          "email": "admin@pythagora.io",
+          "password": "$2a$10$oONswexLk.uMD.x753Ed3e1D1h2zhFdyoRY/ssnIZDw0oppDqUEvK",
+          "firstName": "admin",
+          "lastName": "adminff",
+          "created": "2023-02-01T09:34:31.627Z",
+          "__v": 0,
+          "phoneNumber": "34433455443324",
+          "resetPasswordExpires": "2023-03-30T11:58:38.333Z",
+          "resetPasswordToken": "bf3b42b9ab15984ff9014db6513413b913c075af061c16d8a8efb5193793a5c6a49ab3802b94930cc921207c6cafcee0"
+        },
+        "postQueryRes": [
+          {
+            "_id": "ObjectId(\"63da3227037d166fd51cef24\")",
+            "merchant": null,
+            "provider": "Email",
+            "role": "ROLE ADMIN",
+            "email": "admin@pythagora.io",
+            "password": "$2a$10$oONswexLk.uMD.x753Ed3e1D1h2zhFdyoRY/ssnIZDw0oppDqUEvK",
+            "firstName": "admin",
+            "lastName": "adminff",
+            "created": "2023-02-01T09:34:31.627Z",
+            "__v": 0,
+            "phoneNumber": "34433455443324",
+            "resetPasswordExpires": "2023-03-30T11:58:38.333Z",
+            "resetPasswordToken": "bf3b42b9ab15984ff9014db6513413b913c075af061c16d8a8efb5193793a5c6a49ab3802b94930cc921207c6cafcee0"
+          }
+        ]
+      },
+      {
+        "type": "mongodb",
+        "id": "b566f779-5c73-4c4c-9c81-ab13696801b1",
+        "preQueryRes": [
+          {
+            "_id": "ObjectId(\"63c09f00c2af1e73d1340264\")",
+            "isDefault": true,
+            "address": "asdffddsssvvv",
+            "city": "asd",
+            "state": "asd",
+            "country": "asdej",
+            "zipCode": "123123",
+            "user": "ObjectId(\"63da3227037d166fd51cef24\")",
+            "created": "2023-02-01T11:18:14.422Z",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63e25a0532ea03373295bd93\")",
+            "isDefault": true,
+            "address": "sdda",
+            "city": "asd",
+            "state": "asd",
+            "country": "asd",
+            "zipCode": "20000",
+            "user": "ObjectId(\"63da3227037d166fd51cef24\")",
+            "created": "2023-02-07T14:02:45.162Z",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63e2a58a05d65f4a760fc8ed\")",
+            "isDefault": true,
+            "address": "asdamm",
+            "city": "asd",
+            "state": "asd",
+            "country": "asd",
+            "zipCode": "10000",
+            "user": "ObjectId(\"63da3227037d166fd51cef24\")",
+            "created": "2023-02-07T19:24:58.585Z",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63ed26f3c5bda82595e1c773\")",
+            "isDefault": true,
+            "address": "new address",
+            "city": "werw",
+            "state": "ewrw",
+            "country": "werw",
+            "zipCode": "10000",
+            "user": "ObjectId(\"63da3227037d166fd51cef24\")",
+            "created": "2023-02-15T18:39:47.381Z",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63f89ff0b911c92402d5db40\")",
+            "isDefault": false,
+            "address": "asdasd",
+            "city": "asdasd",
+            "state": "asdas",
+            "country": "asda",
+            "zipCode": "10000",
+            "user": "ObjectId(\"63da3227037d166fd51cef24\")",
+            "created": "2023-02-24T11:30:56.956Z",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"6401d9ab8939ef22e63c93f6\")",
+            "isDefault": false,
+            "address": "yxcyx",
+            "city": "yxc",
+            "state": "xyxc",
+            "country": "yxcyxc",
+            "zipCode": "123123",
+            "user": "ObjectId(\"63da3227037d166fd51cef24\")",
+            "created": "2023-03-03T11:27:39.006Z",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"640b1fc8d9e6b74d200d5ef3\")",
+            "isDefault": false,
+            "address": "nnn",
+            "city": "nnnn",
+            "state": "nnn",
+            "country": "nnnn",
+            "zipCode": "10000",
+            "user": "ObjectId(\"63da3227037d166fd51cef24\")",
+            "created": "2023-03-10T12:17:12.721Z",
+            "__v": 0
+          }
+        ],
+        "query": {
+          "user": "ObjectId(\"63da3227037d166fd51cef24\")"
+        },
+        "otherArgs": {},
+        "options": {
+          "projection": {}
+        },
+        "op": "find",
+        "db": "ecomm",
+        "collection": "addresses",
+        "mongoRes": [
+          {
+            "_id": "ObjectId(\"63c09f00c2af1e73d1340264\")",
+            "isDefault": true,
+            "address": "asdffddsssvvv",
+            "city": "asd",
+            "state": "asd",
+            "country": "asdej",
+            "zipCode": "123123",
+            "user": "ObjectId(\"63da3227037d166fd51cef24\")",
+            "created": "2023-02-01T11:18:14.422Z",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63e25a0532ea03373295bd93\")",
+            "isDefault": true,
+            "address": "sdda",
+            "city": "asd",
+            "state": "asd",
+            "country": "asd",
+            "zipCode": "20000",
+            "user": "ObjectId(\"63da3227037d166fd51cef24\")",
+            "created": "2023-02-07T14:02:45.162Z",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63e2a58a05d65f4a760fc8ed\")",
+            "isDefault": true,
+            "address": "asdamm",
+            "city": "asd",
+            "state": "asd",
+            "country": "asd",
+            "zipCode": "10000",
+            "user": "ObjectId(\"63da3227037d166fd51cef24\")",
+            "created": "2023-02-07T19:24:58.585Z",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63ed26f3c5bda82595e1c773\")",
+            "isDefault": true,
+            "address": "new address",
+            "city": "werw",
+            "state": "ewrw",
+            "country": "werw",
+            "zipCode": "10000",
+            "user": "ObjectId(\"63da3227037d166fd51cef24\")",
+            "created": "2023-02-15T18:39:47.381Z",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63f89ff0b911c92402d5db40\")",
+            "isDefault": false,
+            "address": "asdasd",
+            "city": "asdasd",
+            "state": "asdas",
+            "country": "asda",
+            "zipCode": "10000",
+            "user": "ObjectId(\"63da3227037d166fd51cef24\")",
+            "created": "2023-02-24T11:30:56.956Z",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"6401d9ab8939ef22e63c93f6\")",
+            "isDefault": false,
+            "address": "yxcyx",
+            "city": "yxc",
+            "state": "xyxc",
+            "country": "yxcyxc",
+            "zipCode": "123123",
+            "user": "ObjectId(\"63da3227037d166fd51cef24\")",
+            "created": "2023-03-03T11:27:39.006Z",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"640b1fc8d9e6b74d200d5ef3\")",
+            "isDefault": false,
+            "address": "nnn",
+            "city": "nnnn",
+            "state": "nnn",
+            "country": "nnnn",
+            "zipCode": "10000",
+            "user": "ObjectId(\"63da3227037d166fd51cef24\")",
+            "created": "2023-03-10T12:17:12.721Z",
+            "__v": 0
+          }
+        ],
+        "postQueryRes": [
+          {
+            "_id": "ObjectId(\"63c09f00c2af1e73d1340264\")",
+            "isDefault": true,
+            "address": "asdffddsssvvv",
+            "city": "asd",
+            "state": "asd",
+            "country": "asdej",
+            "zipCode": "123123",
+            "user": "ObjectId(\"63da3227037d166fd51cef24\")",
+            "created": "2023-02-01T11:18:14.422Z",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63e25a0532ea03373295bd93\")",
+            "isDefault": true,
+            "address": "sdda",
+            "city": "asd",
+            "state": "asd",
+            "country": "asd",
+            "zipCode": "20000",
+            "user": "ObjectId(\"63da3227037d166fd51cef24\")",
+            "created": "2023-02-07T14:02:45.162Z",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63e2a58a05d65f4a760fc8ed\")",
+            "isDefault": true,
+            "address": "asdamm",
+            "city": "asd",
+            "state": "asd",
+            "country": "asd",
+            "zipCode": "10000",
+            "user": "ObjectId(\"63da3227037d166fd51cef24\")",
+            "created": "2023-02-07T19:24:58.585Z",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63ed26f3c5bda82595e1c773\")",
+            "isDefault": true,
+            "address": "new address",
+            "city": "werw",
+            "state": "ewrw",
+            "country": "werw",
+            "zipCode": "10000",
+            "user": "ObjectId(\"63da3227037d166fd51cef24\")",
+            "created": "2023-02-15T18:39:47.381Z",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"63f89ff0b911c92402d5db40\")",
+            "isDefault": false,
+            "address": "asdasd",
+            "city": "asdasd",
+            "state": "asdas",
+            "country": "asda",
+            "zipCode": "10000",
+            "user": "ObjectId(\"63da3227037d166fd51cef24\")",
+            "created": "2023-02-24T11:30:56.956Z",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"6401d9ab8939ef22e63c93f6\")",
+            "isDefault": false,
+            "address": "yxcyx",
+            "city": "yxc",
+            "state": "xyxc",
+            "country": "yxcyxc",
+            "zipCode": "123123",
+            "user": "ObjectId(\"63da3227037d166fd51cef24\")",
+            "created": "2023-03-03T11:27:39.006Z",
+            "__v": 0
+          },
+          {
+            "_id": "ObjectId(\"640b1fc8d9e6b74d200d5ef3\")",
+            "isDefault": false,
+            "address": "nnn",
+            "city": "nnnn",
+            "state": "nnn",
+            "country": "nnnn",
+            "zipCode": "10000",
+            "user": "ObjectId(\"63da3227037d166fd51cef24\")",
+            "created": "2023-03-10T12:17:12.721Z",
+            "__v": 0
+          }
+        ]
+      }
+    ],
+    "query": {},
+    "params": {},
+    "asyncStore": 13,
+    "mongoQueriesCapture": 3,
+    "statusCode": 200,
+    "traceLegacy": [
+      2121
+    ],
+    "createdAt": "2023-03-30T11:19:48.970Z"
+  }
+]

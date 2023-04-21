@@ -1,0 +1,613 @@
+[
+  {
+    "id": "d159a4b8-6fa6-4c68-9af6-763f21cb7b58",
+    "endpoint": "/api/order/cancel/6425476c773f6013dd7bd5fc",
+    "url": "http://localhost:3000/api/order/cancel/6425476c773f6013dd7bd5fc",
+    "body": {},
+    "method": "DELETE",
+    "headers": {
+      "host": "localhost:3000",
+      "connection": "keep-alive",
+      "sec-ch-ua": "\"Google Chrome\";v=\"111\", \"Not(A:Brand\";v=\"8\", \"Chromium\";v=\"111\"",
+      "accept": "application/json, text/plain, */*",
+      "sec-ch-ua-mobile": "?0",
+      "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzZGEzMjI3MDM3ZDE2NmZkNTFjZWYyNCIsImlhdCI6MTY4MDE3NTE2NSwiZXhwIjoxNjgwNzc5OTY1fQ.odXwwZprse2gBPEQtvzkwUln7Nxkbfyh9zojtKIxMa8",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+      "sec-ch-ua-platform": "\"macOS\"",
+      "origin": "http://localhost:3000",
+      "sec-fetch-site": "same-origin",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-dest": "empty",
+      "accept-encoding": "gzip, deflate, br",
+      "accept-language": "en-US,en;q=0.9,hr;q=0.8,bs;q=0.7",
+      "cookie": "Webstorm-a7738556=37894940-6565-40a7-9ec5-b3a59a3f74e6; connect.sid=s%3AYt5uQ-ZhdJwLJja_sd814I2iAKkGpwzM.B%2F%2Btxr1eUYCZhBOzqQOsBsbTR8j%2FZn%2BbD1VFiJBRzAc"
+    },
+    "responseData": "{\"success\":true}",
+    "traceId": 13928,
+    "trace": [],
+    "intermediateData": [
+      {
+        "type": "mongodb",
+        "id": "77a11e80-8297-4871-8e52-ad338871cbbb",
+        "preQueryRes": [
+          {
+            "_id": "ObjectId(\"63da3227037d166fd51cef24\")",
+            "merchant": null,
+            "provider": "Email",
+            "role": "ROLE ADMIN",
+            "email": "admin@pythagora.io",
+            "password": "$2a$10$oONswexLk.uMD.x753Ed3e1D1h2zhFdyoRY/ssnIZDw0oppDqUEvK",
+            "firstName": "admin",
+            "lastName": "adminff",
+            "created": "2023-02-01T09:34:31.627Z",
+            "__v": 0,
+            "phoneNumber": "34433455443324",
+            "resetPasswordExpires": "2023-03-30T11:58:38.333Z",
+            "resetPasswordToken": "bf3b42b9ab15984ff9014db6513413b913c075af061c16d8a8efb5193793a5c6a49ab3802b94930cc921207c6cafcee0"
+          }
+        ],
+        "query": {
+          "_id": "ObjectId(\"63da3227037d166fd51cef24\")"
+        },
+        "otherArgs": {},
+        "options": {
+          "projection": {}
+        },
+        "op": "find",
+        "db": "ecomm",
+        "collection": "users",
+        "mongoRes": {
+          "_id": "ObjectId(\"63da3227037d166fd51cef24\")",
+          "merchant": null,
+          "provider": "Email",
+          "role": "ROLE ADMIN",
+          "email": "admin@pythagora.io",
+          "password": "$2a$10$oONswexLk.uMD.x753Ed3e1D1h2zhFdyoRY/ssnIZDw0oppDqUEvK",
+          "firstName": "admin",
+          "lastName": "adminff",
+          "created": "2023-02-01T09:34:31.627Z",
+          "__v": 0,
+          "phoneNumber": "34433455443324",
+          "resetPasswordExpires": "2023-03-30T11:58:38.333Z",
+          "resetPasswordToken": "bf3b42b9ab15984ff9014db6513413b913c075af061c16d8a8efb5193793a5c6a49ab3802b94930cc921207c6cafcee0"
+        },
+        "postQueryRes": [
+          {
+            "_id": "ObjectId(\"63da3227037d166fd51cef24\")",
+            "merchant": null,
+            "provider": "Email",
+            "role": "ROLE ADMIN",
+            "email": "admin@pythagora.io",
+            "password": "$2a$10$oONswexLk.uMD.x753Ed3e1D1h2zhFdyoRY/ssnIZDw0oppDqUEvK",
+            "firstName": "admin",
+            "lastName": "adminff",
+            "created": "2023-02-01T09:34:31.627Z",
+            "__v": 0,
+            "phoneNumber": "34433455443324",
+            "resetPasswordExpires": "2023-03-30T11:58:38.333Z",
+            "resetPasswordToken": "bf3b42b9ab15984ff9014db6513413b913c075af061c16d8a8efb5193793a5c6a49ab3802b94930cc921207c6cafcee0"
+          }
+        ]
+      },
+      {
+        "type": "mongodb",
+        "id": "0398c103-a1cb-4bf4-b7ca-fa7718498735",
+        "preQueryRes": [
+          {
+            "_id": "ObjectId(\"63da3227037d166fd51cef24\")",
+            "merchant": null,
+            "provider": "Email",
+            "role": "ROLE ADMIN",
+            "email": "admin@pythagora.io",
+            "password": "$2a$10$oONswexLk.uMD.x753Ed3e1D1h2zhFdyoRY/ssnIZDw0oppDqUEvK",
+            "firstName": "admin",
+            "lastName": "adminff",
+            "created": "2023-02-01T09:34:31.627Z",
+            "__v": 0,
+            "phoneNumber": "34433455443324",
+            "resetPasswordExpires": "2023-03-30T11:58:38.333Z",
+            "resetPasswordToken": "bf3b42b9ab15984ff9014db6513413b913c075af061c16d8a8efb5193793a5c6a49ab3802b94930cc921207c6cafcee0"
+          }
+        ],
+        "query": {
+          "_id": "ObjectId(\"63da3227037d166fd51cef24\")"
+        },
+        "otherArgs": {},
+        "options": {
+          "projection": {}
+        },
+        "op": "findOne",
+        "db": "ecomm",
+        "collection": "users",
+        "mongoRes": {
+          "_id": "ObjectId(\"63da3227037d166fd51cef24\")",
+          "merchant": null,
+          "provider": "Email",
+          "role": "ROLE ADMIN",
+          "email": "admin@pythagora.io",
+          "password": "$2a$10$oONswexLk.uMD.x753Ed3e1D1h2zhFdyoRY/ssnIZDw0oppDqUEvK",
+          "firstName": "admin",
+          "lastName": "adminff",
+          "created": "2023-02-01T09:34:31.627Z",
+          "__v": 0,
+          "phoneNumber": "34433455443324",
+          "resetPasswordExpires": "2023-03-30T11:58:38.333Z",
+          "resetPasswordToken": "bf3b42b9ab15984ff9014db6513413b913c075af061c16d8a8efb5193793a5c6a49ab3802b94930cc921207c6cafcee0"
+        },
+        "postQueryRes": [
+          {
+            "_id": "ObjectId(\"63da3227037d166fd51cef24\")",
+            "merchant": null,
+            "provider": "Email",
+            "role": "ROLE ADMIN",
+            "email": "admin@pythagora.io",
+            "password": "$2a$10$oONswexLk.uMD.x753Ed3e1D1h2zhFdyoRY/ssnIZDw0oppDqUEvK",
+            "firstName": "admin",
+            "lastName": "adminff",
+            "created": "2023-02-01T09:34:31.627Z",
+            "__v": 0,
+            "phoneNumber": "34433455443324",
+            "resetPasswordExpires": "2023-03-30T11:58:38.333Z",
+            "resetPasswordToken": "bf3b42b9ab15984ff9014db6513413b913c075af061c16d8a8efb5193793a5c6a49ab3802b94930cc921207c6cafcee0"
+          }
+        ]
+      },
+      {
+        "type": "mongodb",
+        "id": "ec1f5ae3-15be-4622-a51d-0b20c912cdb4",
+        "preQueryRes": [
+          {
+            "_id": "ObjectId(\"6425476c773f6013dd7bd5fc\")",
+            "total": 25,
+            "cart": "ObjectId(\"6425476c773f6013dd7bd5f6\")",
+            "user": "ObjectId(\"63da3227037d166fd51cef24\")",
+            "created": "2023-03-30T08:25:16.377Z",
+            "__v": 0
+          }
+        ],
+        "query": {
+          "_id": "ObjectId(\"6425476c773f6013dd7bd5fc\")"
+        },
+        "otherArgs": {},
+        "options": {
+          "projection": {}
+        },
+        "op": "find",
+        "db": "ecomm",
+        "collection": "orders",
+        "mongoRes": {
+          "_id": "ObjectId(\"6425476c773f6013dd7bd5fc\")",
+          "total": 25,
+          "cart": "ObjectId(\"6425476c773f6013dd7bd5f6\")",
+          "user": "ObjectId(\"63da3227037d166fd51cef24\")",
+          "created": "2023-03-30T08:25:16.377Z",
+          "__v": 0
+        },
+        "postQueryRes": [
+          {
+            "_id": "ObjectId(\"6425476c773f6013dd7bd5fc\")",
+            "total": 25,
+            "cart": "ObjectId(\"6425476c773f6013dd7bd5f6\")",
+            "user": "ObjectId(\"63da3227037d166fd51cef24\")",
+            "created": "2023-03-30T08:25:16.377Z",
+            "__v": 0
+          }
+        ]
+      },
+      {
+        "type": "mongodb",
+        "id": "a50dbc49-d237-40e2-ba9f-12908d2ec93e",
+        "preQueryRes": [
+          {
+            "_id": "ObjectId(\"6425476c773f6013dd7bd5fc\")",
+            "total": 25,
+            "cart": "ObjectId(\"6425476c773f6013dd7bd5f6\")",
+            "user": "ObjectId(\"63da3227037d166fd51cef24\")",
+            "created": "2023-03-30T08:25:16.377Z",
+            "__v": 0
+          }
+        ],
+        "query": {
+          "_id": "ObjectId(\"6425476c773f6013dd7bd5fc\")"
+        },
+        "otherArgs": {},
+        "options": {
+          "projection": {}
+        },
+        "op": "findOne",
+        "db": "ecomm",
+        "collection": "orders",
+        "mongoRes": {
+          "_id": "ObjectId(\"6425476c773f6013dd7bd5fc\")",
+          "total": 25,
+          "cart": "ObjectId(\"6425476c773f6013dd7bd5f6\")",
+          "user": "ObjectId(\"63da3227037d166fd51cef24\")",
+          "created": "2023-03-30T08:25:16.377Z",
+          "__v": 0
+        },
+        "postQueryRes": [
+          {
+            "_id": "ObjectId(\"6425476c773f6013dd7bd5fc\")",
+            "total": 25,
+            "cart": "ObjectId(\"6425476c773f6013dd7bd5f6\")",
+            "user": "ObjectId(\"63da3227037d166fd51cef24\")",
+            "created": "2023-03-30T08:25:16.377Z",
+            "__v": 0
+          }
+        ]
+      },
+      {
+        "type": "mongodb",
+        "id": "269ee14f-a0f8-4a55-b7f6-5576f116e6db",
+        "preQueryRes": [
+          {
+            "_id": "ObjectId(\"6425476c773f6013dd7bd5f6\")",
+            "user": "ObjectId(\"63da3227037d166fd51cef24\")",
+            "products": [
+              {
+                "purchasePrice": 13,
+                "totalPrice": 13,
+                "priceWithTax": 13.65,
+                "totalTax": 0.65,
+                "status": "Processing",
+                "_id": "ObjectId(\"6425476c773f6013dd7bd5f7\")",
+                "quantity": 1,
+                "product": "ObjectId(\"63ed276765b04225d4bd3e4b\")"
+              },
+              {
+                "purchasePrice": 12,
+                "totalPrice": 12,
+                "priceWithTax": 0,
+                "totalTax": 0,
+                "status": "Cancelled",
+                "_id": "ObjectId(\"6425476c773f6013dd7bd5f8\")",
+                "quantity": 1,
+                "product": "ObjectId(\"63ed3108b81ccc28a4d9eaf2\")"
+              }
+            ],
+            "created": "2023-03-30T08:25:16.348Z",
+            "__v": 0
+          }
+        ],
+        "query": {
+          "_id": "ObjectId(\"6425476c773f6013dd7bd5f6\")"
+        },
+        "otherArgs": {},
+        "options": {
+          "projection": {}
+        },
+        "op": "find",
+        "db": "ecomm",
+        "collection": "carts",
+        "mongoRes": {
+          "_id": "ObjectId(\"6425476c773f6013dd7bd5f6\")",
+          "user": "ObjectId(\"63da3227037d166fd51cef24\")",
+          "products": [
+            {
+              "purchasePrice": 13,
+              "totalPrice": 13,
+              "priceWithTax": 13.65,
+              "totalTax": 0.65,
+              "status": "Processing",
+              "_id": "ObjectId(\"6425476c773f6013dd7bd5f7\")",
+              "quantity": 1,
+              "product": "ObjectId(\"63ed276765b04225d4bd3e4b\")"
+            },
+            {
+              "purchasePrice": 12,
+              "totalPrice": 12,
+              "priceWithTax": 0,
+              "totalTax": 0,
+              "status": "Cancelled",
+              "_id": "ObjectId(\"6425476c773f6013dd7bd5f8\")",
+              "quantity": 1,
+              "product": "ObjectId(\"63ed3108b81ccc28a4d9eaf2\")"
+            }
+          ],
+          "created": "2023-03-30T08:25:16.348Z",
+          "__v": 0
+        },
+        "postQueryRes": [
+          {
+            "_id": "ObjectId(\"6425476c773f6013dd7bd5f6\")",
+            "user": "ObjectId(\"63da3227037d166fd51cef24\")",
+            "products": [
+              {
+                "purchasePrice": 13,
+                "totalPrice": 13,
+                "priceWithTax": 13.65,
+                "totalTax": 0.65,
+                "status": "Processing",
+                "_id": "ObjectId(\"6425476c773f6013dd7bd5f7\")",
+                "quantity": 1,
+                "product": "ObjectId(\"63ed276765b04225d4bd3e4b\")"
+              },
+              {
+                "purchasePrice": 12,
+                "totalPrice": 12,
+                "priceWithTax": 0,
+                "totalTax": 0,
+                "status": "Cancelled",
+                "_id": "ObjectId(\"6425476c773f6013dd7bd5f8\")",
+                "quantity": 1,
+                "product": "ObjectId(\"63ed3108b81ccc28a4d9eaf2\")"
+              }
+            ],
+            "created": "2023-03-30T08:25:16.348Z",
+            "__v": 0
+          }
+        ]
+      },
+      {
+        "type": "mongodb",
+        "id": "f12281af-4269-483e-b093-01b6d2c40738",
+        "preQueryRes": [
+          {
+            "_id": "ObjectId(\"6425476c773f6013dd7bd5f6\")",
+            "user": "ObjectId(\"63da3227037d166fd51cef24\")",
+            "products": [
+              {
+                "purchasePrice": 13,
+                "totalPrice": 13,
+                "priceWithTax": 13.65,
+                "totalTax": 0.65,
+                "status": "Processing",
+                "_id": "ObjectId(\"6425476c773f6013dd7bd5f7\")",
+                "quantity": 1,
+                "product": "ObjectId(\"63ed276765b04225d4bd3e4b\")"
+              },
+              {
+                "purchasePrice": 12,
+                "totalPrice": 12,
+                "priceWithTax": 0,
+                "totalTax": 0,
+                "status": "Cancelled",
+                "_id": "ObjectId(\"6425476c773f6013dd7bd5f8\")",
+                "quantity": 1,
+                "product": "ObjectId(\"63ed3108b81ccc28a4d9eaf2\")"
+              }
+            ],
+            "created": "2023-03-30T08:25:16.348Z",
+            "__v": 0
+          }
+        ],
+        "query": {
+          "_id": "ObjectId(\"6425476c773f6013dd7bd5f6\")"
+        },
+        "otherArgs": {},
+        "options": {
+          "projection": {}
+        },
+        "op": "findOne",
+        "db": "ecomm",
+        "collection": "carts",
+        "mongoRes": {
+          "_id": "ObjectId(\"6425476c773f6013dd7bd5f6\")",
+          "user": "ObjectId(\"63da3227037d166fd51cef24\")",
+          "products": [
+            {
+              "purchasePrice": 13,
+              "totalPrice": 13,
+              "priceWithTax": 13.65,
+              "totalTax": 0.65,
+              "status": "Processing",
+              "_id": "ObjectId(\"6425476c773f6013dd7bd5f7\")",
+              "quantity": 1,
+              "product": "ObjectId(\"63ed276765b04225d4bd3e4b\")"
+            },
+            {
+              "purchasePrice": 12,
+              "totalPrice": 12,
+              "priceWithTax": 0,
+              "totalTax": 0,
+              "status": "Cancelled",
+              "_id": "ObjectId(\"6425476c773f6013dd7bd5f8\")",
+              "quantity": 1,
+              "product": "ObjectId(\"63ed3108b81ccc28a4d9eaf2\")"
+            }
+          ],
+          "created": "2023-03-30T08:25:16.348Z",
+          "__v": 0
+        },
+        "postQueryRes": [
+          {
+            "_id": "ObjectId(\"6425476c773f6013dd7bd5f6\")",
+            "user": "ObjectId(\"63da3227037d166fd51cef24\")",
+            "products": [
+              {
+                "purchasePrice": 13,
+                "totalPrice": 13,
+                "priceWithTax": 13.65,
+                "totalTax": 0.65,
+                "status": "Processing",
+                "_id": "ObjectId(\"6425476c773f6013dd7bd5f7\")",
+                "quantity": 1,
+                "product": "ObjectId(\"63ed276765b04225d4bd3e4b\")"
+              },
+              {
+                "purchasePrice": 12,
+                "totalPrice": 12,
+                "priceWithTax": 0,
+                "totalTax": 0,
+                "status": "Cancelled",
+                "_id": "ObjectId(\"6425476c773f6013dd7bd5f8\")",
+                "quantity": 1,
+                "product": "ObjectId(\"63ed3108b81ccc28a4d9eaf2\")"
+              }
+            ],
+            "created": "2023-03-30T08:25:16.348Z",
+            "__v": 0
+          }
+        ]
+      },
+      {
+        "type": "mongodb",
+        "id": "1670b907-36a8-40be-8def-0058f9dcdd98",
+        "preQueryRes": [
+          {
+            "_id": "ObjectId(\"63ed3108b81ccc28a4d9eaf2\")",
+            "taxable": false,
+            "isActive": false,
+            "brand": "ObjectId(\"63e159994eb863020dc9f368\")",
+            "sku": "asdasda",
+            "name": "asdasdasd",
+            "description": "asdasd",
+            "quantity": 132,
+            "price": 12,
+            "imageUrl": "https://igmern.s3.amazonaws.com/photo-1481349518771-20055b2a7b24.jpeg",
+            "imageKey": "photo-1481349518771-20055b2a7b24.jpeg",
+            "created": "2023-02-15T19:22:48.145Z",
+            "slug": "asdasd",
+            "__v": 0
+          }
+        ],
+        "query": [
+          {
+            "subOp": "updateOne",
+            "otherArgs": {
+              "update": {
+                "$inc": {
+                  "quantity": 1
+                }
+              }
+            },
+            "query": {
+              "_id": "ObjectId(\"63ed276765b04225d4bd3e4b\")"
+            }
+          },
+          {
+            "subOp": "updateOne",
+            "otherArgs": {
+              "update": {
+                "$inc": {
+                  "quantity": 1
+                }
+              }
+            },
+            "query": {
+              "_id": "ObjectId(\"63ed3108b81ccc28a4d9eaf2\")"
+            }
+          }
+        ],
+        "otherArgs": {},
+        "options": {},
+        "op": "bulkWrite",
+        "db": "ecomm",
+        "collection": "products",
+        "mongoRes": {
+          "ok": 1,
+          "writeErrors": [],
+          "writeConcernErrors": [],
+          "insertedIds": [],
+          "nInserted": 0,
+          "nUpserted": 0,
+          "nMatched": 1,
+          "nModified": 1,
+          "nRemoved": 0,
+          "upserted": []
+        },
+        "postQueryRes": [
+          {
+            "_id": "ObjectId(\"63ed3108b81ccc28a4d9eaf2\")",
+            "taxable": false,
+            "isActive": false,
+            "brand": "ObjectId(\"63e159994eb863020dc9f368\")",
+            "sku": "asdasda",
+            "name": "asdasdasd",
+            "description": "asdasd",
+            "quantity": 133,
+            "price": 12,
+            "imageUrl": "https://igmern.s3.amazonaws.com/photo-1481349518771-20055b2a7b24.jpeg",
+            "imageKey": "photo-1481349518771-20055b2a7b24.jpeg",
+            "created": "2023-02-15T19:22:48.145Z",
+            "slug": "asdasd",
+            "__v": 0
+          }
+        ]
+      },
+      {
+        "type": "mongodb",
+        "id": "c6257081-b2c6-4b79-9555-b35b40c2ac69",
+        "preQueryRes": [
+          {
+            "_id": "ObjectId(\"6425476c773f6013dd7bd5fc\")",
+            "total": 25,
+            "cart": "ObjectId(\"6425476c773f6013dd7bd5f6\")",
+            "user": "ObjectId(\"63da3227037d166fd51cef24\")",
+            "created": "2023-03-30T08:25:16.377Z",
+            "__v": 0
+          }
+        ],
+        "query": {
+          "_id": "ObjectId(\"6425476c773f6013dd7bd5fc\")"
+        },
+        "otherArgs": {},
+        "options": {},
+        "op": "deleteOne",
+        "db": "ecomm",
+        "collection": "orders",
+        "mongoRes": {
+          "n": 1,
+          "ok": 1
+        },
+        "postQueryRes": []
+      },
+      {
+        "type": "mongodb",
+        "id": "0254a180-af61-4efb-9909-cdfc84827145",
+        "preQueryRes": [
+          {
+            "_id": "ObjectId(\"6425476c773f6013dd7bd5f6\")",
+            "user": "ObjectId(\"63da3227037d166fd51cef24\")",
+            "products": [
+              {
+                "purchasePrice": 13,
+                "totalPrice": 13,
+                "priceWithTax": 13.65,
+                "totalTax": 0.65,
+                "status": "Processing",
+                "_id": "ObjectId(\"6425476c773f6013dd7bd5f7\")",
+                "quantity": 1,
+                "product": "ObjectId(\"63ed276765b04225d4bd3e4b\")"
+              },
+              {
+                "purchasePrice": 12,
+                "totalPrice": 12,
+                "priceWithTax": 0,
+                "totalTax": 0,
+                "status": "Cancelled",
+                "_id": "ObjectId(\"6425476c773f6013dd7bd5f8\")",
+                "quantity": 1,
+                "product": "ObjectId(\"63ed3108b81ccc28a4d9eaf2\")"
+              }
+            ],
+            "created": "2023-03-30T08:25:16.348Z",
+            "__v": 0
+          }
+        ],
+        "query": {
+          "_id": "ObjectId(\"6425476c773f6013dd7bd5f6\")"
+        },
+        "otherArgs": {},
+        "options": {},
+        "op": "deleteOne",
+        "db": "ecomm",
+        "collection": "carts",
+        "mongoRes": {
+          "n": 1,
+          "ok": 1
+        },
+        "postQueryRes": []
+      }
+    ],
+    "query": {},
+    "params": {},
+    "asyncStore": 79,
+    "mongoQueriesCapture": 9,
+    "statusCode": 200,
+    "traceLegacy": [
+      13928
+    ],
+    "createdAt": "2023-03-30T11:23:04.711Z"
+  }
+]

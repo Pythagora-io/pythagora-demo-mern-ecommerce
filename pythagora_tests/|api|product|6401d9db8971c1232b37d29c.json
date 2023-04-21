@@ -1,0 +1,320 @@
+[
+  {
+    "id": "59588be8-c712-4dcc-917f-4a1b1b4b6de5",
+    "endpoint": "/api/product/6401d9db8971c1232b37d29c",
+    "url": "http://localhost:3000/api/product/6401d9db8971c1232b37d29c",
+    "body": {},
+    "method": "GET",
+    "headers": {
+      "host": "localhost:3000",
+      "connection": "keep-alive",
+      "sec-ch-ua": "\"Google Chrome\";v=\"111\", \"Not(A:Brand\";v=\"8\", \"Chromium\";v=\"111\"",
+      "accept": "application/json, text/plain, */*",
+      "sec-ch-ua-mobile": "?0",
+      "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzZGEzMjI3MDM3ZDE2NmZkNTFjZWYyNCIsImlhdCI6MTY4MDE3NTE2NSwiZXhwIjoxNjgwNzc5OTY1fQ.odXwwZprse2gBPEQtvzkwUln7Nxkbfyh9zojtKIxMa8",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+      "sec-ch-ua-platform": "\"macOS\"",
+      "sec-fetch-site": "same-origin",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-dest": "empty",
+      "accept-encoding": "gzip, deflate, br",
+      "accept-language": "en-US,en;q=0.9,hr;q=0.8,bs;q=0.7",
+      "cookie": "Webstorm-a7738556=37894940-6565-40a7-9ec5-b3a59a3f74e6; connect.sid=s%3AYt5uQ-ZhdJwLJja_sd814I2iAKkGpwzM.B%2F%2Btxr1eUYCZhBOzqQOsBsbTR8j%2FZn%2BbD1VFiJBRzAc"
+    },
+    "responseData": "{\"product\":{\"taxable\":true,\"isActive\":true,\"brand\":null,\"_id\":\"6401d9db8971c1232b37d29c\",\"sku\":\"asda\",\"name\":\"asda\",\"description\":\"asdasdasd\",\"quantity\":128,\"price\":123,\"imageUrl\":\"\",\"imageKey\":\"\",\"created\":\"2023-03-03T11:28:27.314Z\",\"slug\":\"asda\",\"__v\":0}}",
+    "traceId": 3541,
+    "trace": [],
+    "intermediateData": [
+      {
+        "type": "mongodb",
+        "id": "4684522f-8e55-4306-abf8-8ac394f4469b",
+        "preQueryRes": [
+          {
+            "_id": "ObjectId(\"63da3227037d166fd51cef24\")",
+            "merchant": null,
+            "provider": "Email",
+            "role": "ROLE ADMIN",
+            "email": "admin@pythagora.io",
+            "password": "$2a$10$oONswexLk.uMD.x753Ed3e1D1h2zhFdyoRY/ssnIZDw0oppDqUEvK",
+            "firstName": "admin",
+            "lastName": "adminff",
+            "created": "2023-02-01T09:34:31.627Z",
+            "__v": 0,
+            "phoneNumber": "34433455443324",
+            "resetPasswordExpires": "2023-03-30T11:58:38.333Z",
+            "resetPasswordToken": "bf3b42b9ab15984ff9014db6513413b913c075af061c16d8a8efb5193793a5c6a49ab3802b94930cc921207c6cafcee0"
+          }
+        ],
+        "query": {
+          "_id": "ObjectId(\"63da3227037d166fd51cef24\")"
+        },
+        "otherArgs": {},
+        "options": {
+          "projection": {}
+        },
+        "op": "find",
+        "db": "ecomm",
+        "collection": "users",
+        "mongoRes": {
+          "_id": "ObjectId(\"63da3227037d166fd51cef24\")",
+          "merchant": null,
+          "provider": "Email",
+          "role": "ROLE ADMIN",
+          "email": "admin@pythagora.io",
+          "password": "$2a$10$oONswexLk.uMD.x753Ed3e1D1h2zhFdyoRY/ssnIZDw0oppDqUEvK",
+          "firstName": "admin",
+          "lastName": "adminff",
+          "created": "2023-02-01T09:34:31.627Z",
+          "__v": 0,
+          "phoneNumber": "34433455443324",
+          "resetPasswordExpires": "2023-03-30T11:58:38.333Z",
+          "resetPasswordToken": "bf3b42b9ab15984ff9014db6513413b913c075af061c16d8a8efb5193793a5c6a49ab3802b94930cc921207c6cafcee0"
+        },
+        "postQueryRes": [
+          {
+            "_id": "ObjectId(\"63da3227037d166fd51cef24\")",
+            "merchant": null,
+            "provider": "Email",
+            "role": "ROLE ADMIN",
+            "email": "admin@pythagora.io",
+            "password": "$2a$10$oONswexLk.uMD.x753Ed3e1D1h2zhFdyoRY/ssnIZDw0oppDqUEvK",
+            "firstName": "admin",
+            "lastName": "adminff",
+            "created": "2023-02-01T09:34:31.627Z",
+            "__v": 0,
+            "phoneNumber": "34433455443324",
+            "resetPasswordExpires": "2023-03-30T11:58:38.333Z",
+            "resetPasswordToken": "bf3b42b9ab15984ff9014db6513413b913c075af061c16d8a8efb5193793a5c6a49ab3802b94930cc921207c6cafcee0"
+          }
+        ]
+      },
+      {
+        "type": "mongodb",
+        "id": "129ba151-6519-441c-a352-b3d17b6ecf90",
+        "preQueryRes": [
+          {
+            "_id": "ObjectId(\"63da3227037d166fd51cef24\")",
+            "merchant": null,
+            "provider": "Email",
+            "role": "ROLE ADMIN",
+            "email": "admin@pythagora.io",
+            "password": "$2a$10$oONswexLk.uMD.x753Ed3e1D1h2zhFdyoRY/ssnIZDw0oppDqUEvK",
+            "firstName": "admin",
+            "lastName": "adminff",
+            "created": "2023-02-01T09:34:31.627Z",
+            "__v": 0,
+            "phoneNumber": "34433455443324",
+            "resetPasswordExpires": "2023-03-30T11:58:38.333Z",
+            "resetPasswordToken": "bf3b42b9ab15984ff9014db6513413b913c075af061c16d8a8efb5193793a5c6a49ab3802b94930cc921207c6cafcee0"
+          }
+        ],
+        "query": {
+          "_id": "ObjectId(\"63da3227037d166fd51cef24\")"
+        },
+        "otherArgs": {},
+        "options": {
+          "projection": {}
+        },
+        "op": "findOne",
+        "db": "ecomm",
+        "collection": "users",
+        "mongoRes": {
+          "_id": "ObjectId(\"63da3227037d166fd51cef24\")",
+          "merchant": null,
+          "provider": "Email",
+          "role": "ROLE ADMIN",
+          "email": "admin@pythagora.io",
+          "password": "$2a$10$oONswexLk.uMD.x753Ed3e1D1h2zhFdyoRY/ssnIZDw0oppDqUEvK",
+          "firstName": "admin",
+          "lastName": "adminff",
+          "created": "2023-02-01T09:34:31.627Z",
+          "__v": 0,
+          "phoneNumber": "34433455443324",
+          "resetPasswordExpires": "2023-03-30T11:58:38.333Z",
+          "resetPasswordToken": "bf3b42b9ab15984ff9014db6513413b913c075af061c16d8a8efb5193793a5c6a49ab3802b94930cc921207c6cafcee0"
+        },
+        "postQueryRes": [
+          {
+            "_id": "ObjectId(\"63da3227037d166fd51cef24\")",
+            "merchant": null,
+            "provider": "Email",
+            "role": "ROLE ADMIN",
+            "email": "admin@pythagora.io",
+            "password": "$2a$10$oONswexLk.uMD.x753Ed3e1D1h2zhFdyoRY/ssnIZDw0oppDqUEvK",
+            "firstName": "admin",
+            "lastName": "adminff",
+            "created": "2023-02-01T09:34:31.627Z",
+            "__v": 0,
+            "phoneNumber": "34433455443324",
+            "resetPasswordExpires": "2023-03-30T11:58:38.333Z",
+            "resetPasswordToken": "bf3b42b9ab15984ff9014db6513413b913c075af061c16d8a8efb5193793a5c6a49ab3802b94930cc921207c6cafcee0"
+          }
+        ]
+      },
+      {
+        "type": "mongodb",
+        "id": "4ccdf195-a1fd-4ca2-818e-bca0823b0625",
+        "preQueryRes": [
+          {
+            "_id": "ObjectId(\"6401d9db8971c1232b37d29c\")",
+            "taxable": true,
+            "isActive": true,
+            "brand": "ObjectId(\"63c09f0013732c6fa7325721\")",
+            "sku": "asda",
+            "name": "asda",
+            "description": "asdasdasd",
+            "quantity": 128,
+            "price": 123,
+            "imageUrl": "",
+            "imageKey": "",
+            "created": "2023-03-03T11:28:27.314Z",
+            "slug": "asda",
+            "__v": 0
+          }
+        ],
+        "query": {
+          "_id": "ObjectId(\"6401d9db8971c1232b37d29c\")"
+        },
+        "otherArgs": {},
+        "options": {
+          "projection": {}
+        },
+        "op": "find",
+        "db": "ecomm",
+        "collection": "products",
+        "mongoRes": {
+          "_id": "ObjectId(\"6401d9db8971c1232b37d29c\")",
+          "taxable": true,
+          "isActive": true,
+          "brand": "ObjectId(\"63c09f0013732c6fa7325721\")",
+          "sku": "asda",
+          "name": "asda",
+          "description": "asdasdasd",
+          "quantity": 128,
+          "price": 123,
+          "imageUrl": "",
+          "imageKey": "",
+          "created": "2023-03-03T11:28:27.314Z",
+          "slug": "asda",
+          "__v": 0
+        },
+        "postQueryRes": [
+          {
+            "_id": "ObjectId(\"6401d9db8971c1232b37d29c\")",
+            "taxable": true,
+            "isActive": true,
+            "brand": "ObjectId(\"63c09f0013732c6fa7325721\")",
+            "sku": "asda",
+            "name": "asda",
+            "description": "asdasdasd",
+            "quantity": 128,
+            "price": 123,
+            "imageUrl": "",
+            "imageKey": "",
+            "created": "2023-03-03T11:28:27.314Z",
+            "slug": "asda",
+            "__v": 0
+          }
+        ]
+      },
+      {
+        "type": "mongodb",
+        "id": "7f3fc40b-f562-4110-95a2-9a6829a7ae92",
+        "preQueryRes": [
+          {
+            "_id": "ObjectId(\"6401d9db8971c1232b37d29c\")",
+            "taxable": true,
+            "isActive": true,
+            "brand": "ObjectId(\"63c09f0013732c6fa7325721\")",
+            "sku": "asda",
+            "name": "asda",
+            "description": "asdasdasd",
+            "quantity": 128,
+            "price": 123,
+            "imageUrl": "",
+            "imageKey": "",
+            "created": "2023-03-03T11:28:27.314Z",
+            "slug": "asda",
+            "__v": 0
+          }
+        ],
+        "query": {
+          "_id": "ObjectId(\"6401d9db8971c1232b37d29c\")"
+        },
+        "otherArgs": {},
+        "options": {
+          "projection": {}
+        },
+        "op": "findOne",
+        "db": "ecomm",
+        "collection": "products",
+        "mongoRes": {
+          "_id": "ObjectId(\"6401d9db8971c1232b37d29c\")",
+          "taxable": true,
+          "isActive": true,
+          "brand": "ObjectId(\"63c09f0013732c6fa7325721\")",
+          "sku": "asda",
+          "name": "asda",
+          "description": "asdasdasd",
+          "quantity": 128,
+          "price": 123,
+          "imageUrl": "",
+          "imageKey": "",
+          "created": "2023-03-03T11:28:27.314Z",
+          "slug": "asda",
+          "__v": 0
+        },
+        "postQueryRes": [
+          {
+            "_id": "ObjectId(\"6401d9db8971c1232b37d29c\")",
+            "taxable": true,
+            "isActive": true,
+            "brand": "ObjectId(\"63c09f0013732c6fa7325721\")",
+            "sku": "asda",
+            "name": "asda",
+            "description": "asdasdasd",
+            "quantity": 128,
+            "price": 123,
+            "imageUrl": "",
+            "imageKey": "",
+            "created": "2023-03-03T11:28:27.314Z",
+            "slug": "asda",
+            "__v": 0
+          }
+        ]
+      },
+      {
+        "type": "mongodb",
+        "id": "b9613c20-bcc9-4731-bf96-3750e94f3980",
+        "preQueryRes": [],
+        "query": {
+          "_id": {
+            "$in": [
+              "ObjectId(\"63c09f0013732c6fa7325721\")"
+            ]
+          }
+        },
+        "otherArgs": {},
+        "options": {
+          "projection": {
+            "name": 1
+          }
+        },
+        "op": "find",
+        "db": "ecomm",
+        "collection": "brands",
+        "mongoRes": [],
+        "postQueryRes": []
+      }
+    ],
+    "query": {},
+    "params": {},
+    "asyncStore": 23,
+    "mongoQueriesCapture": 5,
+    "statusCode": 200,
+    "traceLegacy": [
+      3541
+    ],
+    "createdAt": "2023-03-30T11:20:24.884Z"
+  }
+]

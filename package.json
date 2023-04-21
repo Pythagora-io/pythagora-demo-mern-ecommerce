@@ -46,6 +46,7 @@
     "crypto": "^1.0.1",
     "dompurify": "^2.3.8",
     "dotenv": "^8.0.0",
+    "pythagora": "^0.0.44",
     "express": "^4.17.1",
     "font-awesome": "^4.7.0",
     "helmet": "^4.6.0",

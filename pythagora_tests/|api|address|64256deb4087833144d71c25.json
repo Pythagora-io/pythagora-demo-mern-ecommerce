@@ -1,0 +1,422 @@
+[
+  {
+    "id": "62a0bc3d-d57d-4135-a00d-9c40cef5d644",
+    "endpoint": "/api/address/64256deb4087833144d71c25",
+    "url": "http://localhost:3000/api/address/64256deb4087833144d71c25",
+    "body": {},
+    "method": "GET",
+    "headers": {
+      "host": "localhost:3000",
+      "connection": "keep-alive",
+      "sec-ch-ua": "\"Google Chrome\";v=\"111\", \"Not(A:Brand\";v=\"8\", \"Chromium\";v=\"111\"",
+      "accept": "application/json, text/plain, */*",
+      "sec-ch-ua-mobile": "?0",
+      "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MjU2ZDljNDA4NzgzMzE0NGQ3MWMxNiIsImlhdCI6MTY4MDE3NDU0MiwiZXhwIjoxNjgwNzc5MzQyfQ.hy-D-AdsWSuUg3f1CH03FBHQFMFtwmklRwDCckvbzHk",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+      "sec-ch-ua-platform": "\"macOS\"",
+      "sec-fetch-site": "same-origin",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-dest": "empty",
+      "accept-encoding": "gzip, deflate, br",
+      "accept-language": "en-US,en;q=0.9,hr;q=0.8,bs;q=0.7",
+      "cookie": "Webstorm-a7738556=37894940-6565-40a7-9ec5-b3a59a3f74e6; connect.sid=s%3AYt5uQ-ZhdJwLJja_sd814I2iAKkGpwzM.B%2F%2Btxr1eUYCZhBOzqQOsBsbTR8j%2FZn%2BbD1VFiJBRzAc"
+    },
+    "responseData": "{\"address\":{\"isDefault\":true,\"_id\":\"64256deb4087833144d71c25\",\"address\":\"asasd\",\"city\":\"asdasd\",\"state\":\"asdasd\",\"country\":\"asdasd\",\"zipCode\":\"12312\",\"user\":\"64256d9c4087833144d71c16\",\"created\":\"2023-03-30T11:09:31.416Z\",\"__v\":0}}",
+    "traceId": 2276,
+    "trace": [],
+    "intermediateData": [
+      {
+        "type": "mongodb",
+        "id": "a9de39c7-7913-4710-baf3-1283e4ba852d",
+        "preQueryRes": [
+          {
+            "_id": "ObjectId(\"64256deb4087833144d71c25\")",
+            "isDefault": true,
+            "address": "asasd",
+            "city": "asdasd",
+            "state": "asdasd",
+            "country": "asdasd",
+            "zipCode": "12312",
+            "user": "ObjectId(\"64256d9c4087833144d71c16\")",
+            "created": "2023-03-30T11:09:31.416Z",
+            "__v": 0
+          }
+        ],
+        "query": {
+          "_id": "ObjectId(\"64256deb4087833144d71c25\")"
+        },
+        "otherArgs": {},
+        "options": {
+          "projection": {}
+        },
+        "op": "find",
+        "db": "ecomm",
+        "collection": "addresses",
+        "mongoRes": {
+          "_id": "ObjectId(\"64256deb4087833144d71c25\")",
+          "isDefault": true,
+          "address": "asasd",
+          "city": "asdasd",
+          "state": "asdasd",
+          "country": "asdasd",
+          "zipCode": "12312",
+          "user": "ObjectId(\"64256d9c4087833144d71c16\")",
+          "created": "2023-03-30T11:09:31.416Z",
+          "__v": 0
+        },
+        "postQueryRes": [
+          {
+            "_id": "ObjectId(\"64256deb4087833144d71c25\")",
+            "isDefault": true,
+            "address": "asasd",
+            "city": "asdasd",
+            "state": "asdasd",
+            "country": "asdasd",
+            "zipCode": "12312",
+            "user": "ObjectId(\"64256d9c4087833144d71c16\")",
+            "created": "2023-03-30T11:09:31.416Z",
+            "__v": 0
+          }
+        ]
+      },
+      {
+        "type": "mongodb",
+        "id": "f737b57b-f0e8-4b58-9f0a-d12815a58cb1",
+        "preQueryRes": [
+          {
+            "_id": "ObjectId(\"64256deb4087833144d71c25\")",
+            "isDefault": true,
+            "address": "asasd",
+            "city": "asdasd",
+            "state": "asdasd",
+            "country": "asdasd",
+            "zipCode": "12312",
+            "user": "ObjectId(\"64256d9c4087833144d71c16\")",
+            "created": "2023-03-30T11:09:31.416Z",
+            "__v": 0
+          }
+        ],
+        "query": {
+          "_id": "ObjectId(\"64256deb4087833144d71c25\")"
+        },
+        "otherArgs": {},
+        "options": {
+          "projection": {}
+        },
+        "op": "findOne",
+        "db": "ecomm",
+        "collection": "addresses",
+        "mongoRes": {
+          "_id": "ObjectId(\"64256deb4087833144d71c25\")",
+          "isDefault": true,
+          "address": "asasd",
+          "city": "asdasd",
+          "state": "asdasd",
+          "country": "asdasd",
+          "zipCode": "12312",
+          "user": "ObjectId(\"64256d9c4087833144d71c16\")",
+          "created": "2023-03-30T11:09:31.416Z",
+          "__v": 0
+        },
+        "postQueryRes": [
+          {
+            "_id": "ObjectId(\"64256deb4087833144d71c25\")",
+            "isDefault": true,
+            "address": "asasd",
+            "city": "asdasd",
+            "state": "asdasd",
+            "country": "asdasd",
+            "zipCode": "12312",
+            "user": "ObjectId(\"64256d9c4087833144d71c16\")",
+            "created": "2023-03-30T11:09:31.416Z",
+            "__v": 0
+          }
+        ]
+      }
+    ],
+    "query": {},
+    "params": {},
+    "asyncStore": 13,
+    "mongoQueriesCapture": 2,
+    "statusCode": 200,
+    "traceLegacy": [
+      2276
+    ],
+    "createdAt": "2023-03-30T11:09:34.402Z"
+  },
+  {
+    "id": "d9101c0a-ecb5-4eb8-8a72-9f5e18d2745c",
+    "endpoint": "/api/address/64256deb4087833144d71c25",
+    "url": "http://localhost:3000/api/address/64256deb4087833144d71c25",
+    "body": {
+      "isDefault": true,
+      "_id": "64256deb4087833144d71c25",
+      "address": "asasdasd",
+      "city": "asdasd",
+      "state": "asdasd",
+      "country": "asdasd",
+      "zipCode": "12312",
+      "user": "64256d9c4087833144d71c16",
+      "created": "2023-03-30T11:09:31.416Z",
+      "__v": 0
+    },
+    "method": "PUT",
+    "headers": {
+      "host": "localhost:3000",
+      "connection": "keep-alive",
+      "content-length": "221",
+      "sec-ch-ua": "\"Google Chrome\";v=\"111\", \"Not(A:Brand\";v=\"8\", \"Chromium\";v=\"111\"",
+      "accept": "application/json, text/plain, */*",
+      "content-type": "application/json",
+      "sec-ch-ua-mobile": "?0",
+      "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MjU2ZDljNDA4NzgzMzE0NGQ3MWMxNiIsImlhdCI6MTY4MDE3NDU0MiwiZXhwIjoxNjgwNzc5MzQyfQ.hy-D-AdsWSuUg3f1CH03FBHQFMFtwmklRwDCckvbzHk",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+      "sec-ch-ua-platform": "\"macOS\"",
+      "origin": "http://localhost:3000",
+      "sec-fetch-site": "same-origin",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-dest": "empty",
+      "accept-encoding": "gzip, deflate, br",
+      "accept-language": "en-US,en;q=0.9,hr;q=0.8,bs;q=0.7",
+      "cookie": "Webstorm-a7738556=37894940-6565-40a7-9ec5-b3a59a3f74e6; connect.sid=s%3AYt5uQ-ZhdJwLJja_sd814I2iAKkGpwzM.B%2F%2Btxr1eUYCZhBOzqQOsBsbTR8j%2FZn%2BbD1VFiJBRzAc"
+    },
+    "responseData": "{\"success\":true,\"message\":\"Address has been updated successfully!\"}",
+    "traceId": 2739,
+    "trace": [],
+    "intermediateData": [
+      {
+        "type": "mongodb",
+        "id": "afa52c12-de33-494f-83e5-106ae99c4b6a",
+        "preQueryRes": [
+          {
+            "_id": "ObjectId(\"64256deb4087833144d71c25\")",
+            "isDefault": true,
+            "address": "asasd",
+            "city": "asdasd",
+            "state": "asdasd",
+            "country": "asdasd",
+            "zipCode": "12312",
+            "user": "ObjectId(\"64256d9c4087833144d71c16\")",
+            "created": "2023-03-30T11:09:31.416Z",
+            "__v": 0
+          }
+        ],
+        "query": {
+          "_id": "ObjectId(\"64256deb4087833144d71c25\")"
+        },
+        "otherArgs": {
+          "update": {
+            "$set": {
+              "__v": 0,
+              "created": "2023-03-30T11:09:31.416Z",
+              "user": "ObjectId(\"64256d9c4087833144d71c16\")",
+              "zipCode": "12312",
+              "country": "asdasd",
+              "state": "asdasd",
+              "city": "asdasd",
+              "address": "asasdasd",
+              "_id": "ObjectId(\"64256deb4087833144d71c25\")",
+              "isDefault": true
+            }
+          }
+        },
+        "options": {
+          "upsert": false,
+          "remove": false,
+          "projection": {},
+          "returnDocument": "after"
+        },
+        "op": "findOneAndUpdate",
+        "db": "ecomm",
+        "collection": "addresses",
+        "mongoRes": {
+          "lastErrorObject": {
+            "n": 1,
+            "updatedExisting": true
+          },
+          "value": {
+            "_id": "ObjectId(\"64256deb4087833144d71c25\")",
+            "isDefault": true,
+            "address": "asasdasd",
+            "city": "asdasd",
+            "state": "asdasd",
+            "country": "asdasd",
+            "zipCode": "12312",
+            "user": "ObjectId(\"64256d9c4087833144d71c16\")",
+            "created": "2023-03-30T11:09:31.416Z",
+            "__v": 0
+          },
+          "ok": 1
+        },
+        "postQueryRes": [
+          {
+            "_id": "ObjectId(\"64256deb4087833144d71c25\")",
+            "isDefault": true,
+            "address": "asasdasd",
+            "city": "asdasd",
+            "state": "asdasd",
+            "country": "asdasd",
+            "zipCode": "12312",
+            "user": "ObjectId(\"64256d9c4087833144d71c16\")",
+            "created": "2023-03-30T11:09:31.416Z",
+            "__v": 0
+          }
+        ]
+      }
+    ],
+    "query": {},
+    "params": {},
+    "asyncStore": 14,
+    "mongoQueriesCapture": 1,
+    "statusCode": 200,
+    "traceLegacy": [
+      2739
+    ],
+    "createdAt": "2023-03-30T11:09:38.233Z"
+  },
+  {
+    "id": "1f026a56-8889-4d1c-a08a-b6a8c246c5dd",
+    "endpoint": "/api/address/64256deb4087833144d71c25",
+    "url": "http://localhost:3000/api/address/64256deb4087833144d71c25",
+    "body": {},
+    "method": "GET",
+    "headers": {
+      "host": "localhost:3000",
+      "connection": "keep-alive",
+      "sec-ch-ua": "\"Google Chrome\";v=\"111\", \"Not(A:Brand\";v=\"8\", \"Chromium\";v=\"111\"",
+      "accept": "application/json, text/plain, */*",
+      "sec-ch-ua-mobile": "?0",
+      "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MjU2ZDljNDA4NzgzMzE0NGQ3MWMxNiIsImlhdCI6MTY4MDE3NDU0MiwiZXhwIjoxNjgwNzc5MzQyfQ.hy-D-AdsWSuUg3f1CH03FBHQFMFtwmklRwDCckvbzHk",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+      "sec-ch-ua-platform": "\"macOS\"",
+      "sec-fetch-site": "same-origin",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-dest": "empty",
+      "accept-encoding": "gzip, deflate, br",
+      "accept-language": "en-US,en;q=0.9,hr;q=0.8,bs;q=0.7",
+      "cookie": "Webstorm-a7738556=37894940-6565-40a7-9ec5-b3a59a3f74e6; connect.sid=s%3AYt5uQ-ZhdJwLJja_sd814I2iAKkGpwzM.B%2F%2Btxr1eUYCZhBOzqQOsBsbTR8j%2FZn%2BbD1VFiJBRzAc"
+    },
+    "responseData": "{\"address\":{\"isDefault\":true,\"_id\":\"64256deb4087833144d71c25\",\"address\":\"asasdasd\",\"city\":\"asdasd\",\"state\":\"asdasd\",\"country\":\"asdasd\",\"zipCode\":\"12312\",\"user\":\"64256d9c4087833144d71c16\",\"created\":\"2023-03-30T11:09:31.416Z\",\"__v\":0}}",
+    "traceId": 2986,
+    "trace": [],
+    "intermediateData": [
+      {
+        "type": "mongodb",
+        "id": "05402264-a5ac-405d-885c-58e5bae29868",
+        "preQueryRes": [
+          {
+            "_id": "ObjectId(\"64256deb4087833144d71c25\")",
+            "isDefault": true,
+            "address": "asasdasd",
+            "city": "asdasd",
+            "state": "asdasd",
+            "country": "asdasd",
+            "zipCode": "12312",
+            "user": "ObjectId(\"64256d9c4087833144d71c16\")",
+            "created": "2023-03-30T11:09:31.416Z",
+            "__v": 0
+          }
+        ],
+        "query": {
+          "_id": "ObjectId(\"64256deb4087833144d71c25\")"
+        },
+        "otherArgs": {},
+        "options": {
+          "projection": {}
+        },
+        "op": "find",
+        "db": "ecomm",
+        "collection": "addresses",
+        "mongoRes": {
+          "_id": "ObjectId(\"64256deb4087833144d71c25\")",
+          "isDefault": true,
+          "address": "asasdasd",
+          "city": "asdasd",
+          "state": "asdasd",
+          "country": "asdasd",
+          "zipCode": "12312",
+          "user": "ObjectId(\"64256d9c4087833144d71c16\")",
+          "created": "2023-03-30T11:09:31.416Z",
+          "__v": 0
+        },
+        "postQueryRes": [
+          {
+            "_id": "ObjectId(\"64256deb4087833144d71c25\")",
+            "isDefault": true,
+            "address": "asasdasd",
+            "city": "asdasd",
+            "state": "asdasd",
+            "country": "asdasd",
+            "zipCode": "12312",
+            "user": "ObjectId(\"64256d9c4087833144d71c16\")",
+            "created": "2023-03-30T11:09:31.416Z",
+            "__v": 0
+          }
+        ]
+      },
+      {
+        "type": "mongodb",
+        "id": "2f92f925-75bd-4331-bf28-7cbad024c07d",
+        "preQueryRes": [
+          {
+            "_id": "ObjectId(\"64256deb4087833144d71c25\")",
+            "isDefault": true,
+            "address": "asasdasd",
+            "city": "asdasd",
+            "state": "asdasd",
+            "country": "asdasd",
+            "zipCode": "12312",
+            "user": "ObjectId(\"64256d9c4087833144d71c16\")",
+            "created": "2023-03-30T11:09:31.416Z",
+            "__v": 0
+          }
+        ],
+        "query": {
+          "_id": "ObjectId(\"64256deb4087833144d71c25\")"
+        },
+        "otherArgs": {},
+        "options": {
+          "projection": {}
+        },
+        "op": "findOne",
+        "db": "ecomm",
+        "collection": "addresses",
+        "mongoRes": {
+          "_id": "ObjectId(\"64256deb4087833144d71c25\")",
+          "isDefault": true,
+          "address": "asasdasd",
+          "city": "asdasd",
+          "state": "asdasd",
+          "country": "asdasd",
+          "zipCode": "12312",
+          "user": "ObjectId(\"64256d9c4087833144d71c16\")",
+          "created": "2023-03-30T11:09:31.416Z",
+          "__v": 0
+        },
+        "postQueryRes": [
+          {
+            "_id": "ObjectId(\"64256deb4087833144d71c25\")",
+            "isDefault": true,
+            "address": "asasdasd",
+            "city": "asdasd",
+            "state": "asdasd",
+            "country": "asdasd",
+            "zipCode": "12312",
+            "user": "ObjectId(\"64256d9c4087833144d71c16\")",
+            "created": "2023-03-30T11:09:31.416Z",
+            "__v": 0
+          }
+        ]
+      }
+    ],
+    "query": {},
+    "params": {},
+    "asyncStore": 18,
+    "mongoQueriesCapture": 2,
+    "statusCode": 200,
+    "traceLegacy": [
+      2986
+    ],
+    "createdAt": "2023-03-30T11:09:48.967Z"
+  }
+]
