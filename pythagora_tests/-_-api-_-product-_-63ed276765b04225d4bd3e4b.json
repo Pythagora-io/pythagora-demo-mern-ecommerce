@@ -1,26 +1,19 @@
 [
   {
-    "id": "f0a19009-fa07-46fa-85d6-570672618ba7",
-    "endpoint": "/api/product/63ed3108b81ccc28a4d9eaf2/active",
-    "url": "http://localhost:3000/api/product/63ed3108b81ccc28a4d9eaf2/active",
-    "body": {
-      "product": {
-        "isActive": true
-      }
-    },
-    "method": "PUT",
+    "id": "34558b60-e5c7-449a-ba6e-195661e43784",
+    "endpoint": "/api/product/63ed276765b04225d4bd3e4b",
+    "url": "http://localhost:3000/api/product/63ed276765b04225d4bd3e4b",
+    "body": {},
+    "method": "GET",
     "headers": {
       "host": "localhost:3000",
       "connection": "keep-alive",
-      "content-length": "29",
       "sec-ch-ua": "\"Google Chrome\";v=\"111\", \"Not(A:Brand\";v=\"8\", \"Chromium\";v=\"111\"",
       "accept": "application/json, text/plain, */*",
-      "content-type": "application/json",
       "sec-ch-ua-mobile": "?0",
       "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzZGEzMjI3MDM3ZDE2NmZkNTFjZWYyNCIsImlhdCI6MTY4MDE3NTE2NSwiZXhwIjoxNjgwNzc5OTY1fQ.odXwwZprse2gBPEQtvzkwUln7Nxkbfyh9zojtKIxMa8",
       "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
       "sec-ch-ua-platform": "\"macOS\"",
-      "origin": "http://localhost:3000",
       "sec-fetch-site": "same-origin",
       "sec-fetch-mode": "cors",
       "sec-fetch-dest": "empty",
@@ -28,13 +21,13 @@
       "accept-language": "en-US,en;q=0.9,hr;q=0.8,bs;q=0.7",
       "cookie": "Webstorm-a7738556=37894940-6565-40a7-9ec5-b3a59a3f74e6; connect.sid=s%3AYt5uQ-ZhdJwLJja_sd814I2iAKkGpwzM.B%2F%2Btxr1eUYCZhBOzqQOsBsbTR8j%2FZn%2BbD1VFiJBRzAc"
     },
-    "responseData": "{\"success\":true,\"message\":\"Product has been updated successfully!\"}",
-    "traceId": 6918,
+    "responseData": "{\"product\":{\"taxable\":true,\"isActive\":true,\"brand\":null,\"_id\":\"63ed276765b04225d4bd3e4b\",\"sku\":\"ddd\",\"name\":\"ddddd\",\"description\":\"ddd\",\"quantity\":12,\"price\":13,\"imageUrl\":\"\",\"imageKey\":\"\",\"created\":\"2023-02-15T18:41:43.261Z\",\"slug\":\"ddd\",\"__v\":0}}",
+    "traceId": 2685,
     "trace": [],
     "intermediateData": [
       {
         "type": "mongodb",
-        "id": "4c5e06b8-06ba-4972-afae-4349c470b114",
+        "id": "28c3868c-8ba0-4433-b766-08e44c50bdd3",
         "preQueryRes": [
           {
             "_id": "ObjectId(\"63da3227037d166fd51cef24\")",
@@ -97,7 +90,7 @@
       },
       {
         "type": "mongodb",
-        "id": "f7fd3555-dfc6-4849-b372-fa2ee06a2a33",
+        "id": "aefa5f88-6454-426b-8962-5647f8efb248",
         "preQueryRes": [
           {
             "_id": "ObjectId(\"63da3227037d166fd51cef24\")",
@@ -160,95 +153,168 @@
       },
       {
         "type": "mongodb",
-        "id": "e8190f5e-347e-4b99-b921-b8971caa132d",
+        "id": "c91203b9-a509-4357-9360-d345cc75c958",
         "preQueryRes": [
           {
-            "_id": "ObjectId(\"63ed3108b81ccc28a4d9eaf2\")",
-            "taxable": false,
-            "isActive": false,
-            "brand": "ObjectId(\"6401da466b0ef823b47beb3a\")",
-            "sku": "asdasda",
-            "name": "asdasdasd",
-            "description": "asdasd",
-            "quantity": 133,
-            "price": 12,
-            "imageUrl": "https://igmern.s3.amazonaws.com/photo-1481349518771-20055b2a7b24.jpeg",
-            "imageKey": "photo-1481349518771-20055b2a7b24.jpeg",
-            "created": "2023-02-15T19:22:48.145Z",
-            "slug": "asdasd",
+            "_id": "ObjectId(\"63ed276765b04225d4bd3e4b\")",
+            "taxable": true,
+            "isActive": true,
+            "brand": "ObjectId(\"63c09f0013732c6fa7325721\")",
+            "sku": "ddd",
+            "name": "ddddd",
+            "description": "ddd",
+            "quantity": 12,
+            "price": 13,
+            "imageUrl": "",
+            "imageKey": "",
+            "created": "2023-02-15T18:41:43.261Z",
+            "slug": "ddd",
             "__v": 0
           }
         ],
         "query": {
-          "_id": "ObjectId(\"63ed3108b81ccc28a4d9eaf2\")"
+          "_id": "ObjectId(\"63ed276765b04225d4bd3e4b\")"
         },
-        "otherArgs": {
-          "update": {
-            "$set": {
-              "isActive": true
-            }
-          }
-        },
+        "otherArgs": {},
         "options": {
-          "upsert": false,
-          "remove": false,
-          "projection": {},
-          "returnDocument": "after"
+          "projection": {}
         },
-        "op": "findOneAndUpdate",
+        "op": "find",
         "db": "ecomm",
         "collection": "products",
         "mongoRes": {
-          "lastErrorObject": {
-            "n": 1,
-            "updatedExisting": true
-          },
-          "value": {
-            "_id": "ObjectId(\"63ed3108b81ccc28a4d9eaf2\")",
-            "taxable": false,
-            "isActive": true,
-            "brand": "ObjectId(\"6401da466b0ef823b47beb3a\")",
-            "sku": "asdasda",
-            "name": "asdasdasd",
-            "description": "asdasd",
-            "quantity": 133,
-            "price": 12,
-            "imageUrl": "https://igmern.s3.amazonaws.com/photo-1481349518771-20055b2a7b24.jpeg",
-            "imageKey": "photo-1481349518771-20055b2a7b24.jpeg",
-            "created": "2023-02-15T19:22:48.145Z",
-            "slug": "asdasd",
-            "__v": 0
-          },
-          "ok": 1
+          "_id": "ObjectId(\"63ed276765b04225d4bd3e4b\")",
+          "taxable": true,
+          "isActive": true,
+          "brand": "ObjectId(\"63c09f0013732c6fa7325721\")",
+          "sku": "ddd",
+          "name": "ddddd",
+          "description": "ddd",
+          "quantity": 12,
+          "price": 13,
+          "imageUrl": "",
+          "imageKey": "",
+          "created": "2023-02-15T18:41:43.261Z",
+          "slug": "ddd",
+          "__v": 0
         },
         "postQueryRes": [
           {
-            "_id": "ObjectId(\"63ed3108b81ccc28a4d9eaf2\")",
-            "taxable": false,
+            "_id": "ObjectId(\"63ed276765b04225d4bd3e4b\")",
+            "taxable": true,
             "isActive": true,
-            "brand": "ObjectId(\"6401da466b0ef823b47beb3a\")",
-            "sku": "asdasda",
-            "name": "asdasdasd",
-            "description": "asdasd",
-            "quantity": 133,
-            "price": 12,
-            "imageUrl": "https://igmern.s3.amazonaws.com/photo-1481349518771-20055b2a7b24.jpeg",
-            "imageKey": "photo-1481349518771-20055b2a7b24.jpeg",
-            "created": "2023-02-15T19:22:48.145Z",
-            "slug": "asdasd",
+            "brand": "ObjectId(\"63c09f0013732c6fa7325721\")",
+            "sku": "ddd",
+            "name": "ddddd",
+            "description": "ddd",
+            "quantity": 12,
+            "price": 13,
+            "imageUrl": "",
+            "imageKey": "",
+            "created": "2023-02-15T18:41:43.261Z",
+            "slug": "ddd",
             "__v": 0
           }
         ]
+      },
+      {
+        "type": "mongodb",
+        "id": "d765f69c-617f-4e5c-b951-9a130bfdddad",
+        "preQueryRes": [
+          {
+            "_id": "ObjectId(\"63ed276765b04225d4bd3e4b\")",
+            "taxable": true,
+            "isActive": true,
+            "brand": "ObjectId(\"63c09f0013732c6fa7325721\")",
+            "sku": "ddd",
+            "name": "ddddd",
+            "description": "ddd",
+            "quantity": 12,
+            "price": 13,
+            "imageUrl": "",
+            "imageKey": "",
+            "created": "2023-02-15T18:41:43.261Z",
+            "slug": "ddd",
+            "__v": 0
+          }
+        ],
+        "query": {
+          "_id": "ObjectId(\"63ed276765b04225d4bd3e4b\")"
+        },
+        "otherArgs": {},
+        "options": {
+          "projection": {}
+        },
+        "op": "findOne",
+        "db": "ecomm",
+        "collection": "products",
+        "mongoRes": {
+          "_id": "ObjectId(\"63ed276765b04225d4bd3e4b\")",
+          "taxable": true,
+          "isActive": true,
+          "brand": "ObjectId(\"63c09f0013732c6fa7325721\")",
+          "sku": "ddd",
+          "name": "ddddd",
+          "description": "ddd",
+          "quantity": 12,
+          "price": 13,
+          "imageUrl": "",
+          "imageKey": "",
+          "created": "2023-02-15T18:41:43.261Z",
+          "slug": "ddd",
+          "__v": 0
+        },
+        "postQueryRes": [
+          {
+            "_id": "ObjectId(\"63ed276765b04225d4bd3e4b\")",
+            "taxable": true,
+            "isActive": true,
+            "brand": "ObjectId(\"63c09f0013732c6fa7325721\")",
+            "sku": "ddd",
+            "name": "ddddd",
+            "description": "ddd",
+            "quantity": 12,
+            "price": 13,
+            "imageUrl": "",
+            "imageKey": "",
+            "created": "2023-02-15T18:41:43.261Z",
+            "slug": "ddd",
+            "__v": 0
+          }
+        ]
+      },
+      {
+        "type": "mongodb",
+        "id": "eccf1e56-7aef-406c-b123-f5d4d1a687e4",
+        "preQueryRes": [],
+        "query": {
+          "_id": {
+            "$in": [
+              "ObjectId(\"63c09f0013732c6fa7325721\")"
+            ]
+          }
+        },
+        "otherArgs": {},
+        "options": {
+          "projection": {
+            "name": 1
+          }
+        },
+        "op": "find",
+        "db": "ecomm",
+        "collection": "brands",
+        "mongoRes": [],
+        "postQueryRes": []
       }
     ],
     "query": {},
     "params": {},
-    "asyncStore": 38,
-    "mongoQueriesCapture": 3,
+    "asyncStore": 18,
+    "mongoQueriesCapture": 5,
     "statusCode": 200,
     "traceLegacy": [
-      6918
+      2685
     ],
-    "createdAt": "2023-03-30T11:30:16.799Z"
+    "createdAt": "2023-03-30T11:20:12.053Z"
   }
 ]
