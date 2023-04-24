@@ -12,7 +12,10 @@
     "start": "cross-env NODE_ENV=production node server/index.js",
     "postinstall": "npm run build",
     "seed:db": "node server/utils/seed.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pythagora-test": "npx pythagora --init-command \"node server/index.js\" --mode test",
+    "pythagora-capture": "npx pythagora --init-command \"node server/index.js\" --mode capture --no-code-coverage",
+    "pythagora-review": "npx pythagora --init-command \"yarn start\" --review"
   },
   "repository": {
     "type": "git",
