@@ -1,113 +1,26 @@
-# MERN Ecommerce
+# Pythagora Demo - MERN Ecommerce
+This is a fork of the [MERN Ecommerce](https://github.com/mohamedsamara/mern-ecommerce) project in which you have **over 70 automated integration tests** created with Pythagora.
 
-## Description
+## Set up
 
-An ecommerce store built with MERN stack, and utilizes third party API's. This ecommerce store enable three main different flows or implementations:
+To make it super easy to try out Pythagora, we've added the .env file to the repo so basically you can start right away.
 
-1. Buyers browse the store categories, products and brands
-2. Sellers or Merchants manage their own brand component
-3. Admins manage and control the entire store components 
-
-
-* features:
-  * Node provides the backend environment for this application
-  * Express middleware is used to handle requests, routes
-  * Mongoose schemas to model the application data
-  * React for displaying UI components
-  * Redux to manage application's state
-  * Redux Thunk middleware to handle asynchronous redux actions
-
-
-## Database Seed
-
-* The seed command will create an admin user in the database
-* The email and password are passed with the command as arguments
-* Like below command, replace brackets with email and password. 
-* For more information, see code [here](server/utils/seed.js)
+1. First, you need to install dependencies
 
 ```
-npm run seed:db [email-***@****.com] [password-******] // This is just an example.
+npm install
 ```
 
-## Demo
-
-This application is deployed on Render Please check it out :smile: [here](https://mern-store.onrender.com).
-
-See admin dashboard [demo](https://mernstore-bucket.s3.us-east-2.amazonaws.com/admin.mp4)
-
-## Install
-
-Some basic Git commands are:
+2. Then, if you want to run the tests we created, you can run Pythagora tests with
 
 ```
-$ git clone https://github.com/mohamedsamara/mern-ecommerce.git
-$ cd project
-$ npm install
+npm run pythagora-test
 ```
-
-## Setup
+3. If you want to capture more tests, you can run the Pythagora capture command, open up the browser at http://localhost:3000 and start interacting with the app. You will see that the tests are being recorded as you click around.
 
 ```
- Create .env file that include:
+npm run pythagora-capture
+``` 
 
-  * MONGO_URI & JWT_SECRET
-  * PORT & BASE_SERVER_URL & BASE_API_URL & BASE_CLIENT_URL
-  * MAILCHIMP_KEY & MAILCHIMP_LIST_KEY => Mailchimp configuration
-  * MAILGUN_KEY & MAILGUN_DOMAIN & MAILGUN_EMAIL_SENDER => Mailgun configuration
-  * GOOGLE_CLIENT_ID & GOOGLE_CLIENT_SECRET & GOOGLE_CALLBACK_URL => Google Auth configuration
-  * FACEBOOK_CLIENT_ID & FACEBOOK_CLIENT_SECRET & FACEBOOK_CALLBACK_URL => Facebook Auth configuration
-  * AWS_ACCESS_KEY_ID & AWS_SECRET_ACCESS_KEY & AWS_REGION & AWS_BUCKET_NAME => AWS configuration
-```
-
-## Start development
-
-```
-$ npm run dev
-```
-
-## Simple build for production
-
-```
-$ npm run build
-```
-
-## Run build for production
-
-```
-$ npm start
-```
-
-
-## Languages & tools
-
-- [Node](https://nodejs.org/en/)
-
-- [Express](https://expressjs.com/)
-
-- [Mongoose](https://mongoosejs.com/)
-
-- [React](https://reactjs.org/)
-
-- [Webpack](https://webpack.js.org/)
-
-
-### Code Formatter
-
-- Add a `.vscode` directory
-- Create a file `settings.json` inside `.vscode`
-- Install Prettier - Code formatter in VSCode
-- Add the following snippet:  
-
-```json
-
-    {
-      "editor.formatOnSave": true,
-      "prettier.singleQuote": true,
-      "prettier.arrowParens": "avoid",
-      "prettier.jsxSingleQuote": true,
-      "prettier.trailingComma": "none",
-      "javascript.preferences.quoteStyle": "single",
-    }
-
-```
+That's basically it. If you have any questions or feedback, let us know on hi@pythagora.ai
 
