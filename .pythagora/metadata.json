@@ -1,0 +1,130 @@
+{
+  "runs": [
+  ],
+  "initCommand": "node server/index.js",
+  "exportRequirements": {
+    "login": {
+      "endpointPath": "/api/auth/login",
+      "mongoQueriesArray": [
+        {
+          "type": "mongodb",
+          "id": "c445d6b2-654a-4072-a070-bcefda52a131",
+          "preQueryRes": [
+            {
+              "_id": "ObjectId(\"644fabc4bca2ee35d6301079\")",
+              "merchant": null,
+              "provider": "Email",
+              "role": "ROLE ADMIN",
+              "email": "hi@pythagora.com",
+              "password": "$2a$10$GmoG4nTqBhvECiuERws6Ieer3IKmG4jovY4vPD32R3IbdlziK6s8.",
+              "firstName": "pythagora",
+              "lastName": "pythagora",
+              "created": "Date(\"2023-05-01T12:08:36.302Z\")",
+              "__v": 0,
+              "phoneNumber": "008"
+            }
+          ],
+          "query": {
+            "email": "hi@pythagora.com"
+          },
+          "otherArgs": {},
+          "options": {
+            "projection": {}
+          },
+          "op": "find",
+          "db": "ecomm",
+          "collection": "users",
+          "mongoRes": {
+            "_id": "ObjectId(\"644fabc4bca2ee35d6301079\")",
+            "merchant": null,
+            "provider": "Email",
+            "role": "ROLE ADMIN",
+            "email": "hi@pythagora.com",
+            "password": "$2a$10$GmoG4nTqBhvECiuERws6Ieer3IKmG4jovY4vPD32R3IbdlziK6s8.",
+            "firstName": "pythagora",
+            "lastName": "pythagora",
+            "created": "Date(\"2023-05-01T12:08:36.302Z\")",
+            "__v": 0,
+            "phoneNumber": "008"
+          },
+          "postQueryRes": [
+            {
+              "_id": "ObjectId(\"644fabc4bca2ee35d6301079\")",
+              "merchant": null,
+              "provider": "Email",
+              "role": "ROLE ADMIN",
+              "email": "hi@pythagora.com",
+              "password": "$2a$10$GmoG4nTqBhvECiuERws6Ieer3IKmG4jovY4vPD32R3IbdlziK6s8.",
+              "firstName": "pythagora",
+              "lastName": "pythagora",
+              "created": "Date(\"2023-05-01T12:08:36.302Z\")",
+              "__v": 0,
+              "phoneNumber": "008"
+            }
+          ]
+        },
+        {
+          "type": "mongodb",
+          "id": "bfa16723-e20a-4292-bb82-90aa0bbd90dd",
+          "preQueryRes": [
+            {
+              "_id": "ObjectId(\"644fabc4bca2ee35d6301079\")",
+              "merchant": null,
+              "provider": "Email",
+              "role": "ROLE ADMIN",
+              "email": "hi@pythagora.com",
+              "password": "$2a$10$GmoG4nTqBhvECiuERws6Ieer3IKmG4jovY4vPD32R3IbdlziK6s8.",
+              "firstName": "pythagora",
+              "lastName": "pythagora",
+              "created": "Date(\"2023-05-01T12:08:36.302Z\")",
+              "__v": 0,
+              "phoneNumber": "008"
+            }
+          ],
+          "query": {
+            "email": "hi@pythagora.com"
+          },
+          "otherArgs": {},
+          "options": {
+            "projection": {}
+          },
+          "op": "findOne",
+          "db": "ecomm",
+          "collection": "users",
+          "mongoRes": {
+            "_id": "ObjectId(\"644fabc4bca2ee35d6301079\")",
+            "merchant": null,
+            "provider": "Email",
+            "role": "ROLE ADMIN",
+            "email": "hi@pythagora.com",
+            "password": "$2a$10$GmoG4nTqBhvECiuERws6Ieer3IKmG4jovY4vPD32R3IbdlziK6s8.",
+            "firstName": "pythagora",
+            "lastName": "pythagora",
+            "created": "Date(\"2023-05-01T12:08:36.302Z\")",
+            "__v": 0,
+            "phoneNumber": "008"
+          },
+          "postQueryRes": [
+            {
+              "_id": "ObjectId(\"644fabc4bca2ee35d6301079\")",
+              "merchant": null,
+              "provider": "Email",
+              "role": "ROLE ADMIN",
+              "email": "hi@pythagora.com",
+              "password": "$2a$10$GmoG4nTqBhvECiuERws6Ieer3IKmG4jovY4vPD32R3IbdlziK6s8.",
+              "firstName": "pythagora",
+              "lastName": "pythagora",
+              "created": "Date(\"2023-05-01T12:08:36.302Z\")",
+              "__v": 0,
+              "phoneNumber": "008"
+            }
+          ]
+        }
+      ],
+      "requestBody": {
+        "email": "hi@pythagora.com",
+        "password": "Brija123!"
+      }
+    }
+  }
+}

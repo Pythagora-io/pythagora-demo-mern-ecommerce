@@ -1,0 +1,33 @@
+[
+  {
+    "type": "mongodb",
+    "id": "8fbc3f18-f5f2-4d22-8143-afab4fc86655",
+    "otherArgs": {},
+    "db": "ecomm",
+    "collection": "reviews",
+    "preQueryDocs": [
+      {
+        "_id": "ObjectId(\"642568953ffaba2cd6f198af\")",
+        "product": "ObjectId(\"63ed276765b04225d4bd3e4b\")",
+        "user": "ObjectId(\"63da3227037d166fd51cef24\")",
+        "rating": 5,
+        "isRecommended": true,
+        "status": "Approved",
+        "review": "bnvbnvbnvbn",
+        "title": "cnbnv",
+        "created": "2023-03-30T10:46:45.687Z",
+        "__v": 0
+      }
+    ],
+    "postQueryDocs": [],
+    "mongoResponse": {
+      "n": 1,
+      "ok": 1
+    },
+    "mongoQuery": {
+      "_id": "ObjectId(\"642568953ffaba2cd6f198af\")"
+    },
+    "mongoOptions": {},
+    "mongoOperation": "deleteOne"
+  }
+]

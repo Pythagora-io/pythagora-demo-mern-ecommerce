@@ -1,0 +1,29 @@
+[
+  {
+    "type": "mongodb",
+    "id": "4ec3fde2-7592-4ac4-b251-301ddecfeee6",
+    "otherArgs": {},
+    "db": "ecomm",
+    "collection": "products",
+    "preQueryDocs": [],
+    "postQueryDocs": [],
+    "mongoResponse": [],
+    "mongoQuery": {
+      "name": {
+        "$regex": "RegExp(\"/asd/\")",
+        "$options": "is"
+      },
+      "isActive": true
+    },
+    "mongoOptions": {
+      "projection": {
+        "name": 1,
+        "slug": 1,
+        "imageUrl": 1,
+        "price": 1,
+        "_id": 0
+      }
+    },
+    "mongoOperation": "find"
+  }
+]

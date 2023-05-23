@@ -1,0 +1,33 @@
+[
+  {
+    "type": "mongodb",
+    "id": "2875ef31-96b0-4187-8b8f-9fa2e3044342",
+    "otherArgs": {},
+    "db": "ecomm",
+    "collection": "addresses",
+    "preQueryDocs": [
+      {
+        "_id": "ObjectId(\"64256deb4087833144d71c25\")",
+        "isDefault": true,
+        "address": "asasdasd",
+        "city": "asdasd",
+        "state": "asdasd",
+        "country": "asdasd",
+        "zipCode": "12312",
+        "user": "ObjectId(\"64256d9c4087833144d71c16\")",
+        "created": "2023-03-30T11:09:31.416Z",
+        "__v": 0
+      }
+    ],
+    "postQueryDocs": [],
+    "mongoResponse": {
+      "n": 1,
+      "ok": 1
+    },
+    "mongoQuery": {
+      "_id": "ObjectId(\"64256deb4087833144d71c25\")"
+    },
+    "mongoOptions": {},
+    "mongoOperation": "deleteOne"
+  }
+]

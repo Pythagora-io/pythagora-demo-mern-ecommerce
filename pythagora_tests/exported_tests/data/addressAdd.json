@@ -1,0 +1,150 @@
+[
+  {
+    "type": "mongodb",
+    "id": "0904c4bf-bc45-44fa-a57c-c28b35af0d97",
+    "otherArgs": {},
+    "db": "ecomm",
+    "collection": "users",
+    "preQueryDocs": [
+      {
+        "_id": "ObjectId(\"64256d9c4087833144d71c16\")",
+        "merchant": null,
+        "provider": "Email",
+        "role": "ROLE MEMBER",
+        "email": "zvonimir@pythagora.io",
+        "password": "$2a$10$q.qSwsVDSfInrPD75DS5K.SITdtmOaDU6ph8KPggOKazK2jnoPOya",
+        "firstName": "asdasd",
+        "lastName": "asdasd",
+        "created": "2023-03-30T11:08:12.608Z",
+        "__v": 0
+      }
+    ],
+    "postQueryDocs": [
+      {
+        "_id": "ObjectId(\"64256d9c4087833144d71c16\")",
+        "merchant": null,
+        "provider": "Email",
+        "role": "ROLE MEMBER",
+        "email": "zvonimir@pythagora.io",
+        "password": "$2a$10$q.qSwsVDSfInrPD75DS5K.SITdtmOaDU6ph8KPggOKazK2jnoPOya",
+        "firstName": "asdasd",
+        "lastName": "asdasd",
+        "created": "2023-03-30T11:08:12.608Z",
+        "__v": 0
+      }
+    ],
+    "mongoResponse": {
+      "_id": "ObjectId(\"64256d9c4087833144d71c16\")",
+      "merchant": null,
+      "provider": "Email",
+      "role": "ROLE MEMBER",
+      "email": "zvonimir@pythagora.io",
+      "password": "$2a$10$q.qSwsVDSfInrPD75DS5K.SITdtmOaDU6ph8KPggOKazK2jnoPOya",
+      "firstName": "asdasd",
+      "lastName": "asdasd",
+      "created": "2023-03-30T11:08:12.608Z",
+      "__v": 0
+    },
+    "mongoQuery": {
+      "_id": "ObjectId(\"64256d9c4087833144d71c16\")"
+    },
+    "mongoOptions": {
+      "projection": {}
+    },
+    "mongoOperation": "find"
+  },
+  {
+    "type": "mongodb",
+    "id": "5ddcb4d3-97d5-4298-9b27-9bef70f46f95",
+    "otherArgs": {},
+    "db": "ecomm",
+    "collection": "users",
+    "preQueryDocs": [
+      {
+        "_id": "ObjectId(\"64256d9c4087833144d71c16\")",
+        "merchant": null,
+        "provider": "Email",
+        "role": "ROLE MEMBER",
+        "email": "zvonimir@pythagora.io",
+        "password": "$2a$10$q.qSwsVDSfInrPD75DS5K.SITdtmOaDU6ph8KPggOKazK2jnoPOya",
+        "firstName": "asdasd",
+        "lastName": "asdasd",
+        "created": "2023-03-30T11:08:12.608Z",
+        "__v": 0
+      }
+    ],
+    "postQueryDocs": [
+      {
+        "_id": "ObjectId(\"64256d9c4087833144d71c16\")",
+        "merchant": null,
+        "provider": "Email",
+        "role": "ROLE MEMBER",
+        "email": "zvonimir@pythagora.io",
+        "password": "$2a$10$q.qSwsVDSfInrPD75DS5K.SITdtmOaDU6ph8KPggOKazK2jnoPOya",
+        "firstName": "asdasd",
+        "lastName": "asdasd",
+        "created": "2023-03-30T11:08:12.608Z",
+        "__v": 0
+      }
+    ],
+    "mongoResponse": {
+      "_id": "ObjectId(\"64256d9c4087833144d71c16\")",
+      "merchant": null,
+      "provider": "Email",
+      "role": "ROLE MEMBER",
+      "email": "zvonimir@pythagora.io",
+      "password": "$2a$10$q.qSwsVDSfInrPD75DS5K.SITdtmOaDU6ph8KPggOKazK2jnoPOya",
+      "firstName": "asdasd",
+      "lastName": "asdasd",
+      "created": "2023-03-30T11:08:12.608Z",
+      "__v": 0
+    },
+    "mongoQuery": {
+      "_id": "ObjectId(\"64256d9c4087833144d71c16\")"
+    },
+    "mongoOptions": {
+      "projection": {}
+    },
+    "mongoOperation": "findOne"
+  },
+  {
+    "type": "mongodb",
+    "id": "4f8cb339-6691-47f5-803b-b70e9601ca1a",
+    "otherArgs": {},
+    "db": "ecomm",
+    "collection": "addresses",
+    "preQueryDocs": [],
+    "postQueryDocs": [
+      {
+        "_id": "ObjectId(\"64256df94087833144d71c2e\")",
+        "isDefault": false,
+        "address": "cvxcv",
+        "city": "xcvxcv",
+        "state": "xcvxcv",
+        "country": "xcvxcv",
+        "zipCode": "34234",
+        "user": "ObjectId(\"64256d9c4087833144d71c16\")",
+        "created": "2023-03-30T11:09:45.263Z",
+        "__v": 0
+      }
+    ],
+    "mongoResponse": {
+      "n": 1,
+      "ok": 1
+    },
+    "mongoQuery": {
+      "isDefault": false,
+      "_id": "ObjectId(\"64256df94087833144d71c2e\")",
+      "address": "cvxcv",
+      "city": "xcvxcv",
+      "state": "xcvxcv",
+      "country": "xcvxcv",
+      "zipCode": "34234",
+      "user": "ObjectId(\"64256d9c4087833144d71c16\")",
+      "created": "2023-03-30T11:09:45.263Z",
+      "__v": 0
+    },
+    "mongoOptions": {},
+    "mongoOperation": "insertOne"
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "type": "mongodb",
+    "id": "c60d1dc6-2c76-470b-86f8-f48591f184f1",
+    "otherArgs": {},
+    "db": "ecomm",
+    "collection": "brands",
+    "preQueryDocs": [
+      {
+        "_id": "ObjectId(\"640b2018b31c7d4d5d154298\")",
+        "isActive": false,
+        "merchant": null,
+        "name": "asdasd",
+        "description": "asdasda",
+        "created": "2023-03-10T12:18:32.438Z",
+        "slug": "asdasd",
+        "__v": 0
+      }
+    ],
+    "postQueryDocs": [
+      {
+        "_id": "ObjectId(\"640b2018b31c7d4d5d154298\")",
+        "isActive": false,
+        "merchant": null,
+        "name": "asdasd",
+        "description": "asdasda",
+        "created": "2023-03-10T12:18:32.438Z",
+        "slug": "asdasd",
+        "__v": 0
+      }
+    ],
+    "mongoResponse": {
+      "_id": "ObjectId(\"640b2018b31c7d4d5d154298\")",
+      "isActive": false,
+      "merchant": null,
+      "name": "asdasd",
+      "description": "asdasda",
+      "created": "2023-03-10T12:18:32.438Z",
+      "slug": "asdasd",
+      "__v": 0
+    },
+    "mongoQuery": {
+      "_id": "ObjectId(\"640b2018b31c7d4d5d154298\")"
+    },
+    "mongoOptions": {
+      "projection": {}
+    },
+    "mongoOperation": "find"
+  },
+  {
+    "type": "mongodb",
+    "id": "e7f82b4c-0834-49d8-873f-fec2364191ac",
+    "otherArgs": {},
+    "db": "ecomm",
+    "collection": "brands",
+    "preQueryDocs": [
+      {
+        "_id": "ObjectId(\"640b2018b31c7d4d5d154298\")",
+        "isActive": false,
+        "merchant": null,
+        "name": "asdasd",
+        "description": "asdasda",
+        "created": "2023-03-10T12:18:32.438Z",
+        "slug": "asdasd",
+        "__v": 0
+      }
+    ],
+    "postQueryDocs": [
+      {
+        "_id": "ObjectId(\"640b2018b31c7d4d5d154298\")",
+        "isActive": false,
+        "merchant": null,
+        "name": "asdasd",
+        "description": "asdasda",
+        "created": "2023-03-10T12:18:32.438Z",
+        "slug": "asdasd",
+        "__v": 0
+      }
+    ],
+    "mongoResponse": {
+      "_id": "ObjectId(\"640b2018b31c7d4d5d154298\")",
+      "isActive": false,
+      "merchant": null,
+      "name": "asdasd",
+      "description": "asdasda",
+      "created": "2023-03-10T12:18:32.438Z",
+      "slug": "asdasd",
+      "__v": 0
+    },
+    "mongoQuery": {
+      "_id": "ObjectId(\"640b2018b31c7d4d5d154298\")"
+    },
+    "mongoOptions": {
+      "projection": {}
+    },
+    "mongoOperation": "findOne"
+  }
+]

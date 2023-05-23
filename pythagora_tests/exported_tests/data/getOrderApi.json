@@ -1,0 +1,147 @@
+[
+  {
+    "type": "mongodb",
+    "id": "cf2fe58a-7fb8-4281-b1ab-595048403524",
+    "otherArgs": {},
+    "db": "ecomm",
+    "collection": "users",
+    "preQueryDocs": [
+      {
+        "_id": "ObjectId(\"64256d9c4087833144d71c16\")",
+        "merchant": null,
+        "provider": "Email",
+        "role": "ROLE MEMBER",
+        "email": "zvonimir@pythagora.io",
+        "password": "$2a$10$q.qSwsVDSfInrPD75DS5K.SITdtmOaDU6ph8KPggOKazK2jnoPOya",
+        "firstName": "asdasd",
+        "lastName": "asdasd",
+        "created": "2023-03-30T11:08:12.608Z",
+        "__v": 0
+      }
+    ],
+    "postQueryDocs": [
+      {
+        "_id": "ObjectId(\"64256d9c4087833144d71c16\")",
+        "merchant": null,
+        "provider": "Email",
+        "role": "ROLE MEMBER",
+        "email": "zvonimir@pythagora.io",
+        "password": "$2a$10$q.qSwsVDSfInrPD75DS5K.SITdtmOaDU6ph8KPggOKazK2jnoPOya",
+        "firstName": "asdasd",
+        "lastName": "asdasd",
+        "created": "2023-03-30T11:08:12.608Z",
+        "__v": 0
+      }
+    ],
+    "mongoResponse": {
+      "_id": "ObjectId(\"64256d9c4087833144d71c16\")",
+      "merchant": null,
+      "provider": "Email",
+      "role": "ROLE MEMBER",
+      "email": "zvonimir@pythagora.io",
+      "password": "$2a$10$q.qSwsVDSfInrPD75DS5K.SITdtmOaDU6ph8KPggOKazK2jnoPOya",
+      "firstName": "asdasd",
+      "lastName": "asdasd",
+      "created": "2023-03-30T11:08:12.608Z",
+      "__v": 0
+    },
+    "mongoQuery": {
+      "_id": "ObjectId(\"64256d9c4087833144d71c16\")"
+    },
+    "mongoOptions": {
+      "projection": {}
+    },
+    "mongoOperation": "find"
+  },
+  {
+    "type": "mongodb",
+    "id": "67d559c0-2e5f-4022-ad55-bc95ee37a904",
+    "otherArgs": {},
+    "db": "ecomm",
+    "collection": "users",
+    "preQueryDocs": [
+      {
+        "_id": "ObjectId(\"64256d9c4087833144d71c16\")",
+        "merchant": null,
+        "provider": "Email",
+        "role": "ROLE MEMBER",
+        "email": "zvonimir@pythagora.io",
+        "password": "$2a$10$q.qSwsVDSfInrPD75DS5K.SITdtmOaDU6ph8KPggOKazK2jnoPOya",
+        "firstName": "asdasd",
+        "lastName": "asdasd",
+        "created": "2023-03-30T11:08:12.608Z",
+        "__v": 0
+      }
+    ],
+    "postQueryDocs": [
+      {
+        "_id": "ObjectId(\"64256d9c4087833144d71c16\")",
+        "merchant": null,
+        "provider": "Email",
+        "role": "ROLE MEMBER",
+        "email": "zvonimir@pythagora.io",
+        "password": "$2a$10$q.qSwsVDSfInrPD75DS5K.SITdtmOaDU6ph8KPggOKazK2jnoPOya",
+        "firstName": "asdasd",
+        "lastName": "asdasd",
+        "created": "2023-03-30T11:08:12.608Z",
+        "__v": 0
+      }
+    ],
+    "mongoResponse": {
+      "_id": "ObjectId(\"64256d9c4087833144d71c16\")",
+      "merchant": null,
+      "provider": "Email",
+      "role": "ROLE MEMBER",
+      "email": "zvonimir@pythagora.io",
+      "password": "$2a$10$q.qSwsVDSfInrPD75DS5K.SITdtmOaDU6ph8KPggOKazK2jnoPOya",
+      "firstName": "asdasd",
+      "lastName": "asdasd",
+      "created": "2023-03-30T11:08:12.608Z",
+      "__v": 0
+    },
+    "mongoQuery": {
+      "_id": "ObjectId(\"64256d9c4087833144d71c16\")"
+    },
+    "mongoOptions": {
+      "projection": {}
+    },
+    "mongoOperation": "findOne"
+  },
+  {
+    "type": "mongodb",
+    "id": "07beec15-3b9c-48f7-8c55-29fcf73bd916",
+    "otherArgs": {},
+    "db": "ecomm",
+    "collection": "orders",
+    "preQueryDocs": [],
+    "postQueryDocs": [],
+    "mongoResponse": [],
+    "mongoQuery": {
+      "user": "ObjectId(\"64256d9c4087833144d71c16\")"
+    },
+    "mongoOptions": {
+      "sort": {
+        "created": -1
+      },
+      "limit": 20,
+      "skip": 0,
+      "projection": {}
+    },
+    "mongoOperation": "find"
+  },
+  {
+    "type": "mongodb",
+    "id": "522784bf-6ca2-43c6-8e4f-7dad40ec2335",
+    "otherArgs": {},
+    "db": "ecomm",
+    "collection": "orders",
+    "preQueryDocs": [],
+    "postQueryDocs": [],
+    "mongoResponse": 0,
+    "mongoQuery": {
+      "user": "ObjectId(\"64256d9c4087833144d71c16\")"
+    },
+    "mongoOptions": {},
+    "mongoOperation": "countDocuments"
+  }
+]

@@ -1,0 +1,78 @@
+[
+  {
+    "type": "mongodb",
+    "id": "37232686-5d05-4c9e-b6e9-c95a8750356a",
+    "otherArgs": {},
+    "db": "ecomm",
+    "collection": "merchants",
+    "preQueryDocs": [],
+    "postQueryDocs": [],
+    "mongoResponse": null,
+    "mongoQuery": {
+      "email": "bnmbn@brija.com"
+    },
+    "mongoOptions": {
+      "projection": {}
+    },
+    "mongoOperation": "find"
+  },
+  {
+    "type": "mongodb",
+    "id": "d1c11d34-e61e-4a10-a8e5-8b418a2c7a45",
+    "otherArgs": {},
+    "db": "ecomm",
+    "collection": "merchants",
+    "preQueryDocs": [],
+    "postQueryDocs": [],
+    "mongoResponse": null,
+    "mongoQuery": {
+      "email": "bnmbn@brija.com"
+    },
+    "mongoOptions": {
+      "projection": {}
+    },
+    "mongoOperation": "findOne"
+  },
+  {
+    "type": "mongodb",
+    "id": "dc326980-27b3-4ef3-81f3-ace7a3a56db1",
+    "otherArgs": {},
+    "db": "ecomm",
+    "collection": "merchants",
+    "preQueryDocs": [],
+    "postQueryDocs": [
+      {
+        "_id": "ObjectId(\"642570fa13c88935f542ea95\")",
+        "isActive": false,
+        "brand": null,
+        "status": "Waiting Approval",
+        "name": "bnmbnm",
+        "email": "bnmbn@brija.com",
+        "business": "bnbmbmbnmnbmbnm",
+        "phoneNumber": "1234567890",
+        "brandName": "nmmnbmbnm",
+        "created": "2023-03-30T11:22:34.141Z",
+        "__v": 0
+      }
+    ],
+    "mongoResponse": {
+      "n": 1,
+      "ok": 1
+    },
+    "mongoQuery": {
+      "isActive": false,
+      "brand": null,
+      "status": "Waiting Approval",
+      "_id": "ObjectId(\"642570fa13c88935f542ea95\")",
+      "name": "bnmbnm",
+      "email": "bnmbn@brija.com",
+      "business": "bnbmbmbnmnbmbnm",
+      "phoneNumber": "1234567890",
+      "brandName": "nmmnbmbnm",
+      "created": "2023-03-30T11:22:34.141Z",
+      "__v": 0
+    },
+    "mongoOptions": {},
+    "mongoOperation": "insertOne"
+  }
+]

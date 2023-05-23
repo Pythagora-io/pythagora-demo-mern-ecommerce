@@ -47,7 +47,7 @@ router.post('/add', async (req, res) => {
 
     res.status(200).json({
       success: true,
-      message: `We receved your message, we will reach you on your email address ${email}!`,
+      message: `We received your message, we will reach you on your email address ${email}!`,
       contact: contactDoc
     });
   } catch (error) {

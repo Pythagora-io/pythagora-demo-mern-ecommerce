@@ -1,0 +1,68 @@
+[
+  {
+    "type": "mongodb",
+    "id": "99bdae20-0e81-4eba-90ea-47b4c5cff682",
+    "otherArgs": {},
+    "db": "ecomm",
+    "collection": "contacts",
+    "preQueryDocs": [],
+    "postQueryDocs": [],
+    "mongoResponse": null,
+    "mongoQuery": {
+      "email": "cvb@xcv.com"
+    },
+    "mongoOptions": {
+      "projection": {}
+    },
+    "mongoOperation": "find"
+  },
+  {
+    "type": "mongodb",
+    "id": "366c59e9-4143-4bfb-90f2-24aaaa079a0d",
+    "otherArgs": {},
+    "db": "ecomm",
+    "collection": "contacts",
+    "preQueryDocs": [],
+    "postQueryDocs": [],
+    "mongoResponse": null,
+    "mongoQuery": {
+      "email": "cvb@xcv.com"
+    },
+    "mongoOptions": {
+      "projection": {}
+    },
+    "mongoOperation": "findOne"
+  },
+  {
+    "type": "mongodb",
+    "id": "3be3cb55-d210-45f4-96f6-c7dc9c1a88b2",
+    "otherArgs": {},
+    "db": "ecomm",
+    "collection": "contacts",
+    "preQueryDocs": [],
+    "postQueryDocs": [
+      {
+        "_id": "ObjectId(\"642571c393af253850b87d54\")",
+        "name": "cvbcvb",
+        "email": "cvb@xcv.com",
+        "message": "wefdbsefbsfgbsfgb",
+        "created": "2023-03-30T11:25:55.436Z",
+        "__v": 0
+      }
+    ],
+    "mongoResponse": {
+      "n": 1,
+      "ok": 1
+    },
+    "mongoQuery": {
+      "_id": "ObjectId(\"642571c393af253850b87d54\")",
+      "name": "cvbcvb",
+      "email": "cvb@xcv.com",
+      "message": "wefdbsefbsfgbsfgb",
+      "created": "2023-03-30T11:25:55.436Z",
+      "__v": 0
+    },
+    "mongoOptions": {},
+    "mongoOperation": "insertOne"
+  }
+]

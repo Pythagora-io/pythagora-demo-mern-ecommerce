@@ -1,0 +1,133 @@
+[
+  {
+    "type": "mongodb",
+    "id": "83139bb3-300d-4330-9434-73e595bd732f",
+    "otherArgs": {},
+    "db": "ecomm",
+    "collection": "categories",
+    "preQueryDocs": [
+      {
+        "_id": "ObjectId(\"63c09f00c2af1e73d134023b\")",
+        "isActive": true,
+        "products": [
+          "ObjectId(\"63de58050ac0a3759c375fc1\")"
+        ],
+        "name": "brija cat",
+        "description": "asdasdasdasdasd",
+        "created": "2023-02-01T11:17:51.659Z",
+        "slug": "brija-cat",
+        "__v": 0
+      }
+    ],
+    "postQueryDocs": [
+      {
+        "_id": "ObjectId(\"63c09f00c2af1e73d134023b\")",
+        "isActive": true,
+        "products": [
+          "ObjectId(\"63de58050ac0a3759c375fc1\")"
+        ],
+        "name": "brija cat",
+        "description": "asdasdasdasdasd",
+        "created": "2023-02-01T11:17:51.659Z",
+        "slug": "brija-cat",
+        "__v": 0
+      }
+    ],
+    "mongoResponse": {
+      "_id": "ObjectId(\"63c09f00c2af1e73d134023b\")",
+      "isActive": true,
+      "products": [
+        "ObjectId(\"63de58050ac0a3759c375fc1\")"
+      ],
+      "name": "brija cat",
+      "description": "asdasdasdasdasd",
+      "created": "2023-02-01T11:17:51.659Z",
+      "slug": "brija-cat",
+      "__v": 0
+    },
+    "mongoQuery": {
+      "_id": "ObjectId(\"63c09f00c2af1e73d134023b\")"
+    },
+    "mongoOptions": {
+      "projection": {}
+    },
+    "mongoOperation": "find"
+  },
+  {
+    "type": "mongodb",
+    "id": "00e32627-b794-4b2c-a583-fe0901b93e4d",
+    "otherArgs": {},
+    "db": "ecomm",
+    "collection": "categories",
+    "preQueryDocs": [
+      {
+        "_id": "ObjectId(\"63c09f00c2af1e73d134023b\")",
+        "isActive": true,
+        "products": [
+          "ObjectId(\"63de58050ac0a3759c375fc1\")"
+        ],
+        "name": "brija cat",
+        "description": "asdasdasdasdasd",
+        "created": "2023-02-01T11:17:51.659Z",
+        "slug": "brija-cat",
+        "__v": 0
+      }
+    ],
+    "postQueryDocs": [
+      {
+        "_id": "ObjectId(\"63c09f00c2af1e73d134023b\")",
+        "isActive": true,
+        "products": [
+          "ObjectId(\"63de58050ac0a3759c375fc1\")"
+        ],
+        "name": "brija cat",
+        "description": "asdasdasdasdasd",
+        "created": "2023-02-01T11:17:51.659Z",
+        "slug": "brija-cat",
+        "__v": 0
+      }
+    ],
+    "mongoResponse": {
+      "_id": "ObjectId(\"63c09f00c2af1e73d134023b\")",
+      "isActive": true,
+      "products": [
+        "ObjectId(\"63de58050ac0a3759c375fc1\")"
+      ],
+      "name": "brija cat",
+      "description": "asdasdasdasdasd",
+      "created": "2023-02-01T11:17:51.659Z",
+      "slug": "brija-cat",
+      "__v": 0
+    },
+    "mongoQuery": {
+      "_id": "ObjectId(\"63c09f00c2af1e73d134023b\")"
+    },
+    "mongoOptions": {
+      "projection": {}
+    },
+    "mongoOperation": "findOne"
+  },
+  {
+    "type": "mongodb",
+    "id": "7c36dc46-45e9-450a-b600-02b5a3e5a3a5",
+    "otherArgs": {},
+    "db": "ecomm",
+    "collection": "products",
+    "preQueryDocs": [],
+    "postQueryDocs": [],
+    "mongoResponse": [],
+    "mongoQuery": {
+      "_id": {
+        "$in": [
+          "ObjectId(\"63de58050ac0a3759c375fc1\")"
+        ]
+      }
+    },
+    "mongoOptions": {
+      "projection": {
+        "name": 1
+      }
+    },
+    "mongoOperation": "find"
+  }
+]

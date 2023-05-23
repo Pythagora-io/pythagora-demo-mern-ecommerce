@@ -1,0 +1,98 @@
+[
+  {
+    "type": "mongodb",
+    "id": "51ad0020-0cd6-45ae-b5fb-6be3d914d41a",
+    "otherArgs": {},
+    "db": "ecomm",
+    "collection": "brands",
+    "preQueryDocs": [
+      {
+        "_id": "ObjectId(\"6401da466b0ef823b47beb3a\")",
+        "isActive": true,
+        "merchant": null,
+        "name": "bbb",
+        "description": "bbbb",
+        "created": "2023-03-03T11:30:14.740Z",
+        "slug": "bbb",
+        "__v": 0
+      }
+    ],
+    "postQueryDocs": [
+      {
+        "_id": "ObjectId(\"6401da466b0ef823b47beb3a\")",
+        "isActive": true,
+        "merchant": null,
+        "name": "bbb",
+        "description": "bbbb",
+        "created": "2023-03-03T11:30:14.740Z",
+        "slug": "bbb",
+        "__v": 0
+      }
+    ],
+    "mongoResponse": {
+      "_id": "ObjectId(\"6401da466b0ef823b47beb3a\")",
+      "isActive": true,
+      "merchant": null,
+      "name": "bbb",
+      "description": "bbbb",
+      "created": "2023-03-03T11:30:14.740Z",
+      "slug": "bbb",
+      "__v": 0
+    },
+    "mongoQuery": {
+      "_id": "ObjectId(\"6401da466b0ef823b47beb3a\")"
+    },
+    "mongoOptions": {
+      "projection": {}
+    },
+    "mongoOperation": "find"
+  },
+  {
+    "type": "mongodb",
+    "id": "029289c2-0dc4-41f6-b5a8-3c100f5e3a30",
+    "otherArgs": {},
+    "db": "ecomm",
+    "collection": "brands",
+    "preQueryDocs": [
+      {
+        "_id": "ObjectId(\"6401da466b0ef823b47beb3a\")",
+        "isActive": true,
+        "merchant": null,
+        "name": "bbb",
+        "description": "bbbb",
+        "created": "2023-03-03T11:30:14.740Z",
+        "slug": "bbb",
+        "__v": 0
+      }
+    ],
+    "postQueryDocs": [
+      {
+        "_id": "ObjectId(\"6401da466b0ef823b47beb3a\")",
+        "isActive": true,
+        "merchant": null,
+        "name": "bbb",
+        "description": "bbbb",
+        "created": "2023-03-03T11:30:14.740Z",
+        "slug": "bbb",
+        "__v": 0
+      }
+    ],
+    "mongoResponse": {
+      "_id": "ObjectId(\"6401da466b0ef823b47beb3a\")",
+      "isActive": true,
+      "merchant": null,
+      "name": "bbb",
+      "description": "bbbb",
+      "created": "2023-03-03T11:30:14.740Z",
+      "slug": "bbb",
+      "__v": 0
+    },
+    "mongoQuery": {
+      "_id": "ObjectId(\"6401da466b0ef823b47beb3a\")"
+    },
+    "mongoOptions": {
+      "projection": {}
+    },
+    "mongoOperation": "findOne"
+  }
+]

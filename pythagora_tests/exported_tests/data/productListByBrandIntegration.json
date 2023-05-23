@@ -1,0 +1,118 @@
+[
+  {
+    "type": "mongodb",
+    "id": "818e6b85-5fb2-4439-aad5-14b2a9c8edb2",
+    "otherArgs": {},
+    "db": "ecomm",
+    "collection": "brands",
+    "preQueryDocs": [
+      {
+        "_id": "ObjectId(\"642570aa13c88935f542ea48\")",
+        "isActive": true,
+        "merchant": null,
+        "name": "bbb",
+        "description": "bbbb",
+        "created": "2023-03-30T11:21:14.135Z",
+        "slug": "bbb-COXtTL-nCh",
+        "__v": 0
+      }
+    ],
+    "postQueryDocs": [
+      {
+        "_id": "ObjectId(\"642570aa13c88935f542ea48\")",
+        "isActive": true,
+        "merchant": null,
+        "name": "bbb",
+        "description": "bbbb",
+        "created": "2023-03-30T11:21:14.135Z",
+        "slug": "bbb-COXtTL-nCh",
+        "__v": 0
+      }
+    ],
+    "mongoResponse": {
+      "_id": "ObjectId(\"642570aa13c88935f542ea48\")",
+      "isActive": true,
+      "merchant": null,
+      "name": "bbb",
+      "description": "bbbb",
+      "created": "2023-03-30T11:21:14.135Z",
+      "slug": "bbb-COXtTL-nCh",
+      "__v": 0
+    },
+    "mongoQuery": {
+      "slug": "bbb-COXtTL-nCh",
+      "isActive": true
+    },
+    "mongoOptions": {
+      "projection": {}
+    },
+    "mongoOperation": "find"
+  },
+  {
+    "type": "mongodb",
+    "id": "0e6029ec-ee52-441e-bfe0-0f0f5ff56137",
+    "otherArgs": {},
+    "db": "ecomm",
+    "collection": "brands",
+    "preQueryDocs": [
+      {
+        "_id": "ObjectId(\"642570aa13c88935f542ea48\")",
+        "isActive": true,
+        "merchant": null,
+        "name": "bbb",
+        "description": "bbbb",
+        "created": "2023-03-30T11:21:14.135Z",
+        "slug": "bbb-COXtTL-nCh",
+        "__v": 0
+      }
+    ],
+    "postQueryDocs": [
+      {
+        "_id": "ObjectId(\"642570aa13c88935f542ea48\")",
+        "isActive": true,
+        "merchant": null,
+        "name": "bbb",
+        "description": "bbbb",
+        "created": "2023-03-30T11:21:14.135Z",
+        "slug": "bbb-COXtTL-nCh",
+        "__v": 0
+      }
+    ],
+    "mongoResponse": {
+      "_id": "ObjectId(\"642570aa13c88935f542ea48\")",
+      "isActive": true,
+      "merchant": null,
+      "name": "bbb",
+      "description": "bbbb",
+      "created": "2023-03-30T11:21:14.135Z",
+      "slug": "bbb-COXtTL-nCh",
+      "__v": 0
+    },
+    "mongoQuery": {
+      "slug": "bbb-COXtTL-nCh",
+      "isActive": true
+    },
+    "mongoOptions": {
+      "projection": {}
+    },
+    "mongoOperation": "findOne"
+  },
+  {
+    "type": "mongodb",
+    "id": "8647358d-5f9a-4ddc-bb48-4ecf107fce80",
+    "otherArgs": {},
+    "db": "ecomm",
+    "collection": "products",
+    "preQueryDocs": [],
+    "postQueryDocs": [],
+    "mongoResponse": [],
+    "mongoQuery": {
+      "brand": "ObjectId(\"642570aa13c88935f542ea48\")",
+      "isActive": true
+    },
+    "mongoOptions": {
+      "projection": {}
+    },
+    "mongoOperation": "find"
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "type": "mongodb",
+    "id": "966d96a4-78d9-4c80-a160-646448adcdad",
+    "otherArgs": {},
+    "db": "ecomm",
+    "collection": "brands",
+    "preQueryDocs": [
+      {
+        "_id": "ObjectId(\"6401da466b0ef823b47beb3a\")",
+        "isActive": true,
+        "merchant": null,
+        "name": "bbb",
+        "description": "bbbb",
+        "created": "2023-03-03T11:30:14.740Z",
+        "slug": "bbb",
+        "__v": 0
+      },
+      {
+        "_id": "ObjectId(\"640b2018b31c7d4d5d154298\")",
+        "isActive": true,
+        "merchant": null,
+        "name": "asdasd",
+        "description": "asdasda",
+        "created": "2023-03-10T12:18:32.438Z",
+        "slug": "asdasd",
+        "__v": 0
+      }
+    ],
+    "postQueryDocs": [
+      {
+        "_id": "ObjectId(\"6401da466b0ef823b47beb3a\")",
+        "isActive": true,
+        "merchant": null,
+        "name": "bbb",
+        "description": "bbbb",
+        "created": "2023-03-03T11:30:14.740Z",
+        "slug": "bbb",
+        "__v": 0
+      },
+      {
+        "_id": "ObjectId(\"640b2018b31c7d4d5d154298\")",
+        "isActive": true,
+        "merchant": null,
+        "name": "asdasd",
+        "description": "asdasda",
+        "created": "2023-03-10T12:18:32.438Z",
+        "slug": "asdasd",
+        "__v": 0
+      }
+    ],
+    "mongoResponse": [
+      {
+        "_id": "ObjectId(\"6401da466b0ef823b47beb3a\")",
+        "isActive": true,
+        "merchant": null,
+        "name": "bbb",
+        "description": "bbbb",
+        "created": "2023-03-03T11:30:14.740Z",
+        "slug": "bbb",
+        "__v": 0
+      },
+      {
+        "_id": "ObjectId(\"640b2018b31c7d4d5d154298\")",
+        "isActive": true,
+        "merchant": null,
+        "name": "asdasd",
+        "description": "asdasda",
+        "created": "2023-03-10T12:18:32.438Z",
+        "slug": "asdasd",
+        "__v": 0
+      }
+    ],
+    "mongoQuery": {
+      "isActive": true
+    },
+    "mongoOptions": {
+      "projection": {}
+    },
+    "mongoOperation": "find"
+  }
+]

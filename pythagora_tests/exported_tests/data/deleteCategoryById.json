@@ -1,0 +1,159 @@
+[
+  {
+    "type": "mongodb",
+    "id": "6886b76d-a1db-4931-900f-90a3ddf5331f",
+    "otherArgs": {},
+    "db": "ecomm",
+    "collection": "users",
+    "preQueryDocs": [
+      {
+        "_id": "ObjectId(\"63da3227037d166fd51cef24\")",
+        "merchant": null,
+        "provider": "Email",
+        "role": "ROLE ADMIN",
+        "email": "admin@pythagora.io",
+        "password": "$2a$10$oONswexLk.uMD.x753Ed3e1D1h2zhFdyoRY/ssnIZDw0oppDqUEvK",
+        "firstName": "admin",
+        "lastName": "adminff",
+        "created": "2023-02-01T09:34:31.627Z",
+        "__v": 0,
+        "phoneNumber": "34433455443324",
+        "resetPasswordExpires": "2023-03-30T11:58:38.333Z",
+        "resetPasswordToken": "bf3b42b9ab15984ff9014db6513413b913c075af061c16d8a8efb5193793a5c6a49ab3802b94930cc921207c6cafcee0"
+      }
+    ],
+    "postQueryDocs": [
+      {
+        "_id": "ObjectId(\"63da3227037d166fd51cef24\")",
+        "merchant": null,
+        "provider": "Email",
+        "role": "ROLE ADMIN",
+        "email": "admin@pythagora.io",
+        "password": "$2a$10$oONswexLk.uMD.x753Ed3e1D1h2zhFdyoRY/ssnIZDw0oppDqUEvK",
+        "firstName": "admin",
+        "lastName": "adminff",
+        "created": "2023-02-01T09:34:31.627Z",
+        "__v": 0,
+        "phoneNumber": "34433455443324",
+        "resetPasswordExpires": "2023-03-30T11:58:38.333Z",
+        "resetPasswordToken": "bf3b42b9ab15984ff9014db6513413b913c075af061c16d8a8efb5193793a5c6a49ab3802b94930cc921207c6cafcee0"
+      }
+    ],
+    "mongoResponse": {
+      "_id": "ObjectId(\"63da3227037d166fd51cef24\")",
+      "merchant": null,
+      "provider": "Email",
+      "role": "ROLE ADMIN",
+      "email": "admin@pythagora.io",
+      "password": "$2a$10$oONswexLk.uMD.x753Ed3e1D1h2zhFdyoRY/ssnIZDw0oppDqUEvK",
+      "firstName": "admin",
+      "lastName": "adminff",
+      "created": "2023-02-01T09:34:31.627Z",
+      "__v": 0,
+      "phoneNumber": "34433455443324",
+      "resetPasswordExpires": "2023-03-30T11:58:38.333Z",
+      "resetPasswordToken": "bf3b42b9ab15984ff9014db6513413b913c075af061c16d8a8efb5193793a5c6a49ab3802b94930cc921207c6cafcee0"
+    },
+    "mongoQuery": {
+      "_id": "ObjectId(\"63da3227037d166fd51cef24\")"
+    },
+    "mongoOptions": {
+      "projection": {}
+    },
+    "mongoOperation": "find"
+  },
+  {
+    "type": "mongodb",
+    "id": "82b62f5c-732c-4503-851f-b82bc52be9f8",
+    "otherArgs": {},
+    "db": "ecomm",
+    "collection": "users",
+    "preQueryDocs": [
+      {
+        "_id": "ObjectId(\"63da3227037d166fd51cef24\")",
+        "merchant": null,
+        "provider": "Email",
+        "role": "ROLE ADMIN",
+        "email": "admin@pythagora.io",
+        "password": "$2a$10$oONswexLk.uMD.x753Ed3e1D1h2zhFdyoRY/ssnIZDw0oppDqUEvK",
+        "firstName": "admin",
+        "lastName": "adminff",
+        "created": "2023-02-01T09:34:31.627Z",
+        "__v": 0,
+        "phoneNumber": "34433455443324",
+        "resetPasswordExpires": "2023-03-30T11:58:38.333Z",
+        "resetPasswordToken": "bf3b42b9ab15984ff9014db6513413b913c075af061c16d8a8efb5193793a5c6a49ab3802b94930cc921207c6cafcee0"
+      }
+    ],
+    "postQueryDocs": [
+      {
+        "_id": "ObjectId(\"63da3227037d166fd51cef24\")",
+        "merchant": null,
+        "provider": "Email",
+        "role": "ROLE ADMIN",
+        "email": "admin@pythagora.io",
+        "password": "$2a$10$oONswexLk.uMD.x753Ed3e1D1h2zhFdyoRY/ssnIZDw0oppDqUEvK",
+        "firstName": "admin",
+        "lastName": "adminff",
+        "created": "2023-02-01T09:34:31.627Z",
+        "__v": 0,
+        "phoneNumber": "34433455443324",
+        "resetPasswordExpires": "2023-03-30T11:58:38.333Z",
+        "resetPasswordToken": "bf3b42b9ab15984ff9014db6513413b913c075af061c16d8a8efb5193793a5c6a49ab3802b94930cc921207c6cafcee0"
+      }
+    ],
+    "mongoResponse": {
+      "_id": "ObjectId(\"63da3227037d166fd51cef24\")",
+      "merchant": null,
+      "provider": "Email",
+      "role": "ROLE ADMIN",
+      "email": "admin@pythagora.io",
+      "password": "$2a$10$oONswexLk.uMD.x753Ed3e1D1h2zhFdyoRY/ssnIZDw0oppDqUEvK",
+      "firstName": "admin",
+      "lastName": "adminff",
+      "created": "2023-02-01T09:34:31.627Z",
+      "__v": 0,
+      "phoneNumber": "34433455443324",
+      "resetPasswordExpires": "2023-03-30T11:58:38.333Z",
+      "resetPasswordToken": "bf3b42b9ab15984ff9014db6513413b913c075af061c16d8a8efb5193793a5c6a49ab3802b94930cc921207c6cafcee0"
+    },
+    "mongoQuery": {
+      "_id": "ObjectId(\"63da3227037d166fd51cef24\")"
+    },
+    "mongoOptions": {
+      "projection": {}
+    },
+    "mongoOperation": "findOne"
+  },
+  {
+    "type": "mongodb",
+    "id": "d8b0ee82-a800-4f23-aadc-cf7e06f34661",
+    "otherArgs": {},
+    "db": "ecomm",
+    "collection": "categories",
+    "preQueryDocs": [
+      {
+        "_id": "ObjectId(\"63e16c7ad3b14d19dafb2da3\")",
+        "isActive": true,
+        "products": [
+          "ObjectId(\"63da334d0c81be6ffe323ca1\")"
+        ],
+        "name": "random category",
+        "description": "some desc",
+        "created": "2023-02-06T21:09:14.692Z",
+        "slug": "random-category",
+        "__v": 0
+      }
+    ],
+    "postQueryDocs": [],
+    "mongoResponse": {
+      "n": 1,
+      "ok": 1
+    },
+    "mongoQuery": {
+      "_id": "ObjectId(\"63e16c7ad3b14d19dafb2da3\")"
+    },
+    "mongoOptions": {},
+    "mongoOperation": "deleteOne"
+  }
+]

@@ -1,0 +1,169 @@
+[
+  {
+    "type": "mongodb",
+    "id": "1e33f838-4d5a-4f8e-aff1-894ed18c31a9",
+    "otherArgs": {},
+    "db": "ecomm",
+    "collection": "brands",
+    "preQueryDocs": [
+      {
+        "_id": "ObjectId(\"6401da466b0ef823b47beb3a\")",
+        "isActive": true,
+        "merchant": null,
+        "name": "bbb",
+        "description": "bbbb",
+        "created": "2023-03-03T11:30:14.740Z",
+        "slug": "bbb",
+        "__v": 0
+      }
+    ],
+    "postQueryDocs": [
+      {
+        "_id": "ObjectId(\"6401da466b0ef823b47beb3a\")",
+        "isActive": true,
+        "merchant": null,
+        "name": "bbb",
+        "description": "bbbb",
+        "created": "2023-03-03T11:30:14.740Z",
+        "slug": "bbb",
+        "__v": 0
+      }
+    ],
+    "mongoResponse": {
+      "_id": "ObjectId(\"6401da466b0ef823b47beb3a\")",
+      "isActive": true,
+      "merchant": null,
+      "name": "bbb",
+      "description": "bbbb",
+      "created": "2023-03-03T11:30:14.740Z",
+      "slug": "bbb",
+      "__v": 0
+    },
+    "mongoQuery": {
+      "slug": "bbb",
+      "isActive": true
+    },
+    "mongoOptions": {
+      "projection": {}
+    },
+    "mongoOperation": "find"
+  },
+  {
+    "type": "mongodb",
+    "id": "b6152785-5c78-4551-b116-1064c432b5da",
+    "otherArgs": {},
+    "db": "ecomm",
+    "collection": "brands",
+    "preQueryDocs": [
+      {
+        "_id": "ObjectId(\"6401da466b0ef823b47beb3a\")",
+        "isActive": true,
+        "merchant": null,
+        "name": "bbb",
+        "description": "bbbb",
+        "created": "2023-03-03T11:30:14.740Z",
+        "slug": "bbb",
+        "__v": 0
+      }
+    ],
+    "postQueryDocs": [
+      {
+        "_id": "ObjectId(\"6401da466b0ef823b47beb3a\")",
+        "isActive": true,
+        "merchant": null,
+        "name": "bbb",
+        "description": "bbbb",
+        "created": "2023-03-03T11:30:14.740Z",
+        "slug": "bbb",
+        "__v": 0
+      }
+    ],
+    "mongoResponse": {
+      "_id": "ObjectId(\"6401da466b0ef823b47beb3a\")",
+      "isActive": true,
+      "merchant": null,
+      "name": "bbb",
+      "description": "bbbb",
+      "created": "2023-03-03T11:30:14.740Z",
+      "slug": "bbb",
+      "__v": 0
+    },
+    "mongoQuery": {
+      "slug": "bbb",
+      "isActive": true
+    },
+    "mongoOptions": {
+      "projection": {}
+    },
+    "mongoOperation": "findOne"
+  },
+  {
+    "type": "mongodb",
+    "id": "f98c0565-610b-4395-95f2-1ab7414bc91e",
+    "otherArgs": {},
+    "db": "ecomm",
+    "collection": "products",
+    "preQueryDocs": [
+      {
+        "_id": "ObjectId(\"63ed3108b81ccc28a4d9eaf2\")",
+        "taxable": false,
+        "isActive": true,
+        "brand": "ObjectId(\"6401da466b0ef823b47beb3a\")",
+        "sku": "asdasda",
+        "name": "asdasdasd",
+        "description": "asdasd",
+        "quantity": 132,
+        "price": 12,
+        "imageUrl": "https://igmern.s3.amazonaws.com/photo-1481349518771-20055b2a7b24.jpeg",
+        "imageKey": "photo-1481349518771-20055b2a7b24.jpeg",
+        "created": "2023-02-15T19:22:48.145Z",
+        "slug": "asdasd",
+        "__v": 0
+      }
+    ],
+    "postQueryDocs": [
+      {
+        "_id": "ObjectId(\"63ed3108b81ccc28a4d9eaf2\")",
+        "taxable": false,
+        "isActive": true,
+        "brand": "ObjectId(\"6401da466b0ef823b47beb3a\")",
+        "sku": "asdasda",
+        "name": "asdasdasd",
+        "description": "asdasd",
+        "quantity": 132,
+        "price": 12,
+        "imageUrl": "https://igmern.s3.amazonaws.com/photo-1481349518771-20055b2a7b24.jpeg",
+        "imageKey": "photo-1481349518771-20055b2a7b24.jpeg",
+        "created": "2023-02-15T19:22:48.145Z",
+        "slug": "asdasd",
+        "__v": 0
+      }
+    ],
+    "mongoResponse": [
+      {
+        "_id": "ObjectId(\"63ed3108b81ccc28a4d9eaf2\")",
+        "taxable": false,
+        "isActive": true,
+        "brand": "ObjectId(\"6401da466b0ef823b47beb3a\")",
+        "sku": "asdasda",
+        "name": "asdasdasd",
+        "description": "asdasd",
+        "quantity": 132,
+        "price": 12,
+        "imageUrl": "https://igmern.s3.amazonaws.com/photo-1481349518771-20055b2a7b24.jpeg",
+        "imageKey": "photo-1481349518771-20055b2a7b24.jpeg",
+        "created": "2023-02-15T19:22:48.145Z",
+        "slug": "asdasd",
+        "__v": 0
+      }
+    ],
+    "mongoQuery": {
+      "brand": "ObjectId(\"6401da466b0ef823b47beb3a\")",
+      "isActive": true
+    },
+    "mongoOptions": {
+      "projection": {}
+    },
+    "mongoOperation": "find"
+  }
+]

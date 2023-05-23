@@ -1,0 +1,133 @@
+[
+  {
+    "type": "mongodb",
+    "id": "9477a310-329f-4f46-a18a-1a20e3600645",
+    "otherArgs": {},
+    "db": "ecomm",
+    "collection": "categories",
+    "preQueryDocs": [
+      {
+        "_id": "ObjectId(\"63e16c7ad3b14d19dafb2da3\")",
+        "isActive": true,
+        "products": [
+          "ObjectId(\"63da334d0c81be6ffe323ca1\")"
+        ],
+        "name": "random category",
+        "description": "some desc",
+        "created": "2023-02-06T21:09:14.692Z",
+        "slug": "random-category",
+        "__v": 0
+      }
+    ],
+    "postQueryDocs": [
+      {
+        "_id": "ObjectId(\"63e16c7ad3b14d19dafb2da3\")",
+        "isActive": true,
+        "products": [
+          "ObjectId(\"63da334d0c81be6ffe323ca1\")"
+        ],
+        "name": "random category",
+        "description": "some desc",
+        "created": "2023-02-06T21:09:14.692Z",
+        "slug": "random-category",
+        "__v": 0
+      }
+    ],
+    "mongoResponse": {
+      "_id": "ObjectId(\"63e16c7ad3b14d19dafb2da3\")",
+      "isActive": true,
+      "products": [
+        "ObjectId(\"63da334d0c81be6ffe323ca1\")"
+      ],
+      "name": "random category",
+      "description": "some desc",
+      "created": "2023-02-06T21:09:14.692Z",
+      "slug": "random-category",
+      "__v": 0
+    },
+    "mongoQuery": {
+      "_id": "ObjectId(\"63e16c7ad3b14d19dafb2da3\")"
+    },
+    "mongoOptions": {
+      "projection": {}
+    },
+    "mongoOperation": "find"
+  },
+  {
+    "type": "mongodb",
+    "id": "337e28c9-fa15-42fb-9f5e-7b5e0f9cc5c1",
+    "otherArgs": {},
+    "db": "ecomm",
+    "collection": "categories",
+    "preQueryDocs": [
+      {
+        "_id": "ObjectId(\"63e16c7ad3b14d19dafb2da3\")",
+        "isActive": true,
+        "products": [
+          "ObjectId(\"63da334d0c81be6ffe323ca1\")"
+        ],
+        "name": "random category",
+        "description": "some desc",
+        "created": "2023-02-06T21:09:14.692Z",
+        "slug": "random-category",
+        "__v": 0
+      }
+    ],
+    "postQueryDocs": [
+      {
+        "_id": "ObjectId(\"63e16c7ad3b14d19dafb2da3\")",
+        "isActive": true,
+        "products": [
+          "ObjectId(\"63da334d0c81be6ffe323ca1\")"
+        ],
+        "name": "random category",
+        "description": "some desc",
+        "created": "2023-02-06T21:09:14.692Z",
+        "slug": "random-category",
+        "__v": 0
+      }
+    ],
+    "mongoResponse": {
+      "_id": "ObjectId(\"63e16c7ad3b14d19dafb2da3\")",
+      "isActive": true,
+      "products": [
+        "ObjectId(\"63da334d0c81be6ffe323ca1\")"
+      ],
+      "name": "random category",
+      "description": "some desc",
+      "created": "2023-02-06T21:09:14.692Z",
+      "slug": "random-category",
+      "__v": 0
+    },
+    "mongoQuery": {
+      "_id": "ObjectId(\"63e16c7ad3b14d19dafb2da3\")"
+    },
+    "mongoOptions": {
+      "projection": {}
+    },
+    "mongoOperation": "findOne"
+  },
+  {
+    "type": "mongodb",
+    "id": "3c865fce-6fe2-4e50-8ab2-9376f1647ccf",
+    "otherArgs": {},
+    "db": "ecomm",
+    "collection": "products",
+    "preQueryDocs": [],
+    "postQueryDocs": [],
+    "mongoResponse": [],
+    "mongoQuery": {
+      "_id": {
+        "$in": [
+          "ObjectId(\"63da334d0c81be6ffe323ca1\")"
+        ]
+      }
+    },
+    "mongoOptions": {
+      "projection": {
+        "name": 1
+      }
+    },
+    "mongoOperation": "find"
+  }
+]
